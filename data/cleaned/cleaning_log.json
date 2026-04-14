@@ -1,0 +1,56 @@
+[
+  {
+    "step": "strip_whitespace",
+    "before": 3237,
+    "after": 3237,
+    "details": "Cleaned 41 string columns; fixed 5538 cells with embedded newlines"
+  },
+  {
+    "step": "deduplicate",
+    "before": 3237,
+    "after": 3222,
+    "details": "Removed 15 duplicate entries (kept most complete record)"
+  },
+  {
+    "step": "clean_country_duplicates",
+    "before": 369,
+    "after": 211,
+    "details": "Deduplicated country values from 369 to 211 unique values"
+  },
+  {
+    "step": "split_csv_fields",
+    "before": 3222,
+    "after": 3222,
+    "details": "Created primary_domain (3152 non-null), primary_task (3118 non-null), primary_country (3142 non-null)"
+  },
+  {
+    "step": "parse_dates",
+    "before": 3222,
+    "after": 3222,
+    "details": "Parsed 3209 of 3222 dates successfully; created year (3209 non-null) and decade columns"
+  },
+  {
+    "step": "type_conversion",
+    "before": 3222,
+    "after": 3222,
+    "details": "Converted 11 columns to numeric: Parameters: 2083 non-null; Training compute (FLOP): 1379 non-null; Training dataset size (total): 1299 non-null; Training time (hours): 547 non-null; Training compute cost (2023 USD): 224 non-null; Epochs: 791 non-null; Hardware quantity: 837 non-null; Citations: 1270 non-null; Hardware utilization (MFU): 61 non-null; Hardware utilization (HFU): 25 non-null; Training power draw (W): 765 non-null"
+  },
+  {
+    "step": "merge_auxiliary",
+    "before": 3222,
+    "after": 3305,
+    "details": "Flagged 137 frontier, 906 notable models; filled 0 missing Organization categorizations; appended 83 models from notable/large_scale CSVs"
+  },
+  {
+    "step": "derived_columns",
+    "before": 3305,
+    "after": 3305,
+    "details": "Created: log_parameters (2151 non-null), log_compute (1385 non-null), is_open_weights (1272 True), org_type (3205 non-null)"
+  },
+  {
+    "step": "final_summary",
+    "before": 3237,
+    "after": 3305,
+    "details": "Final dataset has 3305 rows and 76 columns (started with 3237 rows and 57 cols)"
+  }
+]

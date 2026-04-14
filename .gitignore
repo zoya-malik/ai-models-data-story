@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Large raw source data (available at epoch.ai/data/ai-models)
+data/all_ai_models.csv
+data/frontier_ai_models.csv
+data/large_scale_ai_models.csv
+data/notable_ai_models.csv
+
+# Gephi binary
+gephi_image.gephi
+
+# Presentation (binary)
+*.pptx
+~$*
+
+# Course materials (not project deliverables)
+Final Project Guidelines.html
+2026-03-09 CPSC 573 Final Project - Data Cleaning Report Intro.pdf
+
+# Internal
+report/
+.claude/

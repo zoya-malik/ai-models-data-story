@@ -1,0 +1,138 @@
+Model,Organization,primary_country,primary_domain,year,log_parameters,log_compute,log_cost,org_type,is_open_weights
+Theseus,Bell Laboratories,United States of America,Robotics,1950.0,1.6020599913279623,1.6020599913279623,,Industry,False
+Perceptron Mark I,"Cornell Aeronautical Laboratory,Cornell University",United States of America,Other,1957.0,3.0,5.8419191478843,,Academia,False
+Samuel Neural Checkers,IBM,United States of America,Games,1959.0,1.2041199826559248,8.631849462159819,,Industry,False
+Pandemonium (morse),Massachusetts Institute of Technology (MIT),United States of America,Language,1959.0,,8.778151250383644,,Academia,False
+ADALINE,Stanford University,United States of America,Vision,1960.0,1.2304489213782739,3.8195439355418688,,Academia,False
+Perceptron (1960),Cornell Aeronautical Laboratory,United States of America,Vision,1960.0,3.0,8.857332496431269,,Academia,False
+Linear Decision Functions,Bell Laboratories,United States of America,Mathematics,1962.0,,6.192915752723169,,Industry,False
+Print Recognition Logic,IBM,United States of America,Vision,1963.0,,7.352182518111363,,Industry,False
+LTE speaker verification system,IBM,United States of America,Speech,1966.0,3.3140779917792127,8.024965917304296,,Industry,False
+Neocognitron,NHK Broadcasting Science Research Laboratories,Japan,Vision,1980.0,6.057124228920816,8.437335470632421,,Industry,False
+ASE+ACE,University of Massachusetts Amherst,United States of America,Robotics,1983.0,2.510545010206612,8.510545010206613,,Academia,False
+MLP with back-propagation,"University of California San Diego,Carnegie Mellon University (CMU)",United States of America,Mathematics,1986.0,2.8573324964312685,8.828608345169373,,Academia,False
+Distributed representation NN,Carnegie Mellon University (CMU),United States of America,Other,1986.0,2.635483746814912,8.589726256254236,,Academia,False
+NetTalk (transcription),Princeton University,United States of America,Speech,1987.0,4.270189542704181,10.452215952997225,,Academia,False
+Translation-invariant MLP,Carnegie Mellon University (CMU),United States of America,,1987.0,2.9116901587538613,10.256066711087202,,Academia,False
+NetTalk (dictionary),Princeton University,United States of America,Speech,1987.0,4.270189542704181,10.441915996357412,,Academia,False
+Invariant image recognition,Complutense University of Madrid,Spain,Vision,1989.0,,10.431363764158988,,Academia,False
+Zip CNN,"AT&T,Bell Laboratories",United States of America,Vision,1989.0,3.9894498176666917,12.175029720929711,,Industry,False
+Handwritten digit recognition network,AT&T,United States of America,Vision,1989.0,3.4112829130173843,11.258733037212812,,Industry,False
+SexNet compression,,,Vision,1990.0,4.862965758977762,10.896389514464712,,,False
+NETtalk reimplementation,Oregon State University,United States of America,Speech,1990.0,4.439016728387513,10.554027799687965,,Academia,False
+Weight Decay,,,Speech,1991.0,3.9235548580675492,10.877797367506874,,,False
+TD-Gammon,IBM,United States of America,Games,1992.0,4.3979400086720375,13.260838066803219,,Industry,False
+Siamese-TDNN,Bell Laboratories,United States of America,Vision,1993.0,2.8715729355458786,13.109564041095242,,Industry,False
+Predictive Coding NN,Technical University of Munich,Germany,Language,1994.0,5.315781480708604,13.270023990147928,,Academia,False
+NeuroChess,,,Games,1994.0,4.858843862383276,11.933857046379654,,,False
+MUSIC perceptron,,,Vision,1996.0,4.133762384787346,11.945337390657938,,,False
+LSTM,Technical University of Munich,Germany,Language,1997.0,4.021354713081423,13.498475967801085,,Academia,False
+LeNet-5,AT&T,United States of America,Vision,1998.0,4.778151250383644,12.44885120481183,,Industry,False
+RECONTRA-categorized,,,Language,1999.0,4.824646414718352,12.903827660765977,,,False
+Neural LM,University of Montreal / Université de Montréal,Canada,Language,2000.0,6.839288198455515,15.802020751771975,,Academia,False
+PoE MNIST,University College London (UCL),United Kingdom of Great Britain and Northern Ireland,Vision,2000.0,6.593873960692232,13.714413592287121,,Academia,False
+Decision tree (classification),"Mitsubishi Electric Research Labs,Compaq CRL",United States of America,Vision,2001.0,4.079181246047625,13.799340549453582,,Industry,False
+NPLM (AP News),University of Montreal / Université de Montréal,Canada,Language,2003.0,7.075702549625852,15.22190152187542,,Academia,False
+NPLM (Brown),University of Montreal / Université de Montréal,Canada,Language,2003.0,6.615343192924726,14.120824762523368,,Academia,False
+LMICA,,,Vision,2004.0,6.612359947967774,15.444369614174724,,,False
+Hierarchical LM,,,Language,2005.0,,14.063888540530298,,,False
+SVM-CNN,New York University (NYU),United States of America,Vision,2006.0,4.958358392780661,14.872272846224204,,Academia,False
+SB-LM,Google,United States of America,Language,2007.0,11.477121254719663,18.16120215993618,,Industry,False
+KN-LM,Google,United States of America,Language,2007.0,10.32221929473392,17.888200887872443,,Industry,False
+LCNP MNIST,,,Vision,2009.0,7.065066174478804,15.62136867524609,,,False
+LCNP LabelMe,University of Bonn,Germany,Vision,2009.0,7.137663957926013,15.517875199637619,,Academia,False
+KN5 LM + RNN 400/10 (WSJ),"Brno University of Technology,Johns Hopkins University",Czechia,Speech,2010.0,7.345569756056392,16.230448921378272,,Academia,False
+RNN 1000/5 + RT09 LM (NIST RT05),"Brno University of Technology,Johns Hopkins University",Czechia,Speech,2010.0,7.886710636820261,16.69897000433602,,Academia,False
+RNN LM,Johns Hopkins University,United States of America,Language,2010.0,7.846739050596166,16.732071940999866,,Academia,False
+Deep Autoencoders,University of Toronto,Canada,Vision,2011.0,8.145532818257827,16.565004847446016,,Academia,False
+CNN Committee (MNIST),IDSIA,Switzerland,Vision,2011.0,5.081419324134934,16.7160033436348,,Academia,False
+AlexNet,University of Toronto,Canada,Vision,2012.0,7.778151250383644,17.672097857935718,1.1922817228913725,Academia,False
+Unsupervised High-level Feature Learner,Google,United States of America,Vision,2012.0,9.0,17.778151250383644,1.2049134045924237,Industry,False
+Dropout (ImageNet),University of Toronto,Canada,Vision,2012.0,,17.436475608075085,0.9005067268550813,Academia,False
+DNN EM segmentation,"IDSIA,SUPSI",Switzerland,Vision,2012.0,5.340237825552401,17.67942789661212,0.5915749258628938,Academia,False
+Visualizing CNNs,New York University (NYU),United States of America,Vision,2013.0,,17.72591163229505,1.11374294158954,Academia,False
+DistBelief NNLM,Google,United States of America,Language,2013.0,,18.417095529308064,3.512575537357778,Industry,False
+TransE,"Universite de Technologie de Compiègne – CNRS,Google",France,Language,2013.0,8.974050902792877,18.127405459401064,1.4775278146330113,Academia,False
+SPPNet,"Microsoft,Xi’an Jiaotong University,University of Science and Technology of China (USTC)",United States of America,Vision,2014.0,,18.532890886476494,1.7130879178335916,Industry,False
+VGG19,University of Oxford,United Kingdom of Great Britain and Northern Ireland,Vision,2014.0,8.15836249209525,19.041392685158225,,Academia,False
+SNM-skip,Google,United States of America,Language,2014.0,10.792391689498254,20.4736329268753,,Industry,False
+RNNsearch-50*,"Jacobs University Bremen,University of Montreal / Université de Montréal",Germany,Language,2014.0,,18.1917862475822,,Academia,False
+VGG16,University of Oxford,United Kingdom of Great Britain and Northern Ireland,Vision,2014.0,8.139879086401237,19.089587218672804,2.3788295558828545,Academia,False
+Seq2Seq LSTM,Google,United States of America,Language,2014.0,9.28330122870355,19.7481880270062,,Industry,False
+SAF R-CNN,"Beijing Institute of Technology,Sun Yat-sen University,Panasonic R&D,National University of Singapore",China,Vision,2015.0,8.139879086401237,19.09029619755251,,Academia,False
+"MSRA (C, PReLU)",Microsoft Research,United States of America,Vision,2015.0,7.9397627885840745,19.37974104589798,3.1442988208279443,Industry,False
+Inception v3,"Google,University College London (UCL)",United States of America,Vision,2015.0,7.373403581558894,20.0,3.0857118252522997,Industry,False
+AlphaGo Fan,DeepMind,United Kingdom of Great Britain and Northern Ireland,Games,2015.0,6.9143423107469095,20.57978359661681,3.6837962503163713,Industry,False
+DeepSpeech2 (English),Baidu Research - Silicon Valley AI Lab,United States of America,Speech,2015.0,7.57978359661681,19.414973347970818,2.3310983842524644,Industry,False
+GNMT,Google,United States of America,Language,2016.0,8.444044795918076,21.820857989439766,5.303911880078527,Industry,False
+NASv3 (CIFAR-10),Google Brain,United States of America,Vision,2016.0,7.57287160220048,21.342422680822207,4.32601701048727,Industry,False
+Xception,Google,United States of America,Vision,2016.0,7.358999315309713,20.639486489268585,4.117564672056897,Industry,False
+BIG LSTM+CNN INPUTS,Google Brain,United States of America,Language,2016.0,9.01703333929878,20.0094884168811,1.8525656809763764,Industry,False
+AlphaGo Lee,DeepMind,United Kingdom of Great Britain and Northern Ireland,Games,2016.0,,21.27875360095283,4.346486167814901,Industry,False
+OpenAI TI7 DOTA 1v1,OpenAI,United States of America,Games,2017.0,,20.78147498278897,,Industry,False
+AlphaGo Zero,DeepMind,United Kingdom of Great Britain and Northern Ireland,Games,2017.0,7.666520264338824,20.812538973982353,3.0841724399890795,Industry,False
+JFT,"Google Research,Carnegie Mellon University (CMU)",United States of America,Vision,2017.0,7.649865269802297,20.92582757462474,4.2531140025476235,Industry,False
+BigGAN-deep 512x512,"Heriot-Watt University,DeepMind",United Kingdom of Great Britain and Northern Ireland,Image generation,2018.0,8.051903803930898,21.255272505103306,3.7301158990413086,Academia,True
+ResNeXt-101 32x48d,Facebook,United States of America,Vision,2018.0,8.918554530550274,21.9417076655489,5.127355666708781,Industry,True
+GPT-2 (355M),OpenAI,United States of America,Language,2019.0,8.550228353055093,21.356408327052552,3.9369683575736394,Industry,True
+Megatron-LM (8.3B),NVIDIA,United States of America,Language,2019.0,9.919078092376074,21.959041392321094,5.038570720249238,Industry,False
+Megatron-BERT,NVIDIA,United States of America,Language,2019.0,9.5910646070265,22.342422680822207,5.235070282104149,Industry,False
+GPT-2 (774M),OpenAI,United States of America,Language,2019.0,8.888740960682892,21.69492093466678,4.2754809651878665,Industry,True
+T5-11B,Google,United States of America,Language,2019.0,10.041392685158225,22.518513939877888,4.894674223570914,Industry,True
+RoBERTa Large,"Facebook,University of Washington",United States of America,Language,2019.0,8.550228353055093,21.929761117107013,4.931204721286653,Industry,True
+AlphaStar,DeepMind,United Kingdom of Great Britain and Northern Ireland,Games,2019.0,8.143014800254095,23.032352784880736,5.1161229539486035,Industry,False
+XLNet,"Carnegie Mellon University (CMU),Google Brain",United States of America,Language,2019.0,8.531478917042255,21.79169064902012,4.134972239362451,Academia,True
+OpenAI Five,OpenAI,United States of America,Games,2019.0,8.20139712432045,22.826074802700827,6.636318505574082,Industry,False
+XLM-RoBERTa,Facebook AI,United States of America,Language,2019.0,8.740362689494244,22.31722734917642,4.891321752068761,Industry,True
+Noisy Student (L2),"Carnegie Mellon University (CMU),Google",United States of America,Vision,2019.0,8.681241237375588,22.416973172603036,4.659057512707069,Academia,False
+Grover-Mega,University of Washington,United States of America,Language,2019.0,9.176091259055681,21.666388637010254,4.195667592429303,Academia,True
+T5-3B,Google,United States of America,Language,2019.0,9.44715803134222,21.95424250944415,4.2410658360536,Industry,True
+mT5-XXL,"Google,Google Research",United States of America,Language,2020.0,10.113943352306837,22.913813852383715,5.253924171627646,Industry,True
+GShard (dense),Google,United States of America,Language,2020.0,9.361727836017593,22.678062904974347,5.425208102689463,Industry,False
+iGPT-XL,OpenAI,United States of America,Vision,2020.0,9.832572774846179,22.518513939877888,5.0034450830098995,Industry,True
+Meena,Google Brain,United States of America,Language,2020.0,9.414973347970818,23.049218022670182,5.332054317466298,Industry,False
+GPT-3 175B (davinci),OpenAI,United States of America,Language,2020.0,11.242044239369552,23.496929648073216,6.325693417380706,Industry,False
+EXAONE 1.0,LG,Korea (Republic of),Multimodal,2021.0,11.477121254719663,24.22932340789618,6.431787603866332,Industry,False
+Wu Dao 2.0,Beijing Academy of Artificial Intelligence / BAAI,China,Multimodal,2021.0,12.243038048686294,24.18850663381812,6.45800896216685,Academia,False
+Gopher (280B),DeepMind,United Kingdom of Great Britain and Northern Ireland,Language,2021.0,11.44715803134222,23.800029359244135,5.806598359142406,Industry,False
+Jurassic-1-Jumbo,AI21 Labs,Israel,Language,2021.0,11.250420002308894,23.568201724066995,5.922569795369139,Industry,False
+Megatron-Turing NLG 530B,"Microsoft,NVIDIA",United States of America,Language,2021.0,11.724275869600788,23.93379088414342,6.5852921257365375,Industry,False
+Switch,Google,United States of America,Language,2021.0,12.196176185039974,22.91487181754005,5.161670099236258,Industry,True
+Yuan 1.0,Inspur,China,Language,2021.0,11.390458180652285,23.548757828573716,5.772075570921284,Industry,False
+HyperCLOVA 204B,NAVER,Korea (Republic of),Language,2021.0,11.3096301674259,23.301029995685695,5.645196223942631,Industry,False
+FLAN 137B,Google Research,United States of America,Language,2021.0,11.136720567156408,24.311117842662505,,Industry,False
+ERNIE 3.0 Titan,"Baidu,Peng Cheng Laboratory",China,Language,2021.0,11.414973347970818,24.017909395896687,,Industry,False
+Minerva (540B),Google,United States of America,Language,2022.0,11.732675155803872,24.4379882502195,,Industry,False
+PaLM (540B),Google Research,United States of America,Language,2022.0,11.732675155803872,24.402639612897094,6.485773169300768,Industry,False
+GPT-3.5 (davinci-002),OpenAI,United States of America,Language,2022.0,,24.411282913017384,6.689979023387434,Industry,False
+U-PaLM (540B),Google,United States of America,Language,2022.0,11.732393759822969,24.40312052117582,,Industry,False
+Flan-PaLM 540B,Google,United States of America,Language,2022.0,11.732393759822969,24.40483371662011,,Industry,False
+Amazon Titan,Amazon,United States of America,Language,2023.0,11.301029995663981,24.681241237375588,6.899462892244869,Industry,False
+Claude 2,Anthropic,United States of America,Language,2023.0,,24.587261849692535,6.690430369513701,Industry,False
+Falcon-180B,Technology Innovation Institute,United Arab Emirates,Language,2023.0,11.255272505103306,24.57518784492766,7.031145823286972,Government,True
+SenseChat,SenseTime,Hong Kong,Language,2023.0,11.255272505103306,24.589949601325706,6.726609083925677,Industry,False
+Gemini 1.0 Ultra,Google DeepMind,United States of America,Multimodal,2023.0,,25.698970004344705,7.487413010797779,Industry,False
+GPT-4 Turbo (Nov 2023),OpenAI,United States of America,Multimodal,2023.0,,,,Industry,False
+GPT-4 (Jun 2023),OpenAI,United States of America,Multimodal,2023.0,12.255272505103306,25.32221929473392,,Industry,False
+GPT-4 (Mar 2023),OpenAI,United States of America,Multimodal,2023.0,12.255272505103306,25.32221929473392,7.572108070820936,Industry,False
+Inflection-2,Inflection AI,United States of America,Language,2023.0,,25.00043407747932,7.129081976013819,Industry,False
+PaLM 2,Google,United States of America,Language,2023.0,11.531478917042255,24.865696059916072,6.70020745414994,Industry,False
+Nemotron-4 340B,NVIDIA,United States of America,Language,2024.0,11.531478917042255,25.255272505103306,7.3277882743314535,Industry,True
+Llama 3.1-405B,Meta AI,United States of America,Language,2024.0,11.60745502321467,25.57978359661681,7.723336072328596,Industry,True
+Grok-2,xAI,United States of America,Language,2024.0,,25.47129171105894,7.49971883622944,Industry,False
+GLM-4-Plus,Z.ai (Zhipu AI),China,Language,2024.0,,,,Industry,False
+Claude 3 Opus,Anthropic,United States of America,Multimodal,2024.0,,,,Industry,False
+GLM-4 (0116),Z.ai (Zhipu AI),China,Language,2024.0,,,,Industry,False
+GPT-4o (Aug 2024),OpenAI,United States of America,Multimodal,2024.0,,,,Industry,False
+GPT-4o (Nov 2024),OpenAI,United States of America,Multimodal,2024.0,,,,Industry,False
+Gemini 1.5 Pro,Google DeepMind,United States of America,Language,2024.0,,,,Industry,False
+GPT-4 Turbo (Apr 2024),OpenAI,United States of America,Multimodal,2024.0,,,,Industry,False
+Claude 3.5 Sonnet,Anthropic,United States of America,Multimodal,2024.0,,25.431363764158988,7.412813100474012,Industry,False
+GPT-4o,OpenAI,United States of America,Multimodal,2024.0,,,,Industry,False
+Llama Nemotron Ultra 253B,NVIDIA,United States of America,Language,2025.0,11.403120521175818,25.592287926996473,,Industry,True
+Grok 4,xAI,United States of America,Language,2025.0,12.477121254719663,26.698970004336026,8.588655597000507,Industry,False
+GPT-4o (Mar 2025),OpenAI,United States of America,Multimodal,2025.0,,,,Industry,False
+GPT-4o (Jan 2025),OpenAI,United States of America,Multimodal,2025.0,,,,Industry,False
+GPT-4.5,OpenAI,United States of America,Language,2025.0,,26.57978359661681,8.53142460120649,Industry,False
+Llama 4 Behemoth (preview),Meta AI,United States of America,Multimodal,2025.0,12.301029995663981,25.714664992862538,7.6492273782117834,Industry,False
+Grok 3,xAI,United States of America,Language,2025.0,12.477121254719663,26.544068044350276,8.338128747626167,Industry,False

@@ -1,0 +1,818 @@
+primary_country,year,primary_domain,org_type,model_count,frontier_count,notable_count,open_count
+Argentina,2013.0,Vision,Academia,1,0,0,0
+Australia,2016.0,Biology,Academia,1,0,1,1
+Australia,2016.0,Vision,Academia,1,0,0,0
+Australia,2017.0,Vision,Academia,1,0,0,0
+Australia,2019.0,Language,Academia,1,0,0,0
+Australia,2024.0,Biology,Academia,1,0,0,0
+Australia,2024.0,Image generation,Industry,1,0,0,0
+Australia,2024.0,Vision,Industry,1,0,1,0
+Australia,2025.0,Video,Industry,1,0,0,0
+Austria,2020.0,Biology,Academia,1,0,1,1
+Austria,2022.0,Language,Academia,1,0,0,0
+Austria,2023.0,Language,Academia,5,0,0,1
+Austria,2024.0,Language,Academia,1,0,0,0
+Belgium,2016.0,Vision,Industry,1,0,1,0
+Belgium,2017.0,Language,Academia,2,0,0,0
+Belgium,2018.0,Language,Academia,3,0,1,2
+Bulgaria,2025.0,Language,Academia,1,0,0,1
+Canada,1988.0,Speech,Academia,1,0,1,0
+Canada,2000.0,Language,Academia,1,1,1,0
+Canada,2001.0,Vision,Academia,1,0,0,0
+Canada,2003.0,Language,Academia,2,2,2,0
+Canada,2006.0,Other,Academia,1,0,1,0
+Canada,2006.0,Vision,Academia,2,0,2,0
+Canada,2007.0,Other,Academia,1,0,0,0
+Canada,2008.0,Language,Academia,2,0,1,0
+Canada,2008.0,Other,Academia,1,0,1,0
+Canada,2009.0,Other,Academia,1,0,0,0
+Canada,2009.0,Recommendation,Industry,1,0,1,0
+Canada,2009.0,Speech,Academia,1,0,1,0
+Canada,2009.0,Vision,Academia,1,0,1,0
+Canada,2010.0,Other,Academia,1,0,1,0
+Canada,2010.0,Vision,Academia,3,0,3,0
+Canada,2011.0,Vision,Academia,2,1,2,0
+Canada,2012.0,Audio,Academia,1,0,0,0
+Canada,2012.0,Other,Academia,1,0,1,0
+Canada,2012.0,Speech,Academia,1,0,1,0
+Canada,2012.0,Vision,Academia,4,2,4,0
+Canada,2013.0,Language,Academia,1,0,0,0
+Canada,2013.0,Speech,Academia,1,0,1,0
+Canada,2013.0,Vision,Academia,1,0,0,0
+Canada,2014.0,Image generation,Academia,1,0,1,0
+Canada,2014.0,Language,Academia,1,0,1,0
+Canada,2014.0,Multimodal,Academia,1,0,1,0
+Canada,2014.0,Vision,Academia,1,0,1,0
+Canada,2015.0,Image generation,Academia,1,0,0,0
+Canada,2015.0,Language,Academia,1,0,0,1
+Canada,2016.0,Image generation,Academia,2,0,0,0
+Canada,2016.0,Language,Academia,3,0,1,0
+Canada,2016.0,Vision,Academia,3,0,0,1
+Canada,2017.0,Games,Academia,1,0,1,0
+Canada,2017.0,Games,Industry,1,0,1,0
+Canada,2017.0,Language,Academia,1,0,0,0
+Canada,2017.0,Vision,Academia,2,0,1,0
+Canada,2020.0,Biology,Academia,2,0,0,1
+Canada,2020.0,Image generation,Academia,2,0,0,0
+Canada,2020.0,Language,Academia,3,0,1,2
+Canada,2021.0,Language,Academia,1,0,1,1
+Canada,2022.0,Biology,Academia,2,0,0,0
+Canada,2022.0,Language,Academia,2,0,1,1
+Canada,2023.0,Biology,Academia,5,0,0,0
+Canada,2023.0,Biology,Industry,1,0,0,0
+Canada,2023.0,Language,Academia,2,0,0,0
+Canada,2023.0,Language,Industry,3,0,1,0
+Canada,2024.0,Biology,Academia,4,0,0,2
+Canada,2024.0,Biology,Industry,2,0,0,1
+Canada,2024.0,Games,Academia,1,0,0,1
+Canada,2024.0,Image generation,Industry,2,0,0,0
+Canada,2024.0,Language,Academia,1,0,0,1
+Canada,2024.0,Language,Industry,5,0,1,5
+Canada,2025.0,Biology,Industry,1,0,0,0
+Canada,2025.0,Image generation,Industry,2,0,0,0
+Canada,2025.0,Language,Industry,3,0,0,2
+Canada,2025.0,Multimodal,Industry,1,0,0,1
+Canada,2025.0,Video,Industry,2,0,0,0
+Canada,2025.0,Vision,Industry,1,0,0,1
+China,2014.0,Language,Academia,1,0,1,0
+China,2014.0,Vision,Academia,1,0,1,0
+China,2015.0,Language,Academia,1,0,1,0
+China,2015.0,Vision,Academia,2,1,2,0
+China,2016.0,Vision,Academia,5,0,3,1
+China,2016.0,Vision,Industry,1,0,1,0
+China,2017.0,Language,Academia,5,0,2,0
+China,2017.0,Language,Industry,1,0,1,0
+China,2017.0,Recommendation,Academia,1,0,1,0
+China,2017.0,Speech,Industry,1,0,1,0
+China,2017.0,Vision,Academia,3,0,2,0
+China,2017.0,Vision,Industry,2,0,2,0
+China,2018.0,Biology,Academia,1,0,0,0
+China,2018.0,Language,Academia,3,0,1,1
+China,2018.0,Vision,Academia,2,0,0,1
+China,2019.0,Biology,Academia,1,0,1,1
+China,2019.0,Language,Academia,13,0,3,0
+China,2019.0,Language,Industry,2,0,1,0
+China,2019.0,Speech,Academia,1,0,0,0
+China,2019.0,Vision,Academia,1,0,0,1
+China,2020.0,Language,Academia,7,0,4,2
+China,2020.0,Language,Industry,4,0,2,3
+China,2021.0,Biology,Academia,3,0,0,2
+China,2021.0,Biology,Industry,1,0,0,0
+China,2021.0,Games,Academia,1,0,1,0
+China,2021.0,Image generation,Academia,1,0,1,1
+China,2021.0,Language,Academia,9,0,1,5
+China,2021.0,Language,Industry,11,2,7,3
+China,2021.0,Medicine,Academia,1,0,1,0
+China,2021.0,Multimodal,Academia,3,1,1,1
+China,2021.0,Multimodal,Industry,3,0,2,0
+China,2021.0,Vision,Academia,1,0,1,1
+China,2021.0,Vision,Industry,2,0,2,2
+China,2022.0,Biology,Academia,3,0,1,2
+China,2022.0,Image generation,Academia,2,0,0,1
+China,2022.0,Image generation,Industry,2,0,1,0
+China,2022.0,Language,Academia,7,0,4,3
+China,2022.0,Language,Industry,2,0,0,1
+China,2022.0,Medicine,Academia,1,0,0,0
+China,2022.0,Multimodal,Academia,1,0,1,1
+China,2022.0,Speech,Academia,1,0,0,0
+China,2022.0,Video,Academia,1,0,1,1
+China,2022.0,Vision,Academia,2,0,2,2
+China,2023.0,3D modeling,Academia,1,0,0,0
+China,2023.0,Biology,Academia,9,0,2,2
+China,2023.0,Biology,Industry,5,0,0,0
+China,2023.0,Biology,Research collective,1,0,0,1
+China,2023.0,Earth science,Industry,1,0,1,1
+China,2023.0,Image generation,Industry,4,0,0,2
+China,2023.0,Language,Academia,18,0,1,15
+China,2023.0,Language,Industry,74,0,8,37
+China,2023.0,Language,Research collective,1,0,0,1
+China,2023.0,Mathematics,Academia,1,0,1,0
+China,2023.0,Multimodal,Academia,4,0,1,3
+China,2023.0,Multimodal,Industry,10,0,4,4
+China,2023.0,Robotics,Academia,1,0,1,0
+China,2023.0,Speech,Industry,1,0,0,0
+China,2023.0,Video,Academia,1,0,1,1
+China,2023.0,Video,Industry,1,0,0,0
+China,2023.0,Vision,Academia,4,0,2,4
+China,2023.0,Vision,Industry,2,0,1,1
+China,2024.0,3D modeling,Academia,1,0,0,0
+China,2024.0,3D modeling,Industry,2,0,0,1
+China,2024.0,Audio,Industry,1,0,0,0
+China,2024.0,Biology,Academia,63,0,0,10
+China,2024.0,Biology,Industry,5,0,0,1
+China,2024.0,Image generation,Academia,1,0,0,1
+China,2024.0,Image generation,Industry,13,0,1,6
+China,2024.0,Language,Academia,17,0,0,7
+China,2024.0,Language,Industry,123,2,19,62
+China,2024.0,Mathematics,Industry,1,0,1,0
+China,2024.0,Multimodal,Academia,10,0,1,10
+China,2024.0,Multimodal,Industry,29,0,3,11
+China,2024.0,Psychology,Industry,1,0,0,1
+China,2024.0,Robotics,Academia,2,0,2,2
+China,2024.0,Robotics,Industry,4,0,1,0
+China,2024.0,Speech,Academia,1,0,0,1
+China,2024.0,Speech,Industry,10,0,0,2
+China,2024.0,Video,Academia,3,0,0,2
+China,2024.0,Video,Industry,18,0,1,4
+China,2024.0,Vision,Academia,5,0,0,3
+China,2024.0,Vision,Government,1,0,0,0
+China,2024.0,Vision,Industry,5,0,1,2
+China,2025.0,Image generation,Academia,1,0,0,1
+China,2025.0,Image generation,Industry,10,0,1,5
+China,2025.0,Language,Academia,6,0,0,3
+China,2025.0,Language,Industry,101,0,26,71
+China,2025.0,Mathematics,Academia,3,0,1,3
+China,2025.0,Mathematics,Industry,1,0,0,1
+China,2025.0,Multimodal,Academia,1,0,0,1
+China,2025.0,Multimodal,Industry,18,0,4,10
+China,2025.0,Robotics,Industry,1,0,0,0
+China,2025.0,Speech,Industry,7,0,0,2
+China,2025.0,Video,Academia,1,0,0,1
+China,2025.0,Video,Industry,21,0,0,5
+China,2025.0,Vision,Industry,6,0,1,4
+Croatia,1976.0,Vision,Academia,1,0,1,0
+Croatia,2024.0,Biology,Academia,1,0,0,0
+Czechia,2010.0,Speech,Academia,3,2,0,0
+Denmark,2017.0,Biology,Academia,1,0,1,0
+Denmark,2018.0,Biology,Academia,1,0,1,0
+Denmark,2022.0,Biology,Academia,1,0,0,0
+Denmark,2023.0,Medicine,Academia,1,0,0,0
+Denmark,2024.0,Biology,Academia,1,0,0,0
+Finland,1981.0,Mathematics,Academia,1,0,1,0
+Finland,2006.0,Vision,Academia,1,0,1,0
+Finland,2023.0,Language,Academia,1,0,1,1
+Finland,2024.0,Language,Industry,1,0,0,1
+France,2005.0,Vision,Academia,1,0,1,0
+France,2006.0,Games,Academia,1,0,1,0
+France,2006.0,Vision,Academia,2,0,2,0
+France,2010.0,Vision,Academia,1,0,0,0
+France,2010.0,Vision,Industry,1,0,0,0
+France,2013.0,Language,Academia,1,1,1,0
+France,2016.0,Vision,Academia,1,0,1,0
+France,2020.0,Language,Academia,1,0,1,0
+France,2021.0,Language,Academia,1,0,0,0
+France,2021.0,Language,Industry,1,0,0,0
+France,2021.0,Vision,Academia,1,0,0,1
+France,2022.0,Biology,Academia,1,0,0,0
+France,2022.0,Biology,Industry,1,0,0,1
+France,2022.0,Language,Industry,1,0,0,0
+France,2023.0,Language,Industry,5,0,1,2
+France,2024.0,Biology,Academia,5,0,0,1
+France,2024.0,Language,Academia,2,0,0,2
+France,2024.0,Language,Industry,13,0,2,10
+France,2024.0,Mathematics,Industry,1,0,1,1
+France,2024.0,Multimodal,Industry,1,0,1,1
+France,2024.0,Vision,Industry,2,0,0,2
+France,2025.0,Language,Industry,15,0,0,10
+France,2025.0,Multimodal,Industry,2,0,1,0
+France,2025.0,Speech,Industry,2,0,0,2
+Germany,1994.0,Language,Academia,1,1,1,0
+Germany,1997.0,Language,Academia,1,1,1,0
+Germany,2008.0,Vision,Academia,1,0,1,0
+Germany,2009.0,Vision,Academia,1,1,1,0
+Germany,2010.0,Vision,Academia,2,0,2,0
+Germany,2012.0,Language,Academia,1,0,1,0
+Germany,2014.0,Language,Academia,1,1,1,0
+Germany,2015.0,Vision,Academia,1,0,1,1
+Germany,2016.0,Vision,Academia,1,0,1,1
+Germany,2017.0,Language,Academia,1,0,0,0
+Germany,2017.0,Video,Academia,1,0,1,0
+Germany,2019.0,Biology,Academia,1,0,0,1
+Germany,2019.0,Biology,Research collective,1,0,1,1
+Germany,2019.0,Vision,Academia,1,0,0,1
+Germany,2020.0,Image generation,Academia,1,0,1,1
+Germany,2020.0,Language,Industry,2,0,1,2
+Germany,2021.0,Biology,Academia,6,0,2,4
+Germany,2021.0,Games,Academia,1,0,1,0
+Germany,2021.0,Image generation,Academia,2,0,2,2
+Germany,2021.0,Image generation,Industry,1,0,0,1
+Germany,2021.0,Materials science,Academia,1,0,0,1
+Germany,2022.0,Biology,Academia,1,0,0,1
+Germany,2022.0,Image generation,Academia,4,0,0,4
+Germany,2022.0,Language,Academia,2,0,0,0
+Germany,2022.0,Language,Industry,4,0,0,0
+Germany,2022.0,Materials science,Academia,1,0,0,1
+Germany,2022.0,Vision,Research collective,1,0,0,1
+Germany,2023.0,Biology,Academia,4,0,1,3
+Germany,2023.0,Image generation,Academia,1,0,0,1
+Germany,2024.0,Biology,Academia,10,0,0,0
+Germany,2024.0,Image generation,Industry,4,0,0,1
+Germany,2024.0,Language,Industry,2,0,1,1
+Germany,2025.0,Image generation,Industry,3,0,0,0
+Germany,2025.0,Language,Government,1,0,0,1
+Greece,2021.0,Language,Academia,1,0,0,0
+Hong Kong,2014.0,Vision,Academia,2,0,2,0
+Hong Kong,2015.0,Vision,Industry,1,0,1,1
+Hong Kong,2016.0,Vision,Academia,1,0,1,0
+Hong Kong,2016.0,Vision,Industry,1,0,1,0
+Hong Kong,2017.0,Vision,Academia,1,0,1,0
+Hong Kong,2018.0,Vision,Academia,1,0,0,0
+Hong Kong,2021.0,Language,Academia,3,0,0,0
+Hong Kong,2022.0,Biology,Academia,1,0,0,1
+Hong Kong,2022.0,Language,Academia,1,0,0,0
+Hong Kong,2023.0,Biology,Academia,1,0,0,0
+Hong Kong,2023.0,Biology,Industry,1,0,0,0
+Hong Kong,2023.0,Language,Academia,1,0,0,1
+Hong Kong,2023.0,Language,Industry,1,1,0,0
+Hong Kong,2023.0,Multimodal,Academia,1,0,0,1
+Hong Kong,2024.0,Biology,Academia,6,0,0,1
+Hong Kong,2024.0,Biology,Industry,1,0,0,0
+Hong Kong,2024.0,Image generation,Industry,1,0,0,0
+Hong Kong,2024.0,Language,Industry,4,0,0,0
+Hong Kong,2024.0,Multimodal,Industry,2,0,1,0
+Hong Kong,2024.0,Vision,Industry,1,0,0,0
+Hong Kong,2025.0,Language,Industry,1,0,0,0
+Hong Kong,2025.0,Multimodal,Industry,1,0,0,0
+Hong Kong,2025.0,Speech,Academia,1,0,0,0
+Hong Kong,2025.0,Video,Academia,2,0,0,0
+Hungary,2023.0,Language,Academia,1,0,0,1
+India,1992.0,Speech,Academia,1,0,0,0
+India,2018.0,Language,Academia,1,0,1,0
+India,2024.0,Biology,Academia,3,0,0,1
+India,2024.0,Biology,Government,1,0,0,0
+India,2024.0,Speech,Industry,2,0,0,1
+Indonesia,2024.0,Language,Industry,1,0,0,1
+Iran (Islamic Republic of),2024.0,Biology,Academia,1,0,0,0
+Israel,2011.0,Language,Academia,1,0,1,0
+Israel,2014.0,Vision,Academia,1,0,1,0
+Israel,2016.0,Vision,Academia,1,0,0,0
+Israel,2017.0,Language,Academia,2,0,1,0
+Israel,2018.0,Language,Academia,3,0,0,1
+Israel,2019.0,Language,Academia,2,0,1,2
+Israel,2021.0,Language,Industry,1,1,1,0
+Israel,2022.0,Biology,Academia,2,0,1,2
+Israel,2022.0,Language,Academia,1,0,0,0
+Israel,2023.0,Language,Industry,2,0,0,2
+Israel,2024.0,Language,Industry,4,0,1,4
+Israel,2024.0,Video,Industry,1,0,0,1
+Israel,2025.0,Language,Industry,2,0,0,2
+Israel,2025.0,Video,Industry,3,0,0,3
+Italy,1961.0,Other,Academia,1,0,0,0
+Italy,1994.0,Materials science,Academia,1,0,1,0
+Italy,2008.0,Other,Academia,1,0,1,1
+Italy,2013.0,Vision,Academia,1,0,1,0
+Italy,2020.0,Biology,Academia,1,0,0,0
+Italy,2024.0,Biology,Academia,5,0,0,4
+Japan,1969.0,Medicine,Academia,1,0,1,0
+Japan,1972.0,Other,Academia,1,0,0,0
+Japan,1975.0,Other,Industry,1,0,1,0
+Japan,1980.0,Vision,Industry,1,1,1,0
+Japan,1984.0,Other,Industry,1,0,1,0
+Japan,1989.0,Speech,Industry,1,0,0,0
+Japan,1997.0,Speech,Industry,1,0,1,0
+Japan,2017.0,Language,Industry,2,0,1,0
+Japan,2018.0,Image generation,Industry,1,0,0,0
+Japan,2018.0,Language,Academia,1,0,0,0
+Japan,2018.0,Language,Industry,4,0,1,4
+Japan,2019.0,Language,Industry,3,0,0,0
+Japan,2021.0,Language,Academia,3,0,0,0
+Japan,2022.0,Biology,Academia,1,0,1,1
+Japan,2022.0,Language,Industry,3,0,0,3
+Japan,2022.0,Materials science,Industry,1,0,0,0
+Japan,2023.0,Language,Industry,11,0,1,9
+Japan,2024.0,Biology,Academia,5,0,0,0
+Japan,2024.0,Language,Academia,2,0,0,2
+Japan,2024.0,Language,Industry,5,0,0,1
+Japan,2025.0,Language,Industry,1,0,0,1
+Japan,2025.0,Other,Industry,1,0,0,0
+Korea (Republic of),2002.0,Recommendation,Academia,1,0,0,0
+Korea (Republic of),2004.0,Vision,Academia,1,0,0,0
+Korea (Republic of),2016.0,Vision,Academia,1,0,0,0
+Korea (Republic of),2017.0,Language,Academia,2,0,1,0
+Korea (Republic of),2017.0,Vision,Academia,2,0,2,1
+Korea (Republic of),2018.0,Language,Industry,1,0,1,0
+Korea (Republic of),2019.0,Vision,Industry,1,0,1,1
+Korea (Republic of),2020.0,Language,Academia,2,0,1,1
+Korea (Republic of),2021.0,Biology,Academia,1,0,0,0
+Korea (Republic of),2021.0,Language,Industry,4,1,1,1
+Korea (Republic of),2021.0,Multimodal,Industry,1,1,0,0
+Korea (Republic of),2022.0,Image generation,Academia,2,0,2,1
+Korea (Republic of),2022.0,Image generation,Industry,1,0,0,0
+Korea (Republic of),2022.0,Language,Industry,1,0,1,0
+Korea (Republic of),2022.0,Recommendation,Industry,1,0,0,0
+Korea (Republic of),2022.0,Vision,Industry,2,0,0,0
+Korea (Republic of),2023.0,Image generation,Academia,1,0,0,0
+Korea (Republic of),2023.0,Image generation,Industry,1,0,0,0
+Korea (Republic of),2023.0,Language,Academia,1,0,1,1
+Korea (Republic of),2023.0,Language,Industry,18,0,0,2
+Korea (Republic of),2023.0,Multimodal,Industry,1,0,0,0
+Korea (Republic of),2023.0,Vision,Industry,1,0,0,0
+Korea (Republic of),2024.0,Biology,Academia,2,0,0,1
+Korea (Republic of),2024.0,Biology,Industry,1,0,0,0
+Korea (Republic of),2024.0,Language,Industry,7,0,1,5
+Korea (Republic of),2024.0,Multimodal,Industry,1,0,0,0
+Korea (Republic of),2025.0,Language,Industry,15,0,6,8
+Korea (Republic of),2025.0,Multimodal,Industry,1,0,1,0
+Korea (Republic of),2025.0,Vision,Industry,1,0,1,1
+Lebanon,2020.0,Language,Academia,3,0,0,3
+Lebanon,2021.0,Language,Academia,1,0,0,1
+Lithuania,2021.0,Biology,Academia,1,0,0,0
+Luxembourg,2024.0,Biology,Academia,1,0,0,0
+Multinational,2014.0,Vision,Industry,1,0,1,1
+Multinational,2015.0,Vision,Industry,1,0,1,0
+Multinational,2016.0,Vision,Industry,1,0,1,0
+Multinational,2023.0,Language,Research collective,3,0,0,2
+Multinational,2024.0,Biology,Research collective,1,0,0,0
+Multinational,2024.0,Language,Research collective,2,0,0,2
+Netherlands,2013.0,Vision,Academia,1,0,1,0
+Netherlands,2014.0,Vision,Academia,1,0,1,0
+Netherlands,2021.0,Language,Academia,4,0,0,1
+Netherlands,2023.0,Image generation,Academia,1,0,1,1
+Netherlands,2024.0,Biology,Academia,1,0,0,0
+New Zealand,1963.0,Robotics,Academia,1,0,0,0
+Poland,2017.0,Language,Academia,2,0,2,0
+Poland,2024.0,Language,Research collective,2,0,0,2
+Poland,2025.0,Speech,Industry,1,0,0,0
+Portugal,2021.0,Language,Academia,1,0,0,0
+Russia,2018.0,Language,Academia,1,0,0,0
+Russia,2018.0,Language,Industry,2,0,1,0
+Russia,2019.0,Language,Industry,2,0,0,0
+Russia,2022.0,Language,Academia,1,0,0,0
+Russia,2022.0,Language,Industry,1,0,0,1
+Russia,2023.0,Image generation,Industry,2,0,0,2
+Russia,2023.0,Language,Industry,3,0,0,1
+Russia,2023.0,Multimodal,Research collective,1,0,0,1
+Russia,2024.0,Biology,Research collective,1,0,0,1
+Russia,2024.0,Image generation,Industry,1,0,0,0
+Russia,2024.0,Language,Industry,9,0,0,5
+Russia,2025.0,Language,Industry,8,0,0,3
+Russia,2025.0,Video,Industry,1,0,0,1
+Saudi Arabia,2022.0,Speech,Industry,1,0,1,0
+Saudi Arabia,2023.0,Biology,Academia,1,0,1,0
+Saudi Arabia,2023.0,Language,Academia,1,0,0,1
+Saudi Arabia,2024.0,Biology,Academia,1,0,0,0
+Saudi Arabia,2024.0,Language,Industry,5,0,2,1
+Singapore,2013.0,Vision,Academia,1,0,1,0
+Singapore,2014.0,Language,Academia,2,0,1,0
+Singapore,2017.0,Vision,Academia,1,0,0,0
+Singapore,2022.0,Language,Industry,1,0,0,0
+Singapore,2023.0,Biology,Industry,1,0,0,0
+Singapore,2023.0,Language,Academia,3,0,1,3
+Singapore,2023.0,Language,Government,2,0,0,2
+Singapore,2023.0,Multimodal,Academia,2,0,0,1
+Singapore,2023.0,Video,Academia,1,0,1,1
+Singapore,2024.0,Biology,Academia,4,0,0,1
+Singapore,2024.0,Language,Academia,1,0,0,1
+Singapore,2024.0,Language,Government,6,0,0,6
+Singapore,2025.0,Image generation,Academia,1,0,0,1
+Singapore,2025.0,Multimodal,Government,1,0,0,1
+Spain,1989.0,Vision,Academia,1,1,1,0
+Spain,2023.0,Biology,Government,1,0,0,0
+Spain,2024.0,Biology,Academia,1,0,0,0
+Sweden,2022.0,Language,Academia,1,0,0,0
+Sweden,2024.0,Biology,Academia,2,0,0,0
+Switzerland,1999.0,Language,Academia,1,0,1,0
+Switzerland,2005.0,Speech,Academia,1,0,0,0
+Switzerland,2007.0,Vision,Academia,2,0,2,0
+Switzerland,2010.0,Vision,Academia,1,0,0,0
+Switzerland,2011.0,Vision,Academia,4,1,4,0
+Switzerland,2012.0,Vision,Academia,2,1,1,0
+Switzerland,2013.0,Vision,Academia,1,0,0,0
+Switzerland,2014.0,Speech,Academia,1,0,0,0
+Switzerland,2015.0,Vision,Academia,1,0,0,0
+Switzerland,2016.0,Language,Academia,3,0,0,0
+Switzerland,2016.0,Video,Academia,1,0,0,0
+Switzerland,2019.0,Image generation,Academia,1,0,1,0
+Switzerland,2019.0,Language,Academia,5,0,1,2
+Switzerland,2019.0,Vision,Academia,1,0,0,0
+Switzerland,2020.0,Language,Academia,2,0,0,0
+Switzerland,2021.0,Language,Academia,3,0,0,0
+Switzerland,2021.0,Recommendation,Academia,1,0,0,0
+Switzerland,2022.0,Biology,Academia,1,0,0,1
+Switzerland,2023.0,Image generation,Academia,1,0,1,0
+Switzerland,2023.0,Language,Academia,1,0,0,1
+Switzerland,2023.0,Vision,Academia,2,0,0,0
+Switzerland,2024.0,Biology,Academia,6,0,0,4
+Switzerland,2024.0,Games,Academia,1,0,0,1
+Switzerland,2024.0,Vision,Academia,1,0,0,0
+Switzerland,2025.0,Language,Academia,2,0,0,2
+Taiwan,2020.0,Language,Academia,3,0,0,0
+Taiwan,2023.0,Language,Academia,3,0,0,1
+Taiwan,2024.0,Biology,Academia,1,0,0,0
+Taiwan,2024.0,Language,Government,3,0,0,0
+Taiwan,2024.0,Vision,Academia,1,0,0,1
+Taiwan,2025.0,Language,Industry,1,0,0,1
+Thailand,2024.0,Audio,Industry,1,0,0,1
+Thailand,2024.0,Language,Academia,2,0,0,2
+Thailand,2024.0,Language,Industry,5,0,0,5
+Thailand,2024.0,Vision,Industry,1,0,0,1
+Thailand,2025.0,Language,Academia,2,0,0,2
+Thailand,2025.0,Language,Industry,2,0,0,2
+Ukraine,2025.0,Language,Academia,1,0,0,1
+United Arab Emirates,2023.0,Language,Academia,2,0,0,2
+United Arab Emirates,2023.0,Language,Government,3,1,2,3
+United Arab Emirates,2024.0,Language,Government,3,0,0,3
+United Arab Emirates,2024.0,Language,Industry,1,0,0,1
+United Arab Emirates,2025.0,Language,Academia,1,0,0,1
+United Arab Emirates,2025.0,Language,Government,2,0,0,1
+United Kingdom of Great Britain and Northern Ireland,1963.0,Games,Academia,1,0,0,0
+United Kingdom of Great Britain and Northern Ireland,1968.0,Games,Academia,2,0,2,0
+United Kingdom of Great Britain and Northern Ireland,1989.0,Robotics,Academia,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,1992.0,Biology,Government,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,1997.0,Language,Academia,1,0,0,0
+United Kingdom of Great Britain and Northern Ireland,1999.0,Vision,Academia,1,0,0,0
+United Kingdom of Great Britain and Northern Ireland,2000.0,Vision,Academia,1,1,1,0
+United Kingdom of Great Britain and Northern Ireland,2006.0,Video,Academia,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2012.0,Language,Academia,1,0,0,0
+United Kingdom of Great Britain and Northern Ireland,2013.0,Games,Industry,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2013.0,Language,Academia,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2014.0,Games,Academia,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2014.0,Speech,Industry,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2014.0,Video,Academia,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2014.0,Vision,Academia,4,2,4,0
+United Kingdom of Great Britain and Northern Ireland,2015.0,Games,Industry,1,1,1,0
+United Kingdom of Great Britain and Northern Ireland,2015.0,Language,Academia,2,0,2,0
+United Kingdom of Great Britain and Northern Ireland,2015.0,Vision,Academia,2,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2016.0,Games,Industry,1,1,1,0
+United Kingdom of Great Britain and Northern Ireland,2016.0,Speech,Academia,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2016.0,Vision,Academia,2,0,2,1
+United Kingdom of Great Britain and Northern Ireland,2016.0,Vision,Industry,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2017.0,3D modeling,Industry,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2017.0,Games,Industry,5,1,5,0
+United Kingdom of Great Britain and Northern Ireland,2017.0,Language,Academia,3,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2017.0,Language,Industry,2,0,2,0
+United Kingdom of Great Britain and Northern Ireland,2017.0,Vision,Industry,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2018.0,Biology,Academia,1,0,0,1
+United Kingdom of Great Britain and Northern Ireland,2018.0,Games,Industry,2,0,2,0
+United Kingdom of Great Britain and Northern Ireland,2018.0,Image generation,Academia,1,1,0,1
+United Kingdom of Great Britain and Northern Ireland,2018.0,Language,Academia,2,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2018.0,Language,Industry,5,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2019.0,3D modeling,Academia,1,0,1,1
+United Kingdom of Great Britain and Northern Ireland,2019.0,Games,Industry,3,1,3,0
+United Kingdom of Great Britain and Northern Ireland,2019.0,Language,Academia,2,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2019.0,Language,Industry,3,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2019.0,Vision,Industry,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2020.0,Biology,Industry,2,0,2,1
+United Kingdom of Great Britain and Northern Ireland,2020.0,Games,Industry,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2020.0,Language,Academia,3,0,0,0
+United Kingdom of Great Britain and Northern Ireland,2020.0,Multimodal,Industry,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2021.0,Games,Industry,2,0,2,0
+United Kingdom of Great Britain and Northern Ireland,2021.0,Image generation,Industry,1,0,0,0
+United Kingdom of Great Britain and Northern Ireland,2021.0,Language,Academia,3,0,0,0
+United Kingdom of Great Britain and Northern Ireland,2021.0,Language,Industry,3,1,1,0
+United Kingdom of Great Britain and Northern Ireland,2021.0,Speech,Academia,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2021.0,Speech,Industry,2,0,0,0
+United Kingdom of Great Britain and Northern Ireland,2022.0,Biology,Academia,5,0,4,2
+United Kingdom of Great Britain and Northern Ireland,2022.0,Biology,Industry,1,0,0,1
+United Kingdom of Great Britain and Northern Ireland,2022.0,Games,Industry,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2022.0,Image generation,Industry,1,0,0,1
+United Kingdom of Great Britain and Northern Ireland,2022.0,Language,Industry,6,0,4,0
+United Kingdom of Great Britain and Northern Ireland,2022.0,Multimodal,Industry,2,0,2,0
+United Kingdom of Great Britain and Northern Ireland,2022.0,Other,Industry,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2022.0,Video,Academia,1,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2022.0,Video,Industry,1,0,0,0
+United Kingdom of Great Britain and Northern Ireland,2023.0,Biology,Academia,1,0,0,0
+United Kingdom of Great Britain and Northern Ireland,2023.0,Biology,Industry,2,0,0,1
+United Kingdom of Great Britain and Northern Ireland,2023.0,Games,Industry,2,0,1,0
+United Kingdom of Great Britain and Northern Ireland,2023.0,Image generation,Industry,5,0,1,3
+United Kingdom of Great Britain and Northern Ireland,2023.0,Language,Industry,7,0,0,7
+United Kingdom of Great Britain and Northern Ireland,2023.0,Video,Industry,1,0,0,0
+United Kingdom of Great Britain and Northern Ireland,2024.0,Biology,Academia,5,0,0,0
+United Kingdom of Great Britain and Northern Ireland,2024.0,Biology,Industry,7,0,0,2
+United Kingdom of Great Britain and Northern Ireland,2024.0,Driving,Industry,1,0,0,0
+United Kingdom of Great Britain and Northern Ireland,2024.0,Games,Industry,1,0,0,1
+United Kingdom of Great Britain and Northern Ireland,2024.0,Image generation,Industry,13,0,1,8
+United Kingdom of Great Britain and Northern Ireland,2024.0,Language,Academia,4,0,0,3
+United Kingdom of Great Britain and Northern Ireland,2024.0,Language,Industry,5,0,0,3
+United Kingdom of Great Britain and Northern Ireland,2024.0,Materials science,Academia,1,0,0,1
+United Kingdom of Great Britain and Northern Ireland,2024.0,Medicine,Industry,1,0,0,1
+United Kingdom of Great Britain and Northern Ireland,2024.0,Vision,Academia,1,0,0,0
+United Kingdom of Great Britain and Northern Ireland,2024.0,Vision,Industry,3,0,0,2
+United Kingdom of Great Britain and Northern Ireland,2025.0,3D modeling,Industry,1,0,1,1
+United Kingdom of Great Britain and Northern Ireland,2025.0,Language,Industry,4,0,0,1
+United Kingdom of Great Britain and Northern Ireland,2025.0,Video,Industry,2,0,0,0
+United Kingdom of Great Britain and Northern Ireland,2025.0,Vision,Industry,2,0,0,1
+United States of America,1950.0,Robotics,Industry,1,1,1,0
+United States of America,1952.0,Robotics,Academia,1,0,1,0
+United States of America,1954.0,Mathematics,Academia,1,0,1,0
+United States of America,1955.0,Other,Academia,1,0,1,0
+United States of America,1955.0,Vision,Academia,1,0,1,0
+United States of America,1957.0,Other,Academia,1,1,1,0
+United States of America,1959.0,Games,Industry,1,1,1,0
+United States of America,1959.0,Language,Academia,1,1,1,0
+United States of America,1959.0,Vision,Industry,1,0,1,0
+United States of America,1960.0,Vision,Academia,2,2,2,0
+United States of America,1962.0,Mathematics,Industry,1,1,1,0
+United States of America,1962.0,Other,Academia,1,0,1,0
+United States of America,1963.0,Vision,Industry,1,1,1,0
+United States of America,1965.0,Robotics,Academia,1,0,1,0
+United States of America,1966.0,Speech,Industry,1,1,1,0
+United States of America,1970.0,Vision,Academia,1,0,0,0
+United States of America,1973.0,Vision,Academia,1,0,1,0
+United States of America,1976.0,Speech,Academia,1,0,0,0
+United States of America,1982.0,Other,Academia,1,0,1,0
+United States of America,1983.0,Robotics,Academia,1,1,1,0
+United States of America,1984.0,Language,Academia,1,0,0,0
+United States of America,1986.0,Mathematics,Academia,1,1,1,0
+United States of America,1986.0,Other,Academia,2,1,2,0
+United States of America,1986.0,Speech,Academia,1,0,0,0
+United States of America,1986.0,Vision,Academia,1,0,1,0
+United States of America,1987.0,Speech,Academia,2,2,2,0
+United States of America,1988.0,Language,Academia,1,0,1,0
+United States of America,1988.0,Mathematics,Academia,1,0,0,0
+United States of America,1989.0,Driving,Academia,2,0,1,0
+United States of America,1989.0,Mathematics,Academia,1,0,0,0
+United States of America,1989.0,Speech,Academia,1,0,1,0
+United States of America,1989.0,Vision,Industry,3,2,3,0
+United States of America,1990.0,Speech,Academia,1,1,1,0
+United States of America,1990.0,Vision,Academia,1,0,1,0
+United States of America,1992.0,Games,Industry,1,1,1,0
+United States of America,1992.0,Medicine,Government,1,0,1,0
+United States of America,1992.0,Vision,Industry,1,0,1,0
+United States of America,1993.0,Language,Industry,1,0,1,0
+United States of America,1993.0,Vision,Industry,2,1,1,0
+United States of America,1994.0,Recommendation,Academia,1,0,1,0
+United States of America,1995.0,Other,Industry,1,0,0,0
+United States of America,1995.0,Vision,Academia,1,0,1,0
+United States of America,1995.0,Vision,Industry,1,0,1,0
+United States of America,1996.0,Vision,Academia,1,0,1,0
+United States of America,1996.0,Vision,Industry,1,0,1,0
+United States of America,1997.0,Games,Industry,1,0,1,0
+United States of America,1998.0,Vision,Industry,1,1,1,0
+United States of America,1999.0,Language,Academia,1,0,1,0
+United States of America,1999.0,Recommendation,Industry,1,0,0,0
+United States of America,2000.0,Recommendation,Academia,1,0,0,0
+United States of America,2001.0,Language,Academia,1,0,1,0
+United States of America,2001.0,Mathematics,Academia,1,0,1,0
+United States of America,2001.0,Vision,Industry,1,1,1,0
+United States of America,2002.0,Language,Academia,1,0,1,0
+United States of America,2002.0,Language,Industry,1,0,0,0
+United States of America,2002.0,Other,Academia,1,0,0,0
+United States of America,2003.0,Language,Academia,1,0,1,0
+United States of America,2003.0,Recommendation,Academia,2,0,0,0
+United States of America,2003.0,Vision,Academia,2,0,1,0
+United States of America,2004.0,Driving,Academia,1,0,0,0
+United States of America,2004.0,Vision,Academia,1,0,1,0
+United States of America,2004.0,Vision,Industry,1,0,0,0
+United States of America,2005.0,Robotics,Academia,1,0,0,0
+United States of America,2005.0,Search,Industry,1,0,1,0
+United States of America,2005.0,Vision,Academia,1,0,0,0
+United States of America,2006.0,Driving,Academia,2,0,0,0
+United States of America,2006.0,Vision,Academia,3,1,1,0
+United States of America,2007.0,Language,Academia,1,0,1,0
+United States of America,2007.0,Language,Industry,2,2,2,0
+United States of America,2007.0,Recommendation,Industry,1,0,1,0
+United States of America,2007.0,Vision,Industry,1,0,0,0
+United States of America,2008.0,Driving,Academia,1,0,0,0
+United States of America,2008.0,Language,Industry,1,0,1,0
+United States of America,2008.0,Other,Industry,1,0,0,0
+United States of America,2008.0,Recommendation,Industry,1,0,1,0
+United States of America,2008.0,Vision,Academia,1,0,0,0
+United States of America,2009.0,3D modeling,Academia,1,0,0,0
+United States of America,2009.0,Language,Industry,1,0,0,0
+United States of America,2009.0,Other,Academia,1,0,1,0
+United States of America,2009.0,Recommendation,Industry,5,0,5,0
+United States of America,2009.0,Vision,Academia,4,0,1,0
+United States of America,2010.0,Language,Academia,1,1,1,0
+United States of America,2010.0,Other,Industry,1,0,0,0
+United States of America,2010.0,Recommendation,Industry,1,0,1,0
+United States of America,2010.0,Vision,Academia,3,0,2,0
+United States of America,2011.0,Language,Academia,3,0,2,0
+United States of America,2011.0,Language,Industry,1,0,1,0
+United States of America,2011.0,Other,Academia,1,0,0,0
+United States of America,2011.0,Vision,Academia,2,0,1,0
+United States of America,2012.0,Language,Industry,6,0,2,0
+United States of America,2012.0,Speech,Industry,1,0,1,0
+United States of America,2012.0,Vision,Industry,2,1,2,0
+United States of America,2013.0,Language,Academia,2,0,1,0
+United States of America,2013.0,Language,Industry,6,1,4,0
+United States of America,2013.0,Speech,Industry,2,0,2,0
+United States of America,2013.0,Vision,Academia,5,1,4,0
+United States of America,2013.0,Vision,Industry,1,0,1,0
+United States of America,2014.0,Games,Academia,1,0,1,0
+United States of America,2014.0,Language,Academia,3,0,2,0
+United States of America,2014.0,Language,Industry,5,2,3,0
+United States of America,2014.0,Other,Industry,1,0,0,0
+United States of America,2014.0,Recommendation,Industry,1,0,0,0
+United States of America,2014.0,Video,Academia,1,0,1,0
+United States of America,2014.0,Video,Industry,1,0,1,0
+United States of America,2014.0,Vision,Academia,2,0,2,0
+United States of America,2014.0,Vision,Industry,4,1,3,0
+United States of America,2015.0,Games,Academia,1,0,1,0
+United States of America,2015.0,Games,Industry,2,0,2,0
+United States of America,2015.0,Image generation,Industry,1,0,0,0
+United States of America,2015.0,Language,Academia,1,0,0,0
+United States of America,2015.0,Language,Industry,2,0,0,1
+United States of America,2015.0,Recommendation,Industry,1,0,1,0
+United States of America,2015.0,Robotics,Industry,1,0,1,0
+United States of America,2015.0,Speech,Academia,1,0,1,0
+United States of America,2015.0,Speech,Industry,2,1,0,0
+United States of America,2015.0,Video,Academia,1,0,0,0
+United States of America,2015.0,Vision,Academia,4,0,4,0
+United States of America,2015.0,Vision,Industry,8,2,8,2
+United States of America,2016.0,3D modeling,Academia,1,0,1,0
+United States of America,2016.0,Games,Industry,3,0,3,0
+United States of America,2016.0,Language,Academia,6,0,2,1
+United States of America,2016.0,Language,Industry,18,2,5,0
+United States of America,2016.0,Mathematics,Academia,1,0,0,0
+United States of America,2016.0,Recommendation,Industry,2,0,1,0
+United States of America,2016.0,Speech,Academia,1,0,1,0
+United States of America,2016.0,Speech,Industry,2,0,2,0
+United States of America,2016.0,Vision,Academia,12,0,9,6
+United States of America,2016.0,Vision,Industry,10,2,8,0
+United States of America,2017.0,3D modeling,Academia,1,0,1,0
+United States of America,2017.0,Games,Academia,1,0,1,0
+United States of America,2017.0,Games,Industry,1,1,1,0
+United States of America,2017.0,Image generation,Academia,3,0,1,2
+United States of America,2017.0,Image generation,Industry,2,0,0,1
+United States of America,2017.0,Language,Academia,6,0,4,0
+United States of America,2017.0,Language,Industry,6,0,4,0
+United States of America,2017.0,Speech,Industry,2,0,0,0
+United States of America,2017.0,Vision,Academia,5,0,2,1
+United States of America,2017.0,Vision,Industry,9,1,9,0
+United States of America,2018.0,Biology,Academia,1,0,0,1
+United States of America,2018.0,Image generation,Academia,1,0,0,0
+United States of America,2018.0,Image generation,Industry,4,0,2,2
+United States of America,2018.0,Language,Academia,13,0,3,3
+United States of America,2018.0,Language,Industry,16,0,13,4
+United States of America,2018.0,Recommendation,Industry,1,0,0,0
+United States of America,2018.0,Robotics,Industry,3,0,1,0
+United States of America,2018.0,Speech,Industry,1,0,1,1
+United States of America,2018.0,Vision,Academia,5,0,2,0
+United States of America,2018.0,Vision,Industry,6,1,4,3
+United States of America,2019.0,3D modeling,Academia,1,0,0,0
+United States of America,2019.0,Audio,Industry,1,0,1,0
+United States of America,2019.0,Biology,Academia,5,0,1,2
+United States of America,2019.0,Games,Industry,5,1,4,1
+United States of America,2019.0,Image generation,Academia,2,0,0,0
+United States of America,2019.0,Image generation,Industry,5,0,1,1
+United States of America,2019.0,Language,Academia,25,2,8,6
+United States of America,2019.0,Language,Industry,33,8,19,16
+United States of America,2019.0,Language,Research collective,3,0,3,1
+United States of America,2019.0,Materials science,Academia,4,0,0,0
+United States of America,2019.0,Recommendation,Industry,1,0,1,0
+United States of America,2019.0,Robotics,Academia,2,0,2,0
+United States of America,2019.0,Robotics,Industry,1,0,0,0
+United States of America,2019.0,Speech,Industry,1,0,1,1
+United States of America,2019.0,Vision,Academia,6,1,3,2
+United States of America,2019.0,Vision,Industry,11,0,7,8
+United States of America,2020.0,Biology,Academia,3,0,1,1
+United States of America,2020.0,Biology,Industry,8,0,1,7
+United States of America,2020.0,Earth science,Academia,1,0,0,0
+United States of America,2020.0,Earth science,Industry,1,0,1,0
+United States of America,2020.0,Games,Academia,1,0,1,1
+United States of America,2020.0,Games,Industry,1,0,1,0
+United States of America,2020.0,Image generation,Industry,1,0,0,1
+United States of America,2020.0,Language,Academia,19,0,7,5
+United States of America,2020.0,Language,Government,1,0,0,0
+United States of America,2020.0,Language,Industry,21,4,9,4
+United States of America,2020.0,Language,Research collective,2,0,1,2
+United States of America,2020.0,Recommendation,Industry,1,0,0,0
+United States of America,2020.0,Robotics,Academia,1,0,1,1
+United States of America,2020.0,Speech,Industry,5,0,5,1
+United States of America,2020.0,Vision,Academia,3,0,1,2
+United States of America,2020.0,Vision,Industry,6,1,5,6
+United States of America,2021.0,Biology,Academia,6,0,2,3
+United States of America,2021.0,Biology,Industry,6,0,3,5
+United States of America,2021.0,Earth science,Academia,1,0,1,0
+United States of America,2021.0,Image generation,Academia,2,0,0,0
+United States of America,2021.0,Image generation,Industry,9,0,4,5
+United States of America,2021.0,Language,Academia,19,0,1,5
+United States of America,2021.0,Language,Industry,30,3,16,14
+United States of America,2021.0,Language,Research collective,9,0,1,5
+United States of America,2021.0,Mathematics,Academia,1,0,0,0
+United States of America,2021.0,Multimodal,Industry,4,0,4,2
+United States of America,2021.0,Recommendation,Industry,3,0,0,0
+United States of America,2021.0,Robotics,Industry,1,0,1,1
+United States of America,2021.0,Search,Industry,1,0,1,0
+United States of America,2021.0,Speech,Industry,3,0,3,1
+United States of America,2021.0,Vision,Academia,1,0,1,1
+United States of America,2021.0,Vision,Industry,13,0,11,7
+United States of America,2022.0,Audio,Industry,1,0,1,1
+United States of America,2022.0,Biology,Academia,8,0,3,3
+United States of America,2022.0,Biology,Industry,9,0,2,8
+United States of America,2022.0,Earth science,Industry,1,0,1,0
+United States of America,2022.0,Games,Industry,2,0,2,2
+United States of America,2022.0,Image generation,Academia,1,0,1,1
+United States of America,2022.0,Image generation,Industry,11,0,9,3
+United States of America,2022.0,Language,Academia,17,0,4,11
+United States of America,2022.0,Language,Industry,58,5,26,29
+United States of America,2022.0,Language,Research collective,2,0,1,1
+United States of America,2022.0,Materials science,Academia,1,0,0,1
+United States of America,2022.0,Medicine,Industry,1,0,1,0
+United States of America,2022.0,Multimodal,Industry,3,0,2,1
+United States of America,2022.0,Multimodal,Research collective,1,0,0,1
+United States of America,2022.0,Robotics,Industry,3,0,1,1
+United States of America,2022.0,Speech,Industry,4,0,2,4
+United States of America,2022.0,Video,Industry,2,0,1,0
+United States of America,2022.0,Vision,Academia,1,0,1,1
+United States of America,2022.0,Vision,Industry,3,0,3,2
+United States of America,2023.0,Audio,Industry,10,0,6,5
+United States of America,2023.0,Biology,Academia,15,0,4,10
+United States of America,2023.0,Biology,Industry,3,0,2,2
+United States of America,2023.0,Biology,Research collective,1,0,0,1
+United States of America,2023.0,Earth science,Industry,2,0,1,2
+United States of America,2023.0,Image generation,Academia,4,0,2,3
+United States of America,2023.0,Image generation,Industry,9,0,2,2
+United States of America,2023.0,Language,Academia,24,0,4,18
+United States of America,2023.0,Language,Government,1,0,0,1
+United States of America,2023.0,Language,Industry,88,4,24,51
+United States of America,2023.0,Language,Research collective,11,0,0,11
+United States of America,2023.0,Materials science,Industry,1,0,1,0
+United States of America,2023.0,Mathematics,Academia,2,0,0,2
+United States of America,2023.0,Medicine,Industry,2,0,1,0
+United States of America,2023.0,Multimodal,Academia,3,0,3,3
+United States of America,2023.0,Multimodal,Industry,19,4,14,7
+United States of America,2023.0,Recommendation,Industry,1,0,0,0
+United States of America,2023.0,Robotics,Industry,9,0,6,0
+United States of America,2023.0,Speech,Academia,2,0,1,1
+United States of America,2023.0,Speech,Industry,13,0,1,3
+United States of America,2023.0,Video,Academia,1,0,1,0
+United States of America,2023.0,Video,Industry,4,0,2,1
+United States of America,2023.0,Vision,Academia,2,0,0,1
+United States of America,2023.0,Vision,Industry,11,0,6,6
+United States of America,2024.0,3D modeling,Academia,1,0,1,0
+United States of America,2024.0,Audio,Industry,7,0,1,2
+United States of America,2024.0,Audio,Research collective,1,0,0,1
+United States of America,2024.0,Biology,Academia,51,0,0,20
+United States of America,2024.0,Biology,Government,1,0,0,0
+United States of America,2024.0,Biology,Industry,23,0,4,6
+United States of America,2024.0,Earth science,Industry,3,0,1,2
+United States of America,2024.0,Games,Academia,1,0,0,0
+United States of America,2024.0,Games,Industry,3,0,0,0
+United States of America,2024.0,Image generation,Industry,13,0,0,4
+United States of America,2024.0,Language,Academia,9,0,0,7
+United States of America,2024.0,Language,Industry,118,4,21,67
+United States of America,2024.0,Language,Research collective,8,0,0,8
+United States of America,2024.0,Materials science,Industry,3,0,0,1
+United States of America,2024.0,Mathematics,Industry,3,0,1,1
+United States of America,2024.0,Medicine,Industry,4,0,0,0
+United States of America,2024.0,Multimodal,Academia,4,0,1,4
+United States of America,2024.0,Multimodal,Industry,32,6,13,11
+United States of America,2024.0,Other,Academia,1,0,0,0
+United States of America,2024.0,Other,Industry,2,0,0,0
+United States of America,2024.0,Recommendation,Industry,1,0,0,0
+United States of America,2024.0,Robotics,Academia,4,0,2,3
+United States of America,2024.0,Robotics,Industry,8,0,1,0
+United States of America,2024.0,Search,Industry,1,0,0,0
+United States of America,2024.0,Speech,Industry,12,0,0,3
+United States of America,2024.0,Video,Academia,1,0,0,1
+United States of America,2024.0,Video,Industry,20,0,5,2
+United States of America,2024.0,Vision,Academia,2,0,0,2
+United States of America,2024.0,Vision,Industry,22,0,4,12
+United States of America,2025.0,3D modeling,Industry,6,0,0,4
+United States of America,2025.0,Audio,Industry,4,0,0,0
+United States of America,2025.0,Biology,Academia,4,0,0,4
+United States of America,2025.0,Biology,Industry,6,0,0,1
+United States of America,2025.0,Biology,Research collective,1,0,0,0
+United States of America,2025.0,Earth science,Government,1,0,0,1
+United States of America,2025.0,Earth science,Industry,6,0,1,4
+United States of America,2025.0,Games,Industry,1,0,0,0
+United States of America,2025.0,Image generation,Industry,14,0,3,4
+United States of America,2025.0,Language,Academia,4,0,0,4
+United States of America,2025.0,Language,Industry,98,4,26,46
+United States of America,2025.0,Language,Research collective,3,0,0,3
+United States of America,2025.0,Materials science,Academia,1,0,0,1
+United States of America,2025.0,Materials science,Industry,1,0,0,1
+United States of America,2025.0,Mathematics,Industry,1,0,1,1
+United States of America,2025.0,Medicine,Industry,2,0,0,1
+United States of America,2025.0,Multimodal,Industry,21,3,12,5
+United States of America,2025.0,Other,Industry,1,0,0,0
+United States of America,2025.0,Robotics,Industry,12,0,0,4
+United States of America,2025.0,Robotics,Research collective,1,0,0,1
+United States of America,2025.0,Speech,Industry,20,0,0,5
+United States of America,2025.0,Video,Industry,20,0,4,9
+United States of America,2025.0,Vision,Academia,1,0,0,1
+United States of America,2025.0,Vision,Industry,12,0,3,7
+Vietnam,2021.0,Language,Industry,2,0,0,0
+Vietnam,2024.0,Biology,Industry,1,0,0,1

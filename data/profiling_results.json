@@ -1,0 +1,2308 @@
+{
+  "shape": {
+    "all_ai_models": {
+      "rows": 3237,
+      "columns": 57
+    },
+    "frontier_ai_models": {
+      "rows": 137,
+      "columns": 61
+    },
+    "large_scale_ai_models": {
+      "rows": 491,
+      "columns": 34
+    },
+    "notable_ai_models": {
+      "rows": 981,
+      "columns": 47
+    }
+  },
+  "nullity": {
+    "per_column": [
+      {
+        "column": "Post-training compute (FLOP)",
+        "non_null": 1,
+        "pct_missing": 99.97
+      },
+      {
+        "column": "Post-training compute notes",
+        "non_null": 1,
+        "pct_missing": 99.97
+      },
+      {
+        "column": "Archived links",
+        "non_null": 22,
+        "pct_missing": 99.32
+      },
+      {
+        "column": "Hardware utilization (HFU)",
+        "non_null": 25,
+        "pct_missing": 99.23
+      },
+      {
+        "column": "Training compute lower bound",
+        "non_null": 26,
+        "pct_missing": 99.2
+      },
+      {
+        "column": "Training compute upper bound",
+        "non_null": 41,
+        "pct_missing": 98.73
+      },
+      {
+        "column": "Training cloud compute vendor",
+        "non_null": 53,
+        "pct_missing": 98.36
+      },
+      {
+        "column": "Hardware utilization (MFU)",
+        "non_null": 61,
+        "pct_missing": 98.12
+      },
+      {
+        "column": "Training data center",
+        "non_null": 66,
+        "pct_missing": 97.96
+      },
+      {
+        "column": "Foundation model",
+        "non_null": 76,
+        "pct_missing": 97.65
+      },
+      {
+        "column": "Utilization notes",
+        "non_null": 88,
+        "pct_missing": 97.28
+      },
+      {
+        "column": "Frontier model",
+        "non_null": 137,
+        "pct_missing": 95.77
+      },
+      {
+        "column": "Batch size notes",
+        "non_null": 197,
+        "pct_missing": 93.91
+      },
+      {
+        "column": "Training chip-hours",
+        "non_null": 215,
+        "pct_missing": 93.36
+      },
+      {
+        "column": "Training compute cost (2023 USD)",
+        "non_null": 224,
+        "pct_missing": 93.08
+      },
+      {
+        "column": "Batch size",
+        "non_null": 251,
+        "pct_missing": 92.25
+      },
+      {
+        "column": "Finetune compute (FLOP)",
+        "non_null": 259,
+        "pct_missing": 92.0
+      },
+      {
+        "column": "Approach",
+        "non_null": 301,
+        "pct_missing": 90.7
+      },
+      {
+        "column": "Finetune compute notes",
+        "non_null": 302,
+        "pct_missing": 90.67
+      },
+      {
+        "column": "Numerical format",
+        "non_null": 339,
+        "pct_missing": 89.53
+      },
+      {
+        "column": "WikiText and Penn Treebank data",
+        "non_null": 350,
+        "pct_missing": 89.19
+      },
+      {
+        "column": "Possibly over 1e23 FLOP",
+        "non_null": 501,
+        "pct_missing": 84.52
+      },
+      {
+        "column": "Training time (hours)",
+        "non_null": 547,
+        "pct_missing": 83.1
+      },
+      {
+        "column": "Training time notes",
+        "non_null": 599,
+        "pct_missing": 81.5
+      },
+      {
+        "column": "Hugging Face developer id",
+        "non_null": 609,
+        "pct_missing": 81.19
+      },
+      {
+        "column": "Base model",
+        "non_null": 672,
+        "pct_missing": 79.24
+      },
+      {
+        "column": "Training power draw (W)",
+        "non_null": 765,
+        "pct_missing": 76.37
+      },
+      {
+        "column": "Epochs",
+        "non_null": 791,
+        "pct_missing": 75.56
+      },
+      {
+        "column": "Notability criteria notes",
+        "non_null": 793,
+        "pct_missing": 75.5
+      },
+      {
+        "column": "Hardware quantity",
+        "non_null": 837,
+        "pct_missing": 74.14
+      },
+      {
+        "column": "Notability criteria",
+        "non_null": 932,
+        "pct_missing": 71.21
+      },
+      {
+        "column": "Training hardware",
+        "non_null": 1163,
+        "pct_missing": 64.07
+      },
+      {
+        "column": "Citations",
+        "non_null": 1270,
+        "pct_missing": 60.77
+      },
+      {
+        "column": "Training dataset size (total)",
+        "non_null": 1323,
+        "pct_missing": 59.13
+      },
+      {
+        "column": "Training compute (FLOP)",
+        "non_null": 1379,
+        "pct_missing": 57.4
+      },
+      {
+        "column": "Training compute estimation method",
+        "non_null": 1438,
+        "pct_missing": 55.58
+      },
+      {
+        "column": "Training compute notes",
+        "non_null": 1613,
+        "pct_missing": 50.17
+      },
+      {
+        "column": "Dataset size notes",
+        "non_null": 1634,
+        "pct_missing": 49.52
+      },
+      {
+        "column": "Accessibility notes",
+        "non_null": 1659,
+        "pct_missing": 48.75
+      },
+      {
+        "column": "Parameters notes",
+        "non_null": 1730,
+        "pct_missing": 46.56
+      },
+      {
+        "column": "Parameters",
+        "non_null": 2091,
+        "pct_missing": 35.4
+      },
+      {
+        "column": "Training code accessibility",
+        "non_null": 2296,
+        "pct_missing": 29.07
+      },
+      {
+        "column": "Authors",
+        "non_null": 2466,
+        "pct_missing": 23.82
+      },
+      {
+        "column": "Model accessibility",
+        "non_null": 2488,
+        "pct_missing": 23.14
+      },
+      {
+        "column": "Open model weights?",
+        "non_null": 2488,
+        "pct_missing": 23.14
+      },
+      {
+        "column": "Abstract",
+        "non_null": 2833,
+        "pct_missing": 12.48
+      },
+      {
+        "column": "Reference",
+        "non_null": 3076,
+        "pct_missing": 4.97
+      },
+      {
+        "column": "Task",
+        "non_null": 3119,
+        "pct_missing": 3.65
+      },
+      {
+        "column": "Organization categorization",
+        "non_null": 3137,
+        "pct_missing": 3.09
+      },
+      {
+        "column": "Country (of organization)",
+        "non_null": 3149,
+        "pct_missing": 2.72
+      },
+      {
+        "column": "Domain",
+        "non_null": 3153,
+        "pct_missing": 2.59
+      },
+      {
+        "column": "Organization",
+        "non_null": 3157,
+        "pct_missing": 2.47
+      },
+      {
+        "column": "Link",
+        "non_null": 3202,
+        "pct_missing": 1.08
+      },
+      {
+        "column": "Publication date",
+        "non_null": 3219,
+        "pct_missing": 0.56
+      },
+      {
+        "column": "Model",
+        "non_null": 3237,
+        "pct_missing": 0.0
+      },
+      {
+        "column": "Confidence",
+        "non_null": 3237,
+        "pct_missing": 0.0
+      },
+      {
+        "column": "Last modified",
+        "non_null": 3237,
+        "pct_missing": 0.0
+      }
+    ],
+    "worst_columns": [
+      {
+        "column": "Post-training compute (FLOP)",
+        "non_null": 1,
+        "pct_missing": 99.97
+      },
+      {
+        "column": "Post-training compute notes",
+        "non_null": 1,
+        "pct_missing": 99.97
+      },
+      {
+        "column": "Archived links",
+        "non_null": 22,
+        "pct_missing": 99.32
+      },
+      {
+        "column": "Hardware utilization (HFU)",
+        "non_null": 25,
+        "pct_missing": 99.23
+      },
+      {
+        "column": "Training compute lower bound",
+        "non_null": 26,
+        "pct_missing": 99.2
+      },
+      {
+        "column": "Training compute upper bound",
+        "non_null": 41,
+        "pct_missing": 98.73
+      },
+      {
+        "column": "Training cloud compute vendor",
+        "non_null": 53,
+        "pct_missing": 98.36
+      },
+      {
+        "column": "Hardware utilization (MFU)",
+        "non_null": 61,
+        "pct_missing": 98.12
+      },
+      {
+        "column": "Training data center",
+        "non_null": 66,
+        "pct_missing": 97.96
+      },
+      {
+        "column": "Foundation model",
+        "non_null": 76,
+        "pct_missing": 97.65
+      },
+      {
+        "column": "Utilization notes",
+        "non_null": 88,
+        "pct_missing": 97.28
+      },
+      {
+        "column": "Frontier model",
+        "non_null": 137,
+        "pct_missing": 95.77
+      },
+      {
+        "column": "Batch size notes",
+        "non_null": 197,
+        "pct_missing": 93.91
+      },
+      {
+        "column": "Training chip-hours",
+        "non_null": 215,
+        "pct_missing": 93.36
+      },
+      {
+        "column": "Training compute cost (2023 USD)",
+        "non_null": 224,
+        "pct_missing": 93.08
+      },
+      {
+        "column": "Batch size",
+        "non_null": 251,
+        "pct_missing": 92.25
+      },
+      {
+        "column": "Finetune compute (FLOP)",
+        "non_null": 259,
+        "pct_missing": 92.0
+      },
+      {
+        "column": "Approach",
+        "non_null": 301,
+        "pct_missing": 90.7
+      },
+      {
+        "column": "Finetune compute notes",
+        "non_null": 302,
+        "pct_missing": 90.67
+      },
+      {
+        "column": "Numerical format",
+        "non_null": 339,
+        "pct_missing": 89.53
+      },
+      {
+        "column": "WikiText and Penn Treebank data",
+        "non_null": 350,
+        "pct_missing": 89.19
+      },
+      {
+        "column": "Possibly over 1e23 FLOP",
+        "non_null": 501,
+        "pct_missing": 84.52
+      },
+      {
+        "column": "Training time (hours)",
+        "non_null": 547,
+        "pct_missing": 83.1
+      },
+      {
+        "column": "Training time notes",
+        "non_null": 599,
+        "pct_missing": 81.5
+      },
+      {
+        "column": "Hugging Face developer id",
+        "non_null": 609,
+        "pct_missing": 81.19
+      },
+      {
+        "column": "Base model",
+        "non_null": 672,
+        "pct_missing": 79.24
+      },
+      {
+        "column": "Training power draw (W)",
+        "non_null": 765,
+        "pct_missing": 76.37
+      },
+      {
+        "column": "Epochs",
+        "non_null": 791,
+        "pct_missing": 75.56
+      },
+      {
+        "column": "Notability criteria notes",
+        "non_null": 793,
+        "pct_missing": 75.5
+      },
+      {
+        "column": "Hardware quantity",
+        "non_null": 837,
+        "pct_missing": 74.14
+      },
+      {
+        "column": "Notability criteria",
+        "non_null": 932,
+        "pct_missing": 71.21
+      },
+      {
+        "column": "Training hardware",
+        "non_null": 1163,
+        "pct_missing": 64.07
+      },
+      {
+        "column": "Citations",
+        "non_null": 1270,
+        "pct_missing": 60.77
+      },
+      {
+        "column": "Training dataset size (total)",
+        "non_null": 1323,
+        "pct_missing": 59.13
+      },
+      {
+        "column": "Training compute (FLOP)",
+        "non_null": 1379,
+        "pct_missing": 57.4
+      },
+      {
+        "column": "Training compute estimation method",
+        "non_null": 1438,
+        "pct_missing": 55.58
+      },
+      {
+        "column": "Training compute notes",
+        "non_null": 1613,
+        "pct_missing": 50.17
+      }
+    ],
+    "total_rows": 3237
+  },
+  "column_classification": {
+    "dimensions": [
+      "Domain",
+      "Task",
+      "Organization",
+      "Country (of organization)",
+      "Confidence",
+      "Model accessibility",
+      "Organization categorization",
+      "Frontier model",
+      "Open model weights?",
+      "Approach",
+      "Training hardware",
+      "Numerical format"
+    ],
+    "measures": [
+      "Parameters",
+      "Training compute (FLOP)",
+      "Training dataset size (total)",
+      "Training time (hours)",
+      "Training compute cost (2023 USD)",
+      "Epochs",
+      "Hardware quantity",
+      "Citations",
+      "Hardware utilization (MFU)",
+      "Hardware utilization (HFU)",
+      "Training power draw (W)"
+    ],
+    "other": [
+      "Model",
+      "Authors",
+      "Publication date",
+      "Reference",
+      "Link",
+      "Notability criteria",
+      "Notability criteria notes",
+      "Parameters notes",
+      "Training compute notes",
+      "Dataset size notes",
+      "Training time notes",
+      "Abstract",
+      "WikiText and Penn Treebank data",
+      "Base model",
+      "Finetune compute (FLOP)",
+      "Finetune compute notes",
+      "Last modified",
+      "Training cloud compute vendor",
+      "Training data center",
+      "Archived links",
+      "Batch size",
+      "Batch size notes",
+      "Foundation model",
+      "Training compute lower bound",
+      "Training compute upper bound",
+      "Training chip-hours",
+      "Training code accessibility",
+      "Accessibility notes",
+      "Possibly over 1e23 FLOP",
+      "Utilization notes",
+      "Training compute estimation method",
+      "Hugging Face developer id",
+      "Post-training compute (FLOP)",
+      "Post-training compute notes"
+    ]
+  },
+  "descriptive_stats": {
+    "Parameters": {
+      "count": 2091,
+      "mean": 105824832119.07986,
+      "median": 3000000000.0,
+      "std": 2220053872571.7983,
+      "min": 10.0,
+      "max": 100000000000000.0,
+      "skewness": 43.75245998259854,
+      "kurtosis": 1964.5980792873627,
+      "log_mean": 9.107742394955444,
+      "log_std": 1.7225732724238298
+    },
+    "Training compute (FLOP)": {
+      "count": 1379,
+      "mean": 1.6371605117402114e+24,
+      "median": 3.456e+21,
+      "std": 1.967675378079012e+25,
+      "min": 40.0,
+      "max": 5.0000000000001e+26,
+      "skewness": 21.076417053499735,
+      "kurtosis": 468.34381796645243,
+      "log_mean": 20.67537338871946,
+      "log_std": 3.4353046567394916
+    },
+    "Training dataset size (total)": {
+      "count": 1299,
+      "mean": 2654260193336.0405,
+      "median": 3300000000.0,
+      "std": 24222474290601.906,
+      "min": 0.0,
+      "max": 798720000000000.0,
+      "skewness": 28.121500298422625,
+      "kurtosis": 903.8133276576438,
+      "log_mean": 9.12192553348049,
+      "log_std": 2.9096466790548616
+    },
+    "Training time (hours)": {
+      "count": 547,
+      "mean": 457.3699850551316,
+      "median": 144.0,
+      "std": 878.8935843918574,
+      "min": 0.1,
+      "max": 9022.8,
+      "skewness": 4.721386727762703,
+      "kurtosis": 31.373336045426154,
+      "log_mean": 2.0782832189793035,
+      "log_std": 0.8400218720606423
+    },
+    "Training compute cost (2023 USD)": {
+      "count": 224,
+      "mean": 6015289.650075438,
+      "median": 27006.493753904277,
+      "std": 37626531.091539465,
+      "min": 3.9045853984413377,
+      "max": 387842678.0863615,
+      "skewness": 8.715376297782646,
+      "kurtosis": 79.03980717360798,
+      "log_mean": 4.3891037632384435,
+      "log_std": 1.6566192312426986
+    },
+    "Epochs": {
+      "count": 791,
+      "mean": 561.7355118186083,
+      "median": 15.0,
+      "std": 7265.298558088937,
+      "min": 0.0,
+      "max": 191400.0,
+      "skewness": 23.818581663088136,
+      "kurtosis": 610.3478198323977,
+      "log_mean": 1.2294358598706736,
+      "log_std": 1.0479339037304356
+    },
+    "Hardware quantity": {
+      "count": 837,
+      "mean": 975.2114695340501,
+      "median": 32.0,
+      "std": 7990.3307334021265,
+      "min": 1.0,
+      "max": 200000.0,
+      "skewness": 20.27392110121612,
+      "kurtosis": 475.69600333166477,
+      "log_mean": 1.5600819952144067,
+      "log_std": 1.099898571646091
+    },
+    "Citations": {
+      "count": 1270,
+      "mean": 4147.406299212598,
+      "median": 409.0,
+      "std": 14666.204339380649,
+      "min": 0.0,
+      "max": 215518.0,
+      "skewness": 8.714643203917841,
+      "kurtosis": 98.30320588995632,
+      "log_mean": 2.5931527292852463,
+      "log_std": 1.0731789075945306
+    },
+    "Hardware utilization (MFU)": {
+      "count": 61,
+      "mean": 0.3715364918406614,
+      "median": 0.3649,
+      "std": 0.11102831508559478,
+      "min": 0.171,
+      "max": 0.56,
+      "skewness": 0.07485165459880277,
+      "kurtosis": -0.9048127926375993,
+      "log_mean": -0.45081445055158875,
+      "log_std": 0.1394192162807088
+    },
+    "Hardware utilization (HFU)": {
+      "count": 25,
+      "mean": 0.49087564066800005,
+      "median": 0.4935,
+      "std": 0.14884126621502244,
+      "min": 0.2359,
+      "max": 0.927,
+      "skewness": 0.7833452992432776,
+      "kurtosis": 1.8670108512384669,
+      "log_mean": -0.3282487922915378,
+      "log_std": 0.13360749371927486
+    },
+    "Training power draw (W)": {
+      "count": 765,
+      "mean": 771924.1771794849,
+      "median": 25517.991793685986,
+      "std": 4887625.594050905,
+      "min": 75.82593457631364,
+      "max": 109948656.20196916,
+      "skewness": 16.553558445539636,
+      "kurtosis": 339.5570857948486,
+      "log_mean": 4.416124581709285,
+      "log_std": 1.1942231919100785
+    }
+  },
+  "frequency_tables": {
+    "top_15_organizations": {
+      "OpenAI": 108,
+      "Google DeepMind": 93,
+      "Alibaba": 93,
+      "Google": 79,
+      "Meta AI": 67,
+      "NVIDIA": 63,
+      "Microsoft": 45,
+      "DeepMind": 43,
+      "ByteDance": 36,
+      "DeepSeek": 31,
+      "Mistral AI": 30,
+      "Stanford University": 29,
+      "Facebook AI Research": 26,
+      "Stability AI": 26,
+      "IBM": 24
+    },
+    "domain_breakdown": {
+      "Language": 1415,
+      "Biology": 375,
+      "Vision": 270,
+      "Image generation": 161,
+      "Speech": 121,
+      "Multimodal,Language,Vision": 68,
+      "Video": 55,
+      "Games": 50,
+      "Language,Vision,Multimodal": 45,
+      "Robotics": 39,
+      "Video,Vision": 36,
+      "Other": 29,
+      "Multimodal,Vision,Language": 25,
+      "Audio": 22,
+      "Recommendation": 21,
+      "Materials science": 16,
+      "Multimodal,Language,Vision,Video": 16,
+      "Earth science": 15,
+      "Vision,Image generation": 15,
+      "3D modeling": 14,
+      "Image generation,Vision": 13,
+      "Language,Multimodal,Vision": 12,
+      "Vision,Language": 11,
+      "Mathematics,Language": 10,
+      "Mathematics": 10,
+      "Vision,Multimodal,Language": 8,
+      "Language,Medicine": 8,
+      "Vision,Medicine": 7,
+      "Vision,Language,Multimodal": 7,
+      "Language,Biology": 6,
+      "Robotics,Vision,Language": 6,
+      "Driving": 6,
+      "Multimodal,Language,Vision,Speech,Video": 5,
+      "Multimodal,Vision,Language,Video": 5,
+      "Video,Vision,Robotics": 5,
+      "Multimodal,Language,Vision,Speech": 5,
+      "Multimodal,Language,Video,Vision": 5,
+      "Robotics,Vision": 5,
+      "Multimodal,Language,Audio,Speech,Vision": 5,
+      "Medicine": 5,
+      "Language,Vision,Video,Multimodal,Speech": 4,
+      "Language,Vision": 4,
+      "Multimodal,Language,Vision,Video,Speech": 4,
+      "Multimodal,Language,Vision,Image generation": 4,
+      "Audio,Speech": 4,
+      "Language,Speech": 4,
+      "Multimodal,Language,Vision,Audio": 4,
+      "Language,Multimodal": 3,
+      "Vision,Biology,Medicine": 3,
+      "Vision,Language,Multimodal,Video": 3,
+      "Medicine,Language": 3,
+      "Language,Mathematics": 3,
+      "Robotics,Vision,Video": 3,
+      "Video,Language,Multimodal": 3,
+      "Multimodal,Video,Language": 3,
+      "Multimodal,Language": 3,
+      "3D modeling,Vision": 3,
+      "Medicine,Vision": 3,
+      "Image generation,Video": 2,
+      "Video,Image generation": 2,
+      "Games,Video,3D modeling": 2,
+      "Speech,Language": 2,
+      "Language,Vision,Video,Speech,Multimodal": 2,
+      "Vision,Multimodal,Language,Video": 2,
+      "Language,Multimodal,Speech,Vision": 2,
+      "Multimodal,Language,Vision,Robotics,Video": 2,
+      "Vision,Robotics,Language": 2,
+      "Video,Vision,Multimodal,Language": 2,
+      "Multimodal,Language,Vision,Video,Audio,Speech": 2,
+      "Vision,Video,3D modeling": 2,
+      "Language,Mathematics,Multimodal": 2,
+      "Robotics,Vision,Speech": 2,
+      "Video,Audio": 2,
+      "Image generation,Vision,Language,Multimodal": 2,
+      "Video,Image generation,Vision,3D modeling": 2,
+      "Multimodal": 2,
+      "Multimodal,Language,Audio": 2,
+      "Biology,Vision": 2,
+      "Biology,Materials science": 2,
+      "Vision,Language,Video": 2,
+      "Vision,Video": 2,
+      "Search": 2,
+      "Multimodal,Vision,Language,Image generation": 2,
+      "Biology,Language": 2,
+      "Video,Multimodal,Image generation,Vision,Language,Speech": 1,
+      "Vision,Language,Speech": 1,
+      "Speech,Vision,Language": 1,
+      "Video,Speech": 1,
+      "Language,Multimodal,Vision,Video,Audio,Mathematics": 1,
+      "Multimodal,Vision,Video,Speech,Language": 1,
+      "Vision,Video,Robotics": 1,
+      "Materials science,Language": 1,
+      "Medicine,Language,Vision,Multimodal": 1,
+      "Earth science,Image generation": 1,
+      "Language,Multimodal,Vision,Speech,Video": 1,
+      "Earth science,Vision": 1,
+      "Multimodal,Language,Speech": 1,
+      "Speech,Language,Multimodal,Vision": 1,
+      "Video,Vision,Audio": 1,
+      "Multimodal,Language,Speech,Vision,Video,Audio": 1,
+      "Language,Vision,3D modeling": 1,
+      "3D modeling,Driving": 1,
+      "Language,Psychology": 1,
+      "Audio,Language,Speech,Multimodal": 1,
+      "Language,Vision,Audio,Speech,Video,Multimodal": 1,
+      "Language,Multimodal,Vision,Video,Audio": 1,
+      "Astronomy": 1,
+      "Video,Multimodal,Image generation,Vision,Language": 1,
+      "Language,Vision,Multimodal,Audio,Speech,Video": 1,
+      "Multimodal,Vision,3D modeling,Video,Language": 1,
+      "Robotics,Video": 1,
+      "Language,Mathematics,Biology": 1,
+      "Multimodal,Language,Speech,Vision,Video": 1,
+      "Vision,Medicine,Language,Multimodal": 1,
+      "Biology,Vision,Medicine": 1,
+      "Multimodal,Video,Vision,Language": 1,
+      "Robotics,Multimodal": 1,
+      "Image generation,Video,3D modeling": 1,
+      "Medicine,Vision,Image generation": 1,
+      "Language,Cybersecurity": 1,
+      "Multimodal,Image generation,Language,Vision": 1,
+      "Multimodal,Image generation,Vision,Language": 1,
+      "Language,Audio,Speech": 1,
+      "Psychology,Language": 1,
+      "Medicine,Biology": 1,
+      "Medicine,Vision,Video,Language,Multimodal": 1,
+      "Multimodal,Psychology": 1,
+      "Games,Video": 1,
+      "Driving,Vision,Language,Video": 1,
+      "Games,Language": 1,
+      "Vision,3D modeling": 1,
+      "Multimodal,Language,Video,Vision,Speech": 1,
+      "Vision,Video,Multimodal,Language": 1,
+      "Video,Games": 1,
+      "Multimodal,Recommendation,Language": 1,
+      "Multimodal,Language,Image generation,Speech": 1,
+      "Language,Multimodal,Image generation": 1,
+      "Robotics,Multimodal,Language,3D modeling": 1,
+      "Video,Language,Audio": 1,
+      "Language,Search": 1,
+      "Speech,Multimodal,Language": 1,
+      "Language,Speech,Audio": 1,
+      "Multimodal,Vision,Speech,Language,Video,3D modeling": 1,
+      "Multimodal,Video,Language,Vision": 1,
+      "Multimodal,Language,Video,Image generation": 1,
+      "Language,Image generation": 1,
+      "Language,Image generation,Multimodal": 1,
+      "Multimodal,Language,Image generation": 1,
+      "Multimodal,Image generation,Language,Biology,Vision": 1,
+      "Multimodal,Language,Image generation,Vision": 1,
+      "Language,Vision,Medicine": 1,
+      "Multimodal,Vision,Speech,Language": 1,
+      "Language,Recommendation": 1,
+      "Multimodal,Vision,Audio,Language,Image generation,Speech": 1,
+      "Language,Multimodal,Speech": 1,
+      "Multimodal,Language,Video,Image generation,Audio": 1,
+      "Video,Robotics,Vision": 1,
+      "Other,Games,Mathematics": 1,
+      "Speech,Audio": 1,
+      "Multimodal,Robotics,Games,Language": 1,
+      "Multimodal,Vision,Image generation,Video,Language": 1,
+      "Search,Language": 1,
+      "Multimodal,Speech,Vision,Language": 1,
+      "Language,Multimodal,Video,Image generation": 1,
+      "Biology,Vision,Language,Medicine": 1,
+      "Vision,Search": 1,
+      "Vision,Games": 1,
+      "Other,Language": 1,
+      "Vision,Robotics,Driving": 1,
+      "Recommendation,Search": 1,
+      "Robotics,Games": 1,
+      "Mathematics,Biology": 1
+    },
+    "task_breakdown_top20": {
+      "Language modeling": 274,
+      "Language modeling/generation": 147,
+      "Language modeling/generation,Question answering": 145,
+      "Image classification": 107,
+      "Image generation,Text-to-image": 67,
+      "Image generation": 60,
+      "Protein or nucleotide language model (pLM/nLM)": 52,
+      "Speech recognition (ASR)": 41,
+      "Code generation": 40,
+      "Chat": 39,
+      "Drug discovery": 31,
+      "Protein design": 30,
+      "Video generation,Text-to-video": 28,
+      "Object detection": 28,
+      "Language modeling/generation,Chat": 27,
+      "Text-to-image,Image generation": 27,
+      "Text-to-speech (TTS),Speech synthesis": 26,
+      "Translation": 26,
+      "Robotic manipulation": 25,
+      "Video generation,Text-to-video,Image-to-video": 24
+    },
+    "country_breakdown": {
+      "United States of America": 1041,
+      "China": 538,
+      "United States of America,United States of America": 199,
+      "United Kingdom of Great Britain and Northern Ireland": 127,
+      "China,China": 67,
+      "Korea (Republic of)": 59,
+      "Canada": 56,
+      "United States of America,United States of America,United States of America": 55,
+      "France": 43,
+      "China,China,China": 40,
+      "Germany": 37,
+      "United States of America,France": 35,
+      "Japan": 33,
+      "Russia": 27,
+      "Hong Kong": 20
+    },
+    "confidence_breakdown": {
+      "Confident": 1777,
+      "Unknown": 791,
+      "Likely": 475,
+      "Speculative": 194
+    },
+    "model_accessibility": {
+      "Open weights (unrestricted)": 764,
+      "Unreleased": 764,
+      "API access": 349,
+      "Open weights (restricted use)": 280,
+      "Open weights (non-commercial)": 216,
+      "Hosted access (no API)": 115
+    }
+  },
+  "temporal_profile": {
+    "models_per_year": {
+      "1950": 1,
+      "1954": 1,
+      "1955": 1,
+      "1957": 1,
+      "1959": 2,
+      "1960": 2,
+      "1961": 1,
+      "1962": 2,
+      "1963": 3,
+      "1965": 1,
+      "1966": 1,
+      "1968": 2,
+      "1969": 1,
+      "1970": 1,
+      "1972": 1,
+      "1973": 1,
+      "1975": 1,
+      "1976": 2,
+      "1980": 1,
+      "1983": 1,
+      "1984": 2,
+      "1986": 5,
+      "1987": 3,
+      "1988": 3,
+      "1989": 10,
+      "1990": 6,
+      "1991": 1,
+      "1992": 5,
+      "1993": 4,
+      "1994": 5,
+      "1995": 2,
+      "1996": 3,
+      "1997": 4,
+      "1998": 1,
+      "1999": 4,
+      "2000": 3,
+      "2001": 4,
+      "2002": 3,
+      "2003": 7,
+      "2004": 5,
+      "2005": 5,
+      "2006": 11,
+      "2007": 6,
+      "2008": 9,
+      "2009": 14,
+      "2010": 16,
+      "2011": 13,
+      "2012": 18,
+      "2013": 24,
+      "2014": 35,
+      "2015": 36,
+      "2016": 83,
+      "2017": 79,
+      "2018": 87,
+      "2019": 145,
+      "2020": 112,
+      "2021": 198,
+      "2022": 217,
+      "2023": 520,
+      "2024": 946,
+      "2025": 538
+    },
+    "column_coverage_by_year": {
+      "Parameters": {
+        "1950": 100.0,
+        "1954": 0.0,
+        "1955": 0.0,
+        "1957": 100.0,
+        "1959": 50.0,
+        "1960": 100.0,
+        "1961": 0.0,
+        "1962": 0.0,
+        "1963": 0.0,
+        "1965": 0.0,
+        "1966": 100.0,
+        "1968": 0.0,
+        "1969": 100.0,
+        "1970": 0.0,
+        "1972": 0.0,
+        "1973": 100.0,
+        "1975": 100.0,
+        "1976": 0.0,
+        "1980": 100.0,
+        "1983": 100.0,
+        "1984": 50.0,
+        "1986": 40.0,
+        "1987": 100.0,
+        "1988": 33.3,
+        "1989": 60.0,
+        "1990": 83.3,
+        "1991": 100.0,
+        "1992": 80.0,
+        "1993": 50.0,
+        "1994": 100.0,
+        "1995": 50.0,
+        "1996": 66.7,
+        "1997": 75.0,
+        "1998": 100.0,
+        "1999": 75.0,
+        "2000": 66.7,
+        "2001": 25.0,
+        "2002": 0.0,
+        "2003": 42.9,
+        "2004": 60.0,
+        "2005": 80.0,
+        "2006": 18.2,
+        "2007": 33.3,
+        "2008": 44.4,
+        "2009": 71.4,
+        "2010": 56.2,
+        "2011": 46.2,
+        "2012": 55.6,
+        "2013": 50.0,
+        "2014": 51.4,
+        "2015": 58.3,
+        "2016": 47.0,
+        "2017": 45.6,
+        "2018": 71.3,
+        "2019": 74.5,
+        "2020": 78.6,
+        "2021": 85.4,
+        "2022": 73.7,
+        "2023": 74.2,
+        "2024": 58.1,
+        "2025": 62.3
+      },
+      "Training compute (FLOP)": {
+        "1950": 100.0,
+        "1954": 0.0,
+        "1955": 0.0,
+        "1957": 100.0,
+        "1959": 100.0,
+        "1960": 100.0,
+        "1961": 0.0,
+        "1962": 50.0,
+        "1963": 33.3,
+        "1965": 100.0,
+        "1966": 100.0,
+        "1968": 0.0,
+        "1969": 0.0,
+        "1970": 0.0,
+        "1972": 0.0,
+        "1973": 0.0,
+        "1975": 100.0,
+        "1976": 0.0,
+        "1980": 100.0,
+        "1983": 100.0,
+        "1984": 0.0,
+        "1986": 40.0,
+        "1987": 100.0,
+        "1988": 33.3,
+        "1989": 60.0,
+        "1990": 50.0,
+        "1991": 100.0,
+        "1992": 60.0,
+        "1993": 75.0,
+        "1994": 100.0,
+        "1995": 50.0,
+        "1996": 66.7,
+        "1997": 50.0,
+        "1998": 100.0,
+        "1999": 75.0,
+        "2000": 66.7,
+        "2001": 25.0,
+        "2002": 0.0,
+        "2003": 28.6,
+        "2004": 60.0,
+        "2005": 60.0,
+        "2006": 27.3,
+        "2007": 33.3,
+        "2008": 11.1,
+        "2009": 57.1,
+        "2010": 56.2,
+        "2011": 38.5,
+        "2012": 55.6,
+        "2013": 54.2,
+        "2014": 42.9,
+        "2015": 38.9,
+        "2016": 32.5,
+        "2017": 36.7,
+        "2018": 58.6,
+        "2019": 56.6,
+        "2020": 68.8,
+        "2021": 70.2,
+        "2022": 59.9,
+        "2023": 44.0,
+        "2024": 32.8,
+        "2025": 30.7
+      },
+      "Training dataset size (total)": {
+        "1950": 100.0,
+        "1954": 0.0,
+        "1955": 0.0,
+        "1957": 100.0,
+        "1959": 0.0,
+        "1960": 100.0,
+        "1961": 0.0,
+        "1962": 100.0,
+        "1963": 0.0,
+        "1965": 0.0,
+        "1966": 100.0,
+        "1968": 50.0,
+        "1969": 0.0,
+        "1970": 0.0,
+        "1972": 0.0,
+        "1973": 100.0,
+        "1975": 100.0,
+        "1976": 50.0,
+        "1980": 100.0,
+        "1983": 100.0,
+        "1984": 50.0,
+        "1986": 80.0,
+        "1987": 100.0,
+        "1988": 33.3,
+        "1989": 80.0,
+        "1990": 100.0,
+        "1991": 100.0,
+        "1992": 100.0,
+        "1993": 50.0,
+        "1994": 100.0,
+        "1995": 50.0,
+        "1996": 100.0,
+        "1997": 50.0,
+        "1998": 100.0,
+        "1999": 75.0,
+        "2000": 100.0,
+        "2001": 50.0,
+        "2002": 33.3,
+        "2003": 42.9,
+        "2004": 40.0,
+        "2005": 60.0,
+        "2006": 54.5,
+        "2007": 100.0,
+        "2008": 66.7,
+        "2009": 71.4,
+        "2010": 81.2,
+        "2011": 84.6,
+        "2012": 72.2,
+        "2013": 83.3,
+        "2014": 71.4,
+        "2015": 69.4,
+        "2016": 61.4,
+        "2017": 67.1,
+        "2018": 64.4,
+        "2019": 61.4,
+        "2020": 68.8,
+        "2021": 54.0,
+        "2022": 65.4,
+        "2023": 40.2,
+        "2024": 23.6,
+        "2025": 20.1
+      },
+      "Training time (hours)": {
+        "1950": 0.0,
+        "1954": 0.0,
+        "1955": 0.0,
+        "1957": 0.0,
+        "1959": 0.0,
+        "1960": 0.0,
+        "1961": 0.0,
+        "1962": 50.0,
+        "1963": 33.3,
+        "1965": 100.0,
+        "1966": 0.0,
+        "1968": 0.0,
+        "1969": 0.0,
+        "1970": 0.0,
+        "1972": 0.0,
+        "1973": 0.0,
+        "1975": 0.0,
+        "1976": 0.0,
+        "1980": 0.0,
+        "1983": 100.0,
+        "1984": 0.0,
+        "1986": 0.0,
+        "1987": 0.0,
+        "1988": 33.3,
+        "1989": 20.0,
+        "1990": 16.7,
+        "1991": 0.0,
+        "1992": 0.0,
+        "1993": 50.0,
+        "1994": 20.0,
+        "1995": 0.0,
+        "1996": 0.0,
+        "1997": 0.0,
+        "1998": 0.0,
+        "1999": 0.0,
+        "2000": 0.0,
+        "2001": 0.0,
+        "2002": 0.0,
+        "2003": 0.0,
+        "2004": 20.0,
+        "2005": 60.0,
+        "2006": 18.2,
+        "2007": 50.0,
+        "2008": 11.1,
+        "2009": 0.0,
+        "2010": 37.5,
+        "2011": 30.8,
+        "2012": 33.3,
+        "2013": 37.5,
+        "2014": 22.9,
+        "2015": 22.2,
+        "2016": 12.0,
+        "2017": 12.7,
+        "2018": 28.7,
+        "2019": 22.8,
+        "2020": 25.9,
+        "2021": 28.8,
+        "2022": 32.3,
+        "2023": 19.6,
+        "2024": 11.7,
+        "2025": 7.1
+      },
+      "Training compute cost (2023 USD)": {
+        "1950": 0.0,
+        "1954": 0.0,
+        "1955": 0.0,
+        "1957": 0.0,
+        "1959": 0.0,
+        "1960": 0.0,
+        "1961": 0.0,
+        "1962": 0.0,
+        "1963": 0.0,
+        "1965": 0.0,
+        "1966": 0.0,
+        "1968": 0.0,
+        "1969": 0.0,
+        "1970": 0.0,
+        "1972": 0.0,
+        "1973": 0.0,
+        "1975": 0.0,
+        "1976": 0.0,
+        "1980": 0.0,
+        "1983": 0.0,
+        "1984": 0.0,
+        "1986": 0.0,
+        "1987": 0.0,
+        "1988": 0.0,
+        "1989": 0.0,
+        "1990": 0.0,
+        "1991": 0.0,
+        "1992": 0.0,
+        "1993": 0.0,
+        "1994": 0.0,
+        "1995": 0.0,
+        "1996": 0.0,
+        "1997": 0.0,
+        "1998": 0.0,
+        "1999": 0.0,
+        "2000": 0.0,
+        "2001": 0.0,
+        "2002": 0.0,
+        "2003": 0.0,
+        "2004": 0.0,
+        "2005": 0.0,
+        "2006": 0.0,
+        "2007": 0.0,
+        "2008": 0.0,
+        "2009": 0.0,
+        "2010": 0.0,
+        "2011": 0.0,
+        "2012": 22.2,
+        "2013": 12.5,
+        "2014": 5.7,
+        "2015": 11.1,
+        "2016": 8.4,
+        "2017": 7.6,
+        "2018": 13.8,
+        "2019": 15.2,
+        "2020": 24.1,
+        "2021": 21.2,
+        "2022": 14.7,
+        "2023": 8.7,
+        "2024": 1.0,
+        "2025": 1.7
+      }
+    }
+  },
+  "cross_file": {
+    "shared_columns": [
+      "Abstract",
+      "Accessibility notes",
+      "Authors",
+      "Base model",
+      "Citations",
+      "Confidence",
+      "Country (of organization)",
+      "Dataset size notes",
+      "Domain",
+      "Finetune compute (FLOP)",
+      "Finetune compute notes",
+      "Hardware quantity",
+      "Hardware utilization (HFU)",
+      "Hardware utilization (MFU)",
+      "Link",
+      "Model",
+      "Model accessibility",
+      "Organization",
+      "Parameters",
+      "Parameters notes",
+      "Publication date",
+      "Reference",
+      "Task",
+      "Training code accessibility",
+      "Training compute (FLOP)",
+      "Training compute notes",
+      "Training hardware",
+      "Training time (hours)",
+      "Training time notes"
+    ],
+    "shared_column_count": 29,
+    "union_column_count": 74,
+    "unique_columns_per_file": {
+      "all_ai_models": [
+        "Approach",
+        "Archived links",
+        "Foundation model",
+        "Hugging Face developer id",
+        "Last modified",
+        "Possibly over 1e23 FLOP",
+        "Training cloud compute vendor",
+        "Training compute lower bound",
+        "Training compute upper bound",
+        "WikiText and Penn Treebank data"
+      ],
+      "frontier_ai_models": [
+        "API prices",
+        "Base model compute",
+        "Estimated over 1e25 FLOP",
+        "FLOP/$",
+        "Hardware release date",
+        "Maybe over 1e25 FLOP",
+        "Model versions (benchmarks)",
+        "Power per GPU",
+        "Training dataset size"
+      ],
+      "large_scale_ai_models": [
+        "(DEPRECATED) Training dataset size (datapoints)"
+      ],
+      "notable_ai_models": [
+        "Hardware acquisition cost"
+      ]
+    },
+    "model_overlap": {
+      "all_ai_models & frontier_ai_models": 137,
+      "all_ai_models & large_scale_ai_models": 483,
+      "all_ai_models & notable_ai_models": 906,
+      "frontier_ai_models & large_scale_ai_models": 37,
+      "frontier_ai_models & notable_ai_models": 123,
+      "large_scale_ai_models & notable_ai_models": 157
+    },
+    "model_counts": {
+      "all_ai_models": 3222,
+      "frontier_ai_models": 137,
+      "large_scale_ai_models": 491,
+      "notable_ai_models": 981
+    }
+  },
+  "correlation_matrix": {
+    "Parameters": {
+      "Parameters": 1.0,
+      "Training compute (FLOP)": 0.89,
+      "Training dataset size (total)": 0.789,
+      "Training time (hours)": 0.392,
+      "Training compute cost (2023 USD)": 0.742,
+      "Epochs": -0.678,
+      "Hardware quantity": 0.645,
+      "Citations": -0.031,
+      "Hardware utilization (MFU)": -0.218,
+      "Hardware utilization (HFU)": -0.114,
+      "Training power draw (W)": 0.663
+    },
+    "Training compute (FLOP)": {
+      "Parameters": 0.89,
+      "Training compute (FLOP)": 1.0,
+      "Training dataset size (total)": 0.859,
+      "Training time (hours)": 0.652,
+      "Training compute cost (2023 USD)": 0.933,
+      "Epochs": -0.609,
+      "Hardware quantity": 0.781,
+      "Citations": 0.002,
+      "Hardware utilization (MFU)": -0.028,
+      "Hardware utilization (HFU)": 0.131,
+      "Training power draw (W)": 0.815
+    },
+    "Training dataset size (total)": {
+      "Parameters": 0.789,
+      "Training compute (FLOP)": 0.859,
+      "Training dataset size (total)": 1.0,
+      "Training time (hours)": 0.639,
+      "Training compute cost (2023 USD)": 0.64,
+      "Epochs": -0.708,
+      "Hardware quantity": 0.739,
+      "Citations": 0.036,
+      "Hardware utilization (MFU)": 0.189,
+      "Hardware utilization (HFU)": 0.491,
+      "Training power draw (W)": 0.744
+    },
+    "Training time (hours)": {
+      "Parameters": 0.392,
+      "Training compute (FLOP)": 0.652,
+      "Training dataset size (total)": 0.639,
+      "Training time (hours)": 1.0,
+      "Training compute cost (2023 USD)": 0.668,
+      "Epochs": -0.268,
+      "Hardware quantity": 0.534,
+      "Citations": 0.2,
+      "Hardware utilization (MFU)": -0.035,
+      "Hardware utilization (HFU)": 0.397,
+      "Training power draw (W)": 0.514
+    },
+    "Training compute cost (2023 USD)": {
+      "Parameters": 0.742,
+      "Training compute (FLOP)": 0.933,
+      "Training dataset size (total)": 0.64,
+      "Training time (hours)": 0.668,
+      "Training compute cost (2023 USD)": 1.0,
+      "Epochs": -0.456,
+      "Hardware quantity": 0.866,
+      "Citations": -0.003,
+      "Hardware utilization (MFU)": -0.099,
+      "Hardware utilization (HFU)": 0.276,
+      "Training power draw (W)": 0.867
+    },
+    "Epochs": {
+      "Parameters": -0.678,
+      "Training compute (FLOP)": -0.609,
+      "Training dataset size (total)": -0.708,
+      "Training time (hours)": -0.268,
+      "Training compute cost (2023 USD)": -0.456,
+      "Epochs": 1.0,
+      "Hardware quantity": -0.499,
+      "Citations": -0.18,
+      "Hardware utilization (MFU)": -0.036,
+      "Hardware utilization (HFU)": -0.467,
+      "Training power draw (W)": -0.505
+    },
+    "Hardware quantity": {
+      "Parameters": 0.645,
+      "Training compute (FLOP)": 0.781,
+      "Training dataset size (total)": 0.739,
+      "Training time (hours)": 0.534,
+      "Training compute cost (2023 USD)": 0.866,
+      "Epochs": -0.499,
+      "Hardware quantity": 1.0,
+      "Citations": 0.381,
+      "Hardware utilization (MFU)": -0.002,
+      "Hardware utilization (HFU)": -0.135,
+      "Training power draw (W)": 0.988
+    },
+    "Citations": {
+      "Parameters": -0.031,
+      "Training compute (FLOP)": 0.002,
+      "Training dataset size (total)": 0.036,
+      "Training time (hours)": 0.2,
+      "Training compute cost (2023 USD)": -0.003,
+      "Epochs": -0.18,
+      "Hardware quantity": 0.381,
+      "Citations": 1.0,
+      "Hardware utilization (MFU)": -0.1,
+      "Hardware utilization (HFU)": -0.179,
+      "Training power draw (W)": 0.375
+    },
+    "Hardware utilization (MFU)": {
+      "Parameters": -0.218,
+      "Training compute (FLOP)": -0.028,
+      "Training dataset size (total)": 0.189,
+      "Training time (hours)": -0.035,
+      "Training compute cost (2023 USD)": -0.099,
+      "Epochs": -0.036,
+      "Hardware quantity": -0.002,
+      "Citations": -0.1,
+      "Hardware utilization (MFU)": 1.0,
+      "Hardware utilization (HFU)": 0.245,
+      "Training power draw (W)": -0.029
+    },
+    "Hardware utilization (HFU)": {
+      "Parameters": -0.114,
+      "Training compute (FLOP)": 0.131,
+      "Training dataset size (total)": 0.491,
+      "Training time (hours)": 0.397,
+      "Training compute cost (2023 USD)": 0.276,
+      "Epochs": -0.467,
+      "Hardware quantity": -0.135,
+      "Citations": -0.179,
+      "Hardware utilization (MFU)": 0.245,
+      "Hardware utilization (HFU)": 1.0,
+      "Training power draw (W)": -0.297
+    },
+    "Training power draw (W)": {
+      "Parameters": 0.663,
+      "Training compute (FLOP)": 0.815,
+      "Training dataset size (total)": 0.744,
+      "Training time (hours)": 0.514,
+      "Training compute cost (2023 USD)": 0.867,
+      "Epochs": -0.505,
+      "Hardware quantity": 0.988,
+      "Citations": 0.375,
+      "Hardware utilization (MFU)": -0.029,
+      "Hardware utilization (HFU)": -0.297,
+      "Training power draw (W)": 1.0
+    }
+  },
+  "cleaned_comparison": {
+    "shape": {
+      "all_ai_models_cleaned": {
+        "rows": 3305,
+        "columns": 76
+      }
+    },
+    "nullity": {
+      "per_column": [
+        {
+          "column": "Training compute cost (cloud)",
+          "non_null": 0,
+          "pct_missing": 100.0
+        },
+        {
+          "column": "Training compute cost (upfront)",
+          "non_null": 0,
+          "pct_missing": 100.0
+        },
+        {
+          "column": "(DEPRECATED) Training dataset size (datapoints)",
+          "non_null": 0,
+          "pct_missing": 100.0
+        },
+        {
+          "column": "Post-training compute (FLOP)",
+          "non_null": 1,
+          "pct_missing": 99.97
+        },
+        {
+          "column": "Post-training compute notes",
+          "non_null": 1,
+          "pct_missing": 99.97
+        },
+        {
+          "column": "Compute cost notes",
+          "non_null": 1,
+          "pct_missing": 99.97
+        },
+        {
+          "column": "Hardware acquisition cost",
+          "non_null": 3,
+          "pct_missing": 99.91
+        },
+        {
+          "column": "Training dataset notes",
+          "non_null": 6,
+          "pct_missing": 99.82
+        },
+        {
+          "column": "Inference code accessibility",
+          "non_null": 9,
+          "pct_missing": 99.73
+        },
+        {
+          "column": "Archived links",
+          "non_null": 22,
+          "pct_missing": 99.33
+        },
+        {
+          "column": "Hardware utilization (HFU)",
+          "non_null": 25,
+          "pct_missing": 99.24
+        },
+        {
+          "column": "Training compute lower bound",
+          "non_null": 26,
+          "pct_missing": 99.21
+        },
+        {
+          "column": "Training dataset",
+          "non_null": 35,
+          "pct_missing": 98.94
+        },
+        {
+          "column": "Training compute upper bound",
+          "non_null": 41,
+          "pct_missing": 98.76
+        },
+        {
+          "column": "Training cloud compute vendor",
+          "non_null": 53,
+          "pct_missing": 98.4
+        },
+        {
+          "column": "Hardware utilization (MFU)",
+          "non_null": 61,
+          "pct_missing": 98.15
+        },
+        {
+          "column": "Training data center",
+          "non_null": 66,
+          "pct_missing": 98.0
+        },
+        {
+          "column": "Foundation model",
+          "non_null": 76,
+          "pct_missing": 97.7
+        },
+        {
+          "column": "Utilization notes",
+          "non_null": 88,
+          "pct_missing": 97.34
+        },
+        {
+          "column": "Frontier model",
+          "non_null": 137,
+          "pct_missing": 95.85
+        },
+        {
+          "column": "Batch size notes",
+          "non_null": 197,
+          "pct_missing": 94.04
+        },
+        {
+          "column": "Training chip-hours",
+          "non_null": 215,
+          "pct_missing": 93.49
+        },
+        {
+          "column": "Training compute cost (2023 USD)",
+          "non_null": 224,
+          "pct_missing": 93.22
+        },
+        {
+          "column": "Batch size",
+          "non_null": 251,
+          "pct_missing": 92.41
+        },
+        {
+          "column": "Finetune compute (FLOP)",
+          "non_null": 259,
+          "pct_missing": 92.16
+        },
+        {
+          "column": "Finetune compute notes",
+          "non_null": 300,
+          "pct_missing": 90.92
+        },
+        {
+          "column": "Approach",
+          "non_null": 301,
+          "pct_missing": 90.89
+        },
+        {
+          "column": "WikiText and Penn Treebank data",
+          "non_null": 350,
+          "pct_missing": 89.41
+        },
+        {
+          "column": "Numerical format",
+          "non_null": 356,
+          "pct_missing": 89.23
+        },
+        {
+          "column": "Possibly over 1e23 FLOP",
+          "non_null": 501,
+          "pct_missing": 84.84
+        },
+        {
+          "column": "Training time (hours)",
+          "non_null": 549,
+          "pct_missing": 83.39
+        },
+        {
+          "column": "Training time notes",
+          "non_null": 602,
+          "pct_missing": 81.79
+        },
+        {
+          "column": "Hugging Face developer id",
+          "non_null": 608,
+          "pct_missing": 81.6
+        },
+        {
+          "column": "Base model",
+          "non_null": 672,
+          "pct_missing": 79.67
+        },
+        {
+          "column": "Training power draw (W)",
+          "non_null": 765,
+          "pct_missing": 76.85
+        },
+        {
+          "column": "Epochs",
+          "non_null": 797,
+          "pct_missing": 75.89
+        },
+        {
+          "column": "Notability criteria notes",
+          "non_null": 821,
+          "pct_missing": 75.16
+        },
+        {
+          "column": "Hardware quantity",
+          "non_null": 837,
+          "pct_missing": 74.67
+        },
+        {
+          "column": "Notability criteria",
+          "non_null": 1007,
+          "pct_missing": 69.53
+        },
+        {
+          "column": "Training hardware",
+          "non_null": 1170,
+          "pct_missing": 64.6
+        },
+        {
+          "column": "Citations",
+          "non_null": 1343,
+          "pct_missing": 59.36
+        },
+        {
+          "column": "Training dataset size (total)",
+          "non_null": 1349,
+          "pct_missing": 59.18
+        },
+        {
+          "column": "Training compute (FLOP)",
+          "non_null": 1385,
+          "pct_missing": 58.09
+        },
+        {
+          "column": "log_compute",
+          "non_null": 1385,
+          "pct_missing": 58.09
+        },
+        {
+          "column": "Training compute estimation method",
+          "non_null": 1438,
+          "pct_missing": 56.49
+        },
+        {
+          "column": "Training compute notes",
+          "non_null": 1610,
+          "pct_missing": 51.29
+        },
+        {
+          "column": "Dataset size notes",
+          "non_null": 1666,
+          "pct_missing": 49.59
+        },
+        {
+          "column": "Accessibility notes",
+          "non_null": 1681,
+          "pct_missing": 49.14
+        },
+        {
+          "column": "Parameters notes",
+          "non_null": 1779,
+          "pct_missing": 46.17
+        },
+        {
+          "column": "Parameters",
+          "non_null": 2151,
+          "pct_missing": 34.92
+        },
+        {
+          "column": "log_parameters",
+          "non_null": 2151,
+          "pct_missing": 34.92
+        },
+        {
+          "column": "Training code accessibility",
+          "non_null": 2321,
+          "pct_missing": 29.77
+        },
+        {
+          "column": "Open model weights?",
+          "non_null": 2512,
+          "pct_missing": 23.99
+        },
+        {
+          "column": "Model accessibility",
+          "non_null": 2519,
+          "pct_missing": 23.78
+        },
+        {
+          "column": "Authors",
+          "non_null": 2542,
+          "pct_missing": 23.09
+        },
+        {
+          "column": "Abstract",
+          "non_null": 2873,
+          "pct_missing": 13.07
+        },
+        {
+          "column": "Reference",
+          "non_null": 3158,
+          "pct_missing": 4.45
+        },
+        {
+          "column": "Task",
+          "non_null": 3201,
+          "pct_missing": 3.15
+        },
+        {
+          "column": "primary_task",
+          "non_null": 3201,
+          "pct_missing": 3.15
+        },
+        {
+          "column": "Organization categorization",
+          "non_null": 3205,
+          "pct_missing": 3.03
+        },
+        {
+          "column": "org_type",
+          "non_null": 3205,
+          "pct_missing": 3.03
+        },
+        {
+          "column": "Last modified",
+          "non_null": 3222,
+          "pct_missing": 2.51
+        },
+        {
+          "column": "Country (of organization)",
+          "non_null": 3225,
+          "pct_missing": 2.42
+        },
+        {
+          "column": "primary_country",
+          "non_null": 3225,
+          "pct_missing": 2.42
+        },
+        {
+          "column": "Confidence",
+          "non_null": 3229,
+          "pct_missing": 2.3
+        },
+        {
+          "column": "Organization",
+          "non_null": 3233,
+          "pct_missing": 2.18
+        },
+        {
+          "column": "Domain",
+          "non_null": 3235,
+          "pct_missing": 2.12
+        },
+        {
+          "column": "primary_domain",
+          "non_null": 3235,
+          "pct_missing": 2.12
+        },
+        {
+          "column": "Link",
+          "non_null": 3274,
+          "pct_missing": 0.94
+        },
+        {
+          "column": "Publication date",
+          "non_null": 3292,
+          "pct_missing": 0.39
+        },
+        {
+          "column": "year",
+          "non_null": 3292,
+          "pct_missing": 0.39
+        },
+        {
+          "column": "decade",
+          "non_null": 3292,
+          "pct_missing": 0.39
+        },
+        {
+          "column": "Model",
+          "non_null": 3305,
+          "pct_missing": 0.0
+        },
+        {
+          "column": "is_frontier",
+          "non_null": 3305,
+          "pct_missing": 0.0
+        },
+        {
+          "column": "is_notable",
+          "non_null": 3305,
+          "pct_missing": 0.0
+        },
+        {
+          "column": "is_open_weights",
+          "non_null": 3305,
+          "pct_missing": 0.0
+        }
+      ],
+      "worst_columns": [
+        {
+          "column": "Training compute cost (cloud)",
+          "non_null": 0,
+          "pct_missing": 100.0
+        },
+        {
+          "column": "Training compute cost (upfront)",
+          "non_null": 0,
+          "pct_missing": 100.0
+        },
+        {
+          "column": "(DEPRECATED) Training dataset size (datapoints)",
+          "non_null": 0,
+          "pct_missing": 100.0
+        },
+        {
+          "column": "Post-training compute (FLOP)",
+          "non_null": 1,
+          "pct_missing": 99.97
+        },
+        {
+          "column": "Post-training compute notes",
+          "non_null": 1,
+          "pct_missing": 99.97
+        },
+        {
+          "column": "Compute cost notes",
+          "non_null": 1,
+          "pct_missing": 99.97
+        },
+        {
+          "column": "Hardware acquisition cost",
+          "non_null": 3,
+          "pct_missing": 99.91
+        },
+        {
+          "column": "Training dataset notes",
+          "non_null": 6,
+          "pct_missing": 99.82
+        },
+        {
+          "column": "Inference code accessibility",
+          "non_null": 9,
+          "pct_missing": 99.73
+        },
+        {
+          "column": "Archived links",
+          "non_null": 22,
+          "pct_missing": 99.33
+        },
+        {
+          "column": "Hardware utilization (HFU)",
+          "non_null": 25,
+          "pct_missing": 99.24
+        },
+        {
+          "column": "Training compute lower bound",
+          "non_null": 26,
+          "pct_missing": 99.21
+        },
+        {
+          "column": "Training dataset",
+          "non_null": 35,
+          "pct_missing": 98.94
+        },
+        {
+          "column": "Training compute upper bound",
+          "non_null": 41,
+          "pct_missing": 98.76
+        },
+        {
+          "column": "Training cloud compute vendor",
+          "non_null": 53,
+          "pct_missing": 98.4
+        },
+        {
+          "column": "Hardware utilization (MFU)",
+          "non_null": 61,
+          "pct_missing": 98.15
+        },
+        {
+          "column": "Training data center",
+          "non_null": 66,
+          "pct_missing": 98.0
+        },
+        {
+          "column": "Foundation model",
+          "non_null": 76,
+          "pct_missing": 97.7
+        },
+        {
+          "column": "Utilization notes",
+          "non_null": 88,
+          "pct_missing": 97.34
+        },
+        {
+          "column": "Frontier model",
+          "non_null": 137,
+          "pct_missing": 95.85
+        },
+        {
+          "column": "Batch size notes",
+          "non_null": 197,
+          "pct_missing": 94.04
+        },
+        {
+          "column": "Training chip-hours",
+          "non_null": 215,
+          "pct_missing": 93.49
+        },
+        {
+          "column": "Training compute cost (2023 USD)",
+          "non_null": 224,
+          "pct_missing": 93.22
+        },
+        {
+          "column": "Batch size",
+          "non_null": 251,
+          "pct_missing": 92.41
+        },
+        {
+          "column": "Finetune compute (FLOP)",
+          "non_null": 259,
+          "pct_missing": 92.16
+        },
+        {
+          "column": "Finetune compute notes",
+          "non_null": 300,
+          "pct_missing": 90.92
+        },
+        {
+          "column": "Approach",
+          "non_null": 301,
+          "pct_missing": 90.89
+        },
+        {
+          "column": "WikiText and Penn Treebank data",
+          "non_null": 350,
+          "pct_missing": 89.41
+        },
+        {
+          "column": "Numerical format",
+          "non_null": 356,
+          "pct_missing": 89.23
+        },
+        {
+          "column": "Possibly over 1e23 FLOP",
+          "non_null": 501,
+          "pct_missing": 84.84
+        },
+        {
+          "column": "Training time (hours)",
+          "non_null": 549,
+          "pct_missing": 83.39
+        },
+        {
+          "column": "Training time notes",
+          "non_null": 602,
+          "pct_missing": 81.79
+        },
+        {
+          "column": "Hugging Face developer id",
+          "non_null": 608,
+          "pct_missing": 81.6
+        },
+        {
+          "column": "Base model",
+          "non_null": 672,
+          "pct_missing": 79.67
+        },
+        {
+          "column": "Training power draw (W)",
+          "non_null": 765,
+          "pct_missing": 76.85
+        },
+        {
+          "column": "Epochs",
+          "non_null": 797,
+          "pct_missing": 75.89
+        },
+        {
+          "column": "Notability criteria notes",
+          "non_null": 821,
+          "pct_missing": 75.16
+        },
+        {
+          "column": "Hardware quantity",
+          "non_null": 837,
+          "pct_missing": 74.67
+        },
+        {
+          "column": "Notability criteria",
+          "non_null": 1007,
+          "pct_missing": 69.53
+        },
+        {
+          "column": "Training hardware",
+          "non_null": 1170,
+          "pct_missing": 64.6
+        },
+        {
+          "column": "Citations",
+          "non_null": 1343,
+          "pct_missing": 59.36
+        },
+        {
+          "column": "Training dataset size (total)",
+          "non_null": 1349,
+          "pct_missing": 59.18
+        },
+        {
+          "column": "Training compute (FLOP)",
+          "non_null": 1385,
+          "pct_missing": 58.09
+        },
+        {
+          "column": "log_compute",
+          "non_null": 1385,
+          "pct_missing": 58.09
+        },
+        {
+          "column": "Training compute estimation method",
+          "non_null": 1438,
+          "pct_missing": 56.49
+        },
+        {
+          "column": "Training compute notes",
+          "non_null": 1610,
+          "pct_missing": 51.29
+        }
+      ],
+      "total_rows": 3305
+    },
+    "descriptive_stats": {
+      "Parameters": {
+        "count": 2151,
+        "mean": 104132008442.49744,
+        "median": 2900000000.0,
+        "std": 2189071482003.959,
+        "min": 10.0,
+        "max": 100000000000000.0,
+        "skewness": 44.36419449161258,
+        "kurtosis": 2020.2673337775677,
+        "log_mean": 9.057115631964232,
+        "log_std": 1.7611179785808528
+      },
+      "Training compute (FLOP)": {
+        "count": 1385,
+        "mean": 1.6423972285413365e+24,
+        "median": 3.676128e+21,
+        "std": 1.9634947760612086e+25,
+        "min": 40.0,
+        "max": 5.0000000000001e+26,
+        "skewness": 21.118458516912458,
+        "kurtosis": 470.2786041440241,
+        "log_mean": 20.690562027500032,
+        "log_std": 3.4357740525122407
+      },
+      "Training dataset size (total)": {
+        "count": 1349,
+        "mean": 2555983569586.5312,
+        "median": 2400000000.0,
+        "std": 23774281465250.613,
+        "min": 0.0,
+        "max": 798720000000000.0,
+        "skewness": 28.649648881358456,
+        "kurtosis": 938.2221239875776,
+        "log_mean": 9.034142890294826,
+        "log_std": 2.916409665619495
+      },
+      "Training time (hours)": {
+        "count": 549,
+        "mean": 456.1409505011967,
+        "median": 144.0,
+        "std": 877.5289449558874,
+        "min": 0.1,
+        "max": 9022.8,
+        "skewness": 4.730068823461567,
+        "kurtosis": 31.486910043558634,
+        "log_mean": 2.0781485656827616,
+        "log_std": 0.8385642154437689
+      },
+      "Training compute cost (2023 USD)": {
+        "count": 224,
+        "mean": 6015289.65007544,
+        "median": 27006.493753904277,
+        "std": 37626531.091539465,
+        "min": 3.9045853984413377,
+        "max": 387842678.0863615,
+        "skewness": 8.715376297782647,
+        "kurtosis": 79.03980717360801,
+        "log_mean": 4.3891037632384435,
+        "log_std": 1.6566192312426986
+      },
+      "Epochs": {
+        "count": 797,
+        "mean": 560.990953385846,
+        "median": 15.0,
+        "std": 7237.94166061141,
+        "min": 0.0,
+        "max": 191400.0,
+        "skewness": 23.907953451432896,
+        "kurtosis": 614.9546523960964,
+        "log_mean": 1.2373329606885222,
+        "log_std": 1.0501243104823117
+      },
+      "Hardware quantity": {
+        "count": 837,
+        "mean": 975.2114695340501,
+        "median": 32.0,
+        "std": 7990.330733402127,
+        "min": 1.0,
+        "max": 200000.0,
+        "skewness": 20.27392110121611,
+        "kurtosis": 475.6960033316646,
+        "log_mean": 1.5600819952144067,
+        "log_std": 1.099898571646091
+      },
+      "Citations": {
+        "count": 1343,
+        "mean": 4607.137006701415,
+        "median": 487.0,
+        "std": 15679.226181729036,
+        "min": 0.0,
+        "max": 215518.0,
+        "skewness": 8.559179395178376,
+        "kurtosis": 94.20568779176105,
+        "log_mean": 2.638878869076126,
+        "log_std": 1.0870757451175395
+      },
+      "Hardware utilization (MFU)": {
+        "count": 61,
+        "mean": 0.37153649184066134,
+        "median": 0.3649,
+        "std": 0.11102831508559477,
+        "min": 0.171,
+        "max": 0.56,
+        "skewness": 0.07485165459880437,
+        "kurtosis": -0.9048127926375984,
+        "log_mean": -0.45081445055158864,
+        "log_std": 0.13941921628070877
+      },
+      "Hardware utilization (HFU)": {
+        "count": 25,
+        "mean": 0.490875640668,
+        "median": 0.4935,
+        "std": 0.14884126621502244,
+        "min": 0.2359,
+        "max": 0.927,
+        "skewness": 0.7833452992432787,
+        "kurtosis": 1.8670108512384704,
+        "log_mean": -0.3282487922915378,
+        "log_std": 0.13360749371927486
+      },
+      "Training power draw (W)": {
+        "count": 765,
+        "mean": 771924.1771794851,
+        "median": 25517.991793685986,
+        "std": 4887625.594050905,
+        "min": 75.82593457631364,
+        "max": 109948656.20196916,
+        "skewness": 16.55355844553963,
+        "kurtosis": 339.55708579484843,
+        "log_mean": 4.416124581709285,
+        "log_std": 1.1942231919100788
+      }
+    }
+  }
+}

@@ -1,0 +1,723 @@
+Source,Target,Weight,Type
+GPT-4 (Mar 2023),GPT-4 (Jun 2023),1,Directed
+Llama 2-70B,Code Llama-70B,1,Directed
+RoBERTa Large,LUKE,1,Directed
+EXAONE 3.5 32B,EXAONE Deep 32B,1,Directed
+ViT-G/14,VideoMAE V2,1,Directed
+Llama 2-7B,OpenVLA,1,Directed
+Code Llama-34B,Llemma 34B,1,Directed
+Chinchilla,Flamingo,1,Directed
+Code Llama-7B,Llemma 7B,1,Directed
+PaLM (540B),Flan-PaLM 540B,1,Directed
+InternLM,InternLM-XComposer,1,Directed
+Vicuna-13B v0,LLaVA 1.5,1,Directed
+T5-11B,UnifiedQA,1,Directed
+ViT-Huge/14,Segment Anything Model,1,Directed
+Llama 2-13B,SPHINX (Llama 2 13B),1,Directed
+Qwen2-72B,NVLM-D 72B,1,Directed
+InternViT-6B,NVLM-D 72B,1,Directed
+Llama 2-13B,FinGPT-13B,1,Directed
+PaLM (540B),Minerva (540B),1,Directed
+Vicuna-13B v0,LLaVA,1,Directed
+Vicuna-13B v0,InstructBLIP,1,Directed
+LLaMA-65B,IDEFICS-80B,1,Directed
+CLIP ViT-H/14 - LAION-2B,IDEFICS-80B,1,Directed
+Eagle 2,GR00T N1 2B,1,Directed
+OPT-175B,OPT-IML (175B),1,Directed
+Qwen-14B,nekomata-14b,1,Directed
+LaMDA,FLAN 137B,1,Directed
+LLaVA 1.5,Volcano 13B,1,Directed
+Vicuna-13B v0,Ferret (13B),1,Directed
+PaLM (540B),U-PaLM (540B),1,Directed
+Gemma 2 9B,SEA-LION V3 Gemma2 9B,1,Directed
+Llama 2-70B,Meditron-70B,1,Directed
+Qwen2-72B,LLaVA-OV-72B,1,Directed
+Llama 3-8B,Llama SEA-LION V2 8B,1,Directed
+AlphaFold 2,AlphaFold-Multimer,1,Directed
+Transformer (Adaptive Input Embeddings) WT103,Decaying Fast Weights Transformer (WT-103),1,Directed
+ProtBERT-UniRef,PeptideBERT,1,Directed
+Llama 3.1-8B,SEA-LION V3 Llama3.1 8B,1,Directed
+GPT-2 (124M),GPT2+CoreLM+Fine-Tuning,1,Directed
+Llama 2-70B,TigerBot-70B,1,Directed
+DeepSeek LLM 7B,DeepSeek-VL-7B,1,Directed
+VILA1.5-13B,HAMSTER VLM,1,Directed
+OPT-175B,BlenderBot 3,1,Directed
+Qwen2-72B,NVLM-X 72B,1,Directed
+InternViT-6B,NVLM-X 72B,1,Directed
+Phi-4,Phi-4-Reasoning,1,Directed
+Stable Diffusion 1.2,Stable Diffusion (LDM-KL-8-G),1,Directed
+Mistral 7B,Bielik 7B,1,Directed
+Qwen2-72B,NVLM-H 72B,1,Directed
+InternViT-6B,NVLM-H 72B,1,Directed
+Llama 3.1-70B,SEA-LION V3 Llama3.1 70B,1,Directed
+VGG16,SAF R-CNN,1,Directed
+Llama 2-34B,Code Llama-34B,1,Directed
+DeepSeek-LLM-1.3b-base,DeepSeek-VL-1.3B,1,Directed
+Gemma 2 2B,PaliGemma 2 3B Mix 224,1,Directed
+SigLIP 400M,PaliGemma 2 3B Mix 224,1,Directed
+T5-11B,T0-XXL,1,Directed
+PaLM 2,FunSearch,1,Directed
+BLOOM-176B,BLUUMI,1,Directed
+Vicuna-7B v0,CogVLM-17B,1,Directed
+phi-3-mini 3.8B,phi-3.5-Vision,1,Directed
+InternViT-6B,InternVL,1,Directed
+LLaMA-7B,InternVL,1,Directed
+PaLM (540B),PaLM-SayCan,1,Directed
+DeepSeek-V2 (MoE-236B),DeepSeek-Coder-V2 236B,1,Directed
+Llama 2-7B,Llama Guard,1,Directed
+Llama 3-8B,P-LLama3,1,Directed
+Stable Video Diffusion,Diffusion Renderer,1,Directed
+Phi-4 Mini,Phi-4-Multimodal,1,Directed
+GPT-2 (124M),$\infty$-former (SM),1,Directed
+SigLIP 400M,VILA1.5-13B,1,Directed
+Vicuna-13B-v1.5,VILA1.5-13B,1,Directed
+Qwen2.5 Instruct (72B),s1,1,Directed
+Gemma 2 9B,TxGemma 9B,1,Directed
+Gemma 2 27B,TxGemma 27B,1,Directed
+Llama 3.1-8B,Llama 3.2 11B,1,Directed
+Llama 2-13B,VILA-13B,1,Directed
+CLIP (ViT L/14@336px),VILA-13B,1,Directed
+GPT-2 (124M),KnGPT2,1,Directed
+Stable Diffusion (LDM-KL-8-G),AR-LDM,1,Directed
+CLIP ViT-H/14 - LAION-2B,IDEFICS-9B,1,Directed
+LLaMA-7B,IDEFICS-9B,1,Directed
+Llama 3-70B,Llama-3-Taiwan-70B,1,Directed
+ViT-Huge/14,Masked Autoencoders ViT-H,1,Directed
+Llama 2-70B,Jais-70B,1,Directed
+Llama 2-70B,Tulu V2 DPO 70B,1,Directed
+Ling-flash-base-2.0-20T,Ring-flash-linear-2.0,1,Directed
+Ling-mini-base-2.0-20T,Ring-mini-linear-2.0,1,Directed
+Qwen3-30B-A3B,AgentFounder-30B,1,Directed
+Gemma 2 2B,TxGemma 2B,1,Directed
+GPT-3 175B (davinci),InstructGPT 175B,1,Directed
+Gemma 3 27B,Gemma-SEA-LION-v4-27B-IT,1,Directed
+Llama 3.1-8B,NatureLM-audio,1,Directed
+LLaMA-13B,Orca 2-13B,1,Directed
+Stable Diffusion (LDM-KL-8-G),Taiyi-Stable Diffusion,1,Directed
+OPT-175B,SparseOPT-175B,1,Directed
+Llama 2-13B,PLLaMa,1,Directed
+LLaMA-7B,Goat-7B,1,Directed
+DeepSeek-V3,DeepSeek-R1,1,Directed
+GPT-2 (774M),GPT2-Large+LHOPT,1,Directed
+Flan-T5 11B,CoEdiT-xxl,1,Directed
+Mixtral 8x7B,GRITLM 8x7B,1,Directed
+Mistral 7B,GRITLM 7B,1,Directed
+EXAONE 3.5 7.8B,EXAONE Deep 7.8B,1,Directed
+Cosmos-Predict1-7b-Video2World,Cosmos-Transfer1-7B,1,Directed
+Llama 3.1-70B,Hermes 3 70B,1,Directed
+Llama 3.1-405B,Hermes 3 405B,1,Directed
+Qwen2.5-7B,Eagle 2,1,Directed
+Llama 3.1-8B,Hermes 3 8B,1,Directed
+DeepSeek-V3,DeepSeek-R1 (May 2025),1,Directed
+SigLIP 400M,Janus-Pro-1B,1,Directed
+DeepSeek-LLM-1.3b-base,Janus-Pro-1B,1,Directed
+DeepSeek LLM 7B,Janus-Pro-7B,1,Directed
+SigLIP 400M,Janus-Pro-7B,1,Directed
+Llama 2-7B,mPLUG-Owl2,1,Directed
+Mistral 7B,Bielik-11B-v2,1,Directed
+Transformer (Adaptive Input Embeddings) WT103,base LM+GNN+kNN,1,Directed
+Llama 2-7B,Code Llama-7B,1,Directed
+LLaMA-7B,ALLaM 7B,1,Directed
+mT5-XXL,Aya,1,Directed
+Llama 2-70B,Me Llama 70B,1,Directed
+Llama 3-8B,ProtChatGPT,1,Directed
+Yi-34B,Yi-VL-34B,1,Directed
+CLIP ViT-H/14 - LAION-2B,Yi-VL-34B,1,Directed
+Gemma 2 9B,SimPO,1,Directed
+Llama 2-70B,ALLaM adapted 70B,1,Directed
+Qwen2.5-7B,OREAL 7B,1,Directed
+DNABERT,BERT-RBP,1,Directed
+Stable Diffusion (LDM-KL-8-G),Emu1 (BAAI),1,Directed
+EVA-01,Emu1 (BAAI),1,Directed
+LLaMA-13B,Emu1 (BAAI),1,Directed
+Transformer-XL (257M),Transformer-XL Large + Phrase Induction,1,Directed
+Flan-T5 11B,Flan T5-XXL + BLIP-2,1,Directed
+CogView2,CogVideo,1,Directed
+Llama 2-13B,Xinyu,1,Directed
+FAIRSEQ Adaptive Inputs,Transformer + GFM,1,Directed
+Llama 3.1-70B,FoxBrain,1,Directed
+SigLIP 400M,Gemma 3 27B,1,Directed
+SigLIP 400M,Gemma 3 12B,1,Directed
+SigLIP 400M,Gemma 3 4B,1,Directed
+EXAONE 3.5 2.4B,EXAONE Deep 2.4B,1,Directed
+StarCoder,WizardCoder-15.5B,1,Directed
+Qwen2.5 Instruct (7B),OpenOmni,1,Directed
+CLIP (ViT L/14@336px),OpenOmni,1,Directed
+Whisper v3,OpenOmni,1,Directed
+GTE-ModernColBERT-v1,Reason-ModernColBERT,1,Directed
+SciBERT,Specter,1,Directed
+LLaMA-13B,ChatBit,1,Directed
+Mistral 7B,Zephyr 7B,1,Directed
+LLaMA-65B,Guanaco-65B,1,Directed
+Qwen1.5-7B,Sailor-7B-Chat,1,Directed
+T5-11B,Tk-Instruct,1,Directed
+Qwen2-Math-7B,rStar-Math (Qwen2-Math-7B base),1,Directed
+T5-11B,Flan-T5 11B,1,Directed
+Qwen2.5-Math-7B-Base,rStar-Math (Qwen2.5-Math-7B base),1,Directed
+InternViT-6B,OmniFusion-7B (InternViT-6B-448px V1-2),1,Directed
+GigaChat-7B,OmniFusion-7B (InternViT-6B-448px V1-2),1,Directed
+BERT-Large,Contriever,1,Directed
+GPT-2 (124M),NMST+GPT-2,1,Directed
+LLaMA-7B,WizardLM-7B,1,Directed
+Qwen-72B,Smaug-72B,1,Directed
+GPT-J-6B,SGPT BE 5.8B,1,Directed
+Pleias 1.0 350m,Pleias-RAG-350m,1,Directed
+Pleias 1.0 1.2B,Pleias-RAG-1B,1,Directed
+Llama 3.1-405B,Llama Nemotron Ultra 253B,1,Directed
+Llama 2-7B,P-Llama2,1,Directed
+DeepSeek-LLM-1.3b-base,Janus 1.3B,1,Directed
+Stable Diffusion (LDM-KL-8-G),DiT-XL/2,1,Directed
+LLaMA-13B,ALLaM adapted13B,1,Directed
+ESM2-35M,MULAN,1,Directed
+LLaMA-7B,Alpaca,1,Directed
+Vicuna-13B v0,MiniGPT4 (Vicuna finetune),1,Directed
+CLIP ViT-H/14 - LAION-2B,Meissonic,1,Directed
+gte-modernbert,GTE-ModernColBERT-v1,1,Directed
+Qwen1.5-7B,Ovis-7B,1,Directed
+Llama 3.1-70B,Llama-3.1-Nemotron-70B-Instruct,1,Directed
+MiniMax-Text-01,MiniMax-M1-80k,1,Directed
+MiniMax-Text-01,MiniMax-M1-40k,1,Directed
+Mistral Small 3,ether0,1,Directed
+T5-11B,GQA-8-XXL,1,Directed
+MiMo-7B-Base,MiMo-VL-7B-SFT,1,Directed
+SigLIP 400M,Gemma 3 1B,1,Directed
+Fuyu-8B,OtterHD-8B,1,Directed
+Gemma 2 27B,C2S-Scale,1,Directed
+Gemma 2 9B,Gemma2 9B CPT Sahabat-AI,1,Directed
+AWD-LSTM-DOC (fin) (23M),Fine-tuned-AWD-LSTM-DOC (fin),1,Directed
+ResNet-101 (ImageNet),HR-ResNet101,1,Directed
+mT5-XXL,mT0-13B,1,Directed
+Mixtral 8x22B,SaulLM-large,1,Directed
+Mixtral 8x22B,Zephyr 141B-A39B,1,Directed
+PaliGemma,ColPali,1,Directed
+Yi-34B,Smaug-34B,1,Directed
+Gemma 7B,P-gemma,1,Directed
+Unicorn,Delphi,1,Directed
+LLaMA-65B,LIMA,1,Directed
+T5-11B,Unicorn,1,Directed
+GLM-4.5-Air,GLM-4.5V,1,Directed
+Qwen2.5-7B,MolmoAct-7B-D,1,Directed
+SigLIP 400M,MolmoAct-7B-D,1,Directed
+RoBERTa Base,KEPLER,1,Directed
+LLaMA-7B,BELLE-LLaMA-EXT-7B,1,Directed
+DeepSeek Coder 6.7B,DeepSeekMath 7B,1,Directed
+Llama 2-13B,Me Llama 13B,1,Directed
+Llama 3.1-8B,Foundation-sec-8b,1,Directed
+Yi-34B,Cambrian-1-34B,1,Directed
+LLaMA-13B,Baize-v2-13B (白泽),1,Directed
+Llama 2-7B,OneLLM,1,Directed
+AlphaFold 2,AlphaLink,1,Directed
+Llama 2-13B,ChunkLlama2-13B,1,Directed
+ESM2-650M,FoldFlow2,1,Directed
+W2v-BERT,SeamlessM4T,1,Directed
+AlphaFold 2,AlphaMissense,1,Directed
+Qwen2.5 Instruct (72B),InternVL2_5-78B,1,Directed
+InternViT-6B,InternVL2_5-78B,1,Directed
+Qwen2.5 Instruct (32B),InternVL2_5-38B,1,Directed
+InternViT-6B,InternVL2_5-38B,1,Directed
+InternLM2.5,InternVL2_5-26B,1,Directed
+InternViT-6B,InternVL2_5-26B,1,Directed
+Qwen2-7B,LLaVA-OV-7B,1,Directed
+Mistral 7B,P-Mistral,1,Directed
+ViT-G/14,ViT-G/14 (LiT),1,Directed
+Mistral 7B,MetaMath 7B (Mistral finetune),1,Directed
+Llama 2-7B,VILA-7B,1,Directed
+LLaMA-7B,Vicuna-7B-v1.3,1,Directed
+LLaMA-13B,Vicuna-13B v0,1,Directed
+Llama 2-13B,Code Llama-13B,1,Directed
+Qwen2.5-Coder (32B),QwQ-32B,1,Directed
+ESM2-650M,GGNN,1,Directed
+Step-1,Step-Omni,1,Directed
+GPT-3 13B,Codex,1,Directed
+Qwen2.5-32B,OREAL 32B,1,Directed
+Llama 3.3 70B,DeepSeek-R1-Distill-Llama-70B,1,Directed
+Llama 2-70B,SambaLingo-Thai-Chat-70B,1,Directed
+Qwen-7B,Qwen-VL,1,Directed
+Llama 3.2 11B,LLaVA-CoT,1,Directed
+Llama 4 Scout,Llama 4 Scout + ScaleRL,1,Directed
+LLaMA-7B,HuaTuo,1,Directed
+GigaChat Lite (GigaChat-20B-A3B),GigaEmbeddings,1,Directed
+DeepSeek-V3,DeepSeek-V3.1-Terminus,1,Directed
+Qwen2-72B,Molmo 72B,1,Directed
+CLIP (ViT L/14@336px),Molmo 72B,1,Directed
+Llama 3.1-70B,Llama 3.2 90B,1,Directed
+GLM-4-9B-0414,GLM-4.1V-Thinking,1,Directed
+Stable Diffusion 1.2,Stable Diffusion 1.4,1,Directed
+BLOOM-176B,BLOOMZ-176B,1,Directed
+ESM2-3B,LEP-AD,1,Directed
+Qwen2.5-7B,DeepSeek-R1-Distill-Qwen-7B,1,Directed
+MiniMax-Text-01,MiniMax-VL-01,1,Directed
+Qwen1.5-32B,LLaVA-NeXT-32B-Qwen,1,Directed
+Nemotron-4 15B,Minitron 4B,1,Directed
+Llama 2-7B,Uni-Med,1,Directed
+ViT-G/14,Uni-Med,1,Directed
+Qwen2.5-1.5B,Qwen2.5-Math-1.5B,1,Directed
+Llama 2-13B,YaRN (Llama 2 13B),1,Directed
+Llama 2-70B,YaRN (Llama 2 70B),1,Directed
+Qwen2.5 Instruct (32B),s1-32B,1,Directed
+Qwen2.5 Instruct (32B),s1.1,1,Directed
+Qwen2.5-14B,DeepSeek-R1-Distill-Qwen-14B,1,Directed
+Qwen2.5-Math-1.5B,DeepSeek-R1-Distill-Qwen-1.5B,1,Directed
+Llama 3.1-8B,DeepSeek-R1-Distill-Llama-8B,1,Directed
+Qwen2.5-7B,Qwen2.5-Math-7B-Base,1,Directed
+Yi-1.5-34B,Oryx 34B,1,Directed
+DeepSeek-V3,DeepSeek-V3.1,1,Directed
+Qwen2.5-Math-7B-Base,Eurus-2-7B-PRIME,1,Directed
+Llama 2-13B,OpenThaiGPT v1.0.0 (13B),1,Directed
+Llama 2-7B,OpenThaiGPT v1.0.0 (7B),1,Directed
+Qwen2.5-72B,Qwen2.5-VL-72B,1,Directed
+Qwen2.5-7B,Qwen2.5-VL-7B,1,Directed
+Qwen2.5-3B,Qwen2.5-VL-3B,1,Directed
+Llama 3.1-8B,Llama Nemotron Nano 8B,1,Directed
+Llama 3.1-70B,Llama 3.1 Typhoon 2 70B,1,Directed
+Llama 3.1-8B,Llama 3.1 Typhoon 2 8B,1,Directed
+Qwen2.5-7B,Typhoon 2 7B,1,Directed
+CogVLM-17B,CogAgent,1,Directed
+LLaMA-13B,Vicuna-13B-v1.3,1,Directed
+Llama 2-7B,MetaMath 7B (LLaMa finetune),1,Directed
+Llama 3.2 3B,LLama 3.2 Typhoon 2 3B,1,Directed
+Llama 3.2 1B,LLama 3..2 Typhoon 2 1B,1,Directed
+RoseTTAFold All-Atom (RFAA),RFdiffusion,1,Directed
+BERT-Large,Theseus 6/768,1,Directed
+GPT-2 (1.5B),GPT-2 (fine-tuned with HYDRA),1,Directed
+LLaMA-7B,Vicuna-7B v0,1,Directed
+DeepSeek-V3.1-Terminus,DeepSeek-V3.2-Exp,1,Directed
+LLaMA-3-Instruct-8B,Cambrian-1-8B,1,Directed
+Llama 3.1-8B,Tulu 3 8B,1,Directed
+Stable Diffusion XL (SDXL),MindEye2,1,Directed
+SigLIP 400M,Megrez-3B-Omni,1,Directed
+Nemotron-H 56B,Nemotron-H 47B,1,Directed
+Nemotron-4 15B,Minitron 8B,1,Directed
+Llama 3.1-70B,Tulu 3 (Tülu 3) 70B,1,Directed
+LLaMA-7B,LLaMA-7B (protein-oriented instruction-tuned),1,Directed
+Kimi K2,Kimi K2 Thinking,1,Directed
+VGG16,DLDL (PASCAL),1,Directed
+VGG19,DLDL (PASCAL),1,Directed
+Phi-1.5,Hybrid-Phi-Mamba-1.5B,1,Directed
+Pix2Struct-Large,Kosmos-2.5,1,Directed
+DiT-XL/2,DiT-XL/2 + Discriminator Guidance,1,Directed
+ESM2-650M,ProteinStructureTransformer,1,Directed
+AWD-LSTM,ULM-FiT,1,Directed
+ViT-G/14 (LiT),Kosmos-1,1,Directed
+Llama 2-70B,Platypus-70B,1,Directed
+PaLI-X,RT-2,1,Directed
+Llama 2-70B,Swallow,1,Directed
+GPT-2 (124M),Transformer+Recurrent Windows of Context,1,Directed
+Llama 3.3 70B,Llama Nemotron Super 49B,1,Directed
+SANA 1.6B,SANA 1.5 4.8B,1,Directed
+ResNet-152 (ImageNet),3-ensemble of Self-ensembles on CIFAR-100,1,Directed
+ProGen,ConoDL,1,Directed
+Step-1,Step-Audio-Chat 130B,1,Directed
+ESM2-650M,ESM-DBP,1,Directed
+Qwen2.5 Instruct (72B),OpenThaiGPT 1.6 / OTG-1.6 (72B),1,Directed
+GLM-4 (0116),GLM-4 (0520),1,Directed
+Gemma 2 9B,T5Gemma (Gemma 9B-9B),1,Directed
+OpenChat 3.5-7B,Starling-LM-7B-alpha,1,Directed
+Stable Diffusion 2.1,ControlNet (SDv2),1,Directed
+DeepSeek-R1-Distill-Qwen-32B,OpenThaiGPT R1 32b / OTG-R1 (32B),1,Directed
+PaliGemma 2 3B Mix 224,PaliGemma 2 3B Mix 448,1,Directed
+Llama 3.1-8B,Deephermes 3 Llama 3 8B Preview,1,Directed
+BLOOM-176B,XuanYuan 2.0,1,Directed
+MiniGPT4 (Vicuna finetune),MiniGPT4 + LRV-Instruction,1,Directed
+Qwen2.5-72B,Qwen2.5 Instruct (72B),1,Directed
+Qwen2-7B,Oryx 7B,1,Directed
+LLaMA-13B,OpenChat-13b,1,Directed
+ProtBERT-BFD,OntoProtein,1,Directed
+Switch,QMoE: compressed SwitchTransformer,1,Directed
+Phi-4-Reasoning,Phi-4-Reasoning-plus,1,Directed
+Flan-T5 11B,ReALM,1,Directed
+Whisper v2,Emu3.5,1,Directed
+Qwen3-32B,Emu3.5,1,Directed
+Qwen2.5-14B,LoongRL 14B,1,Directed
+Segment Anything Model,Deepseek OCR,1,Directed
+CLIP (ViT L/14@336px),Deepseek OCR,1,Directed
+Qwen2.5 Instruct (7B),LoongRL 7B,1,Directed
+CodeGen-Mono 16.1B,MOSS-Moon-003,1,Directed
+Stable Diffusion 1.2,Stable Diffusion 1.5,1,Directed
+Qwen-7B,Qwen2-Audio,1,Directed
+Qwen2-7B,LongVU,1,Directed
+ESM2-650M,PTM-Mamba,1,Directed
+Qwen2.5-7B,Apollo 7B,1,Directed
+SigLIP 400M,Apollo 7B,1,Directed
+SigLIP 400M,Apollo-7B,1,Directed
+Qwen2.5-7B,Apollo-7B,1,Directed
+Qwen2.5-32B,T-Pro,1,Directed
+Gemma 3 270M,EmbeddingGemma,1,Directed
+GPT-2 (355M),HSO,1,Directed
+PaLM (540B),PaLM-E,1,Directed
+GPT-4o (Jan 2025),GPT-4o (Mar 2025),1,Directed
+Qwen2.5-7B,Qwen2.5-Omni 7B,1,Directed
+Qwen2.5-3B,Qwen2.5-Omni 3B,1,Directed
+AlexNet,CompACT-Deep,1,Directed
+VGG16,CompACT-Deep,1,Directed
+GPT-4o,GPT-4o (Aug 2024),1,Directed
+Transformer-XL (257M),Transformer-XL + SIS,1,Directed
+ERNIE-4.5-300B-A47B,ERNIE-4.5-VL-424B-A47B (文心大模型4.5),1,Directed
+RoBERTa Large,SimCSE,1,Directed
+DeBERTaV3large,DeBERTaV3large + KEAR,1,Directed
+Mistral 7B,Idefics2,1,Directed
+SigLIP 400M,Idefics2,1,Directed
+Qwen2.5-32B,DeepSeek-R1-Distill-Qwen-32B,1,Directed
+ViT-Huge/14,ImageBind,1,Directed
+ESM2-650M,gLM,1,Directed
+PaLM (540B),LMSI-Palm,1,Directed
+Qwen3-32B,T-Pro 2.0,1,Directed
+ESM2-35M,ESM-AA,1,Directed
+ESM2-650M,ProtRNA,1,Directed
+Llama 2-70B,MuggleMath,1,Directed
+ELMo,Cross-lingual alignment,1,Directed
+Qwen-14B,Qarasu-14B,1,Directed
+Llama 3.1-405B,Tulu 3 405B,1,Directed
+GPT-4o (Nov 2024),GPT-4o (Jan 2025),1,Directed
+W2v-BERT,MusicLM,1,Directed
+ProtGPT2,AbGPT,1,Directed
+UL2,PaLI-X,1,Directed
+LLaMA-13B,HuatuoGPT,1,Directed
+ESM2-650M,DiffPepBuilder,1,Directed
+Transformer (Adaptive Input Embeddings) WT103,ADP-FAIRSEQ + NGRAMRES,1,Directed
+ChemBERTa,PLAPT,1,Directed
+ProtBERT-BFD,PLAPT,1,Directed
+GPT-4o (Aug 2024),GPT-4o (Nov 2024),1,Directed
+360Zhinao-7B,360Zhinao2-7B,1,Directed
+Mistral Large 2,Pixtral Large,1,Directed
+XLM-RoBERTa,BGE-M3 Embedding,1,Directed
+SigLIP 2,Granite-Docling,1,Directed
+Mistral 7B,Solar-10.7B (Solar Mini),1,Directed
+GPT-4 Turbo (Nov 2023),GPT-4 Turbo (Apr 2024),1,Directed
+DeepSeek-R1,R1 1776,1,Directed
+GPT-J-6B,CoRe,1,Directed
+ProtT5-XL-U50,Lightweight Fine-tuning a Pretrained Protein Language Model for Protein Secondary,1,Directed
+Stable Diffusion (LDM-KL-8-G),GameNGen,1,Directed
+BERT-Large,BERT-Large-CAS (WT103),1,Directed
+Qwen3-8B,Qwen3 Embedding,1,Directed
+Mistral 7B,Mistral 7B + OVM,1,Directed
+Llama 2-7B,YAYI-7B-Llama2,1,Directed
+Llama 2-13B,YAYI-13B-Llama2,1,Directed
+Llama 2-7B,SambaLingo-Thai-Chat (7B),1,Directed
+Qwen3-32B,Agentar-Fin-R1 32B,1,Directed
+GPT-2 (124M),GPT-2 + Progressive LRD,1,Directed
+Llama 2-70B,MetaMath 70B,1,Directed
+DeepSeek-R1-Distill-Qwen-32B,NTele-R1-32B-V1,1,Directed
+Depth Anything V2 Large,FoundationStereo,1,Directed
+Llama 3-70B,OpenBioLLM-Llama3-70B,1,Directed
+Imagen,Lumiere,1,Directed
+Vicuna-7B v0,GroundingGPT,1,Directed
+ProGen2-base,ProCALM (Uniref9B),1,Directed
+SEA-LION V1 7B,SEA-LION-v1-7B-IT,1,Directed
+Qwen2-VL-7B,Typhoon2-Vision,1,Directed
+PaLM 2,AMIE (Articulate Medical Intelligence Explorer),1,Directed
+GPT-3 XL,InstructGPT 1.3B,1,Directed
+GPT-3 6.7B,InstructGPT 6B,1,Directed
+Llama SEA-LION V2 8B,Llama-SEA-LION-v2-8B-IT,1,Directed
+Stable Diffusion XL (SDXL),SDXL-Lightning,1,Directed
+Llama 2-7B,ProLLaMA,1,Directed
+LLaMA-7B,Protllm,1,Directed
+Qwen2.5-7B,T-Lite,1,Directed
+360Zhinao2-7B,360Zhinao3-7B-O1.5,1,Directed
+CLIP (ViT L/14@336px),Stable Diffusion 1.1,1,Directed
+Stable Diffusion 1.1,Stable Diffusion 1.2,1,Directed
+GLM-4.5,GLM-4.7,1,Directed
+Qwen2.5-Math-7B-Base,BFS-Prover,1,Directed
+Mistral Small 3,Mistral Small 3.1,1,Directed
+SciBERT,ProteinDT,1,Directed
+InstructGPT 175B,Instruct-GPT + Mind's Eye,1,Directed
+Qwen3-8B,Agentar-Fin-R1 8B,1,Directed
+Qwen2.5-VL-7B,Qwen Image,1,Directed
+Llama 3-8B,OpenBioLLM-Llama3-8B,1,Directed
+Qwen2.5-Math-7B-Base,INTELLECT-MATH,1,Directed
+VGG16,LRR-4X,1,Directed
+LLaMA-33B,Emu2,1,Directed
+Stable Diffusion XL (SDXL),Emu2,1,Directed
+SigLIP 400M,Apollo 1.5B,1,Directed
+Qwen2.5-1.5B,Apollo 1.5B,1,Directed
+SigLIP 400M,Apollo 3B,1,Directed
+Qwen2.5-3B,Apollo 3B,1,Directed
+VGG16,SSD,1,Directed
+VGG-Face,Template Adaptation,1,Directed
+CLIP (ViT L/14@336px),AltCLIP_M9,1,Directed
+Mistral 7B,NV-Embed-v1,1,Directed
+ERNIE-4.5-21B-A3B,ERNIE-4.5-VL-28B-A3B,1,Directed
+PaLM 2,Med-PaLM 2,1,Directed
+StableLM-3B-4E1T,StableLM - Zephyr 3B,1,Directed
+Llama 3.1-8B,Llama-3.1-Minitron-4B,1,Directed
+BERT-Large,BERT-Large-CAS (WT2),1,Directed
+Llama 2-70B,PPLX-70B-Online,1,Directed
+RT-2,RT-2-X,1,Directed
+VideoCrafter2,T2V-Turbo-v2,1,Directed
+Llama-3.1-Nemotron-70B-Instruct,Llama-Primus-Nemotron-70B,1,Directed
+GPT-2 (1.5B),GPT-2 (AMPS),1,Directed
+Qwen-14B,CausalLM 14B,1,Directed
+UL2,Flan UL2,1,Directed
+Qwen3-30B-A3B,Tongyi DeepResearch,1,Directed
+Pythia-12b,Dolly 2.0-12b,1,Directed
+Chinchilla,Sparrow,1,Directed
+ESM2-35M,pKALM,1,Directed
+RNA-FM,RNAdiffusion,1,Directed
+BERT-Large,OmniVec,1,Directed
+ESM2-650M,IDPFold,1,Directed
+LLaMA-33B,Vicuna-33B-v1.3,1,Directed
+Pythia-6.9b,Pythia-Chat-Base-7B-v0.16,1,Directed
+LLaVA 1.5,LLaVA + LVIS-INSTRUCT4V,1,Directed
+Transformer (Adaptive Input Embeddings) WT103,base LM+GNN (WT103),1,Directed
+Qwen2-7B,LongVILA-7B,1,Directed
+phi-3-mini 3.8B,xGen-MM (BLIP-3),1,Directed
+DeepSeek-V3,DeepSeek-Prover-V2-671B,1,Directed
+OPT-66B,SparseOPT-66B,1,Directed
+OPT-30B,SparseOPT-30B,1,Directed
+UL2,PaLI-3,1,Directed
+QwQ-32B,Kevin-32B,1,Directed
+Mistral 7B,Mathstral,1,Directed
+Mistral Small 3.1,Mistral Small 3.2,1,Directed
+Llama 3.1-8B,CollabLLM,1,Directed
+Pythia-2.8b,DPO on Pythia-2.8B,1,Directed
+Mistral Small 3.1,Magistral Small 1.1,1,Directed
+Qwen3-8B,Qwen3 Reranker,1,Directed
+PaliGemma,π0 (pi-zero),1,Directed
+MiMo-VL-7B-SFT,MiMo‑VL‑7B‑RL,1,Directed
+Nous-Hermes-2-Yi-34B,InternVL2-40B,1,Directed
+InternViT-6B,InternVL2-40B,1,Directed
+Ministral 3B,Voxtral Mini,1,Directed
+Qwen2.5-14B,TokenFlow-XL,1,Directed
+XLM-RoBERTa,bge-reranker-large,1,Directed
+InternViT-6B,InternVL1.5,1,Directed
+InternLM2-20B,InternVL1.5,1,Directed
+VGG16,CMS-RCNN,1,Directed
+Qwen3-1.7B,Ovis2.5 2B,1,Directed
+Llama 3.1 Typhoon 2 8B,Typhoon2-Audio,1,Directed
+RT-1,RT-1 + AutoRT,1,Directed
+Granite 3.1 2B,Granite Vision 3.2 2B,1,Directed
+SigLIP 400M,Granite Vision 3.2 2B,1,Directed
+Granite 3.1 8B,Granite 3.2 8B,1,Directed
+Granite 3.1 2B,Granite 3.2 2B,1,Directed
+Llama 2-7B,Vicuna-7B-v1.5,1,Directed
+Llama 2-13B,Vicuna-13B-v1.5,1,Directed
+Conformer,Universal-1,1,Directed
+Qwen2-VL-2B,MinerU2.5,1,Directed
+Qwen2-0.5B,MinerU2.5,1,Directed
+EXAONE 3.5 32B,EXAONE 3.5-R 32B,1,Directed
+EXAONE 3.5 7.8B,EXAONE 3.5-R 7.8B,1,Directed
+LLaMA-65B,Stable Beluga 1,1,Directed
+Llama 2-70B,Stable Beluga 2,1,Directed
+Aya Expanse 32B,Aya Vision 32B,1,Directed
+DeepSeek-V3,DeepSeek-R1-Zero,1,Directed
+Mistral Small 3,DeepHermes 3 - Mistral 24B,1,Directed
+DINOv2,Depth Anything V2 Giant,1,Directed
+Qwen2-7B,Marco-o1,1,Directed
+GPT-3.5 (davinci-002),Table-GPT,1,Directed
+DeepSeek-Prover-V1.5,DeepSeek-Prover-V2-7B,1,Directed
+PaliGemma,π0.5 (pi-0.5),1,Directed
+GPT-Neo-2.7B,GPT-Neo-2.7B (finetuned),1,Directed
+GPT-Neo-2.7B,GPT-Neo-2.7B (finetuned on PTB),1,Directed
+DiT-XL/2,DiT-XL/2 + CADS,1,Directed
+Qwen3-8B,II-Medical-8B,1,Directed
+Qwen2.5-7B,Qwen2.5 Instruct (7B),1,Directed
+Qwen2.5-32B,Qwen2.5 Instruct (32B),1,Directed
+DeepSeek-R1-Distill-Qwen-32B,Skywork-OR1-32B,1,Directed
+Gemma 3 27B,MedGemma 27B,1,Directed
+MedSigLIP,MedGemma 27B,1,Directed
+Qwen2.5-VL-7B,Cosmos-Reason1 7B,1,Directed
+Saaras v1,Shuka-1,1,Directed
+Llama 3-8B,Shuka-1,1,Directed
+Llama 3-70B,Athene-70B,1,Directed
+LLaMA-33B,LLaMA-33B (LoRA finetuned),1,Directed
+RT-2,SARA-RT-2,1,Directed
+Llama 3-70B,Hermes 2 Theta Llama-3 70B,1,Directed
+Mistral Small 3,Voxtral Small,1,Directed
+Llama 3-70B,llama-3-airoboros-70b-3.3,1,Directed
+EfficientNet-B1,Bird Vocalization Classifier (Perch),1,Directed
+Cohere Command A,Command A Vision,1,Directed
+SigLIP 2,Command A Vision,1,Directed
+Llama 3.3 70B,Llama Nemotron Super v1.5,1,Directed
+Llama 2-13B,Elyza,1,Directed
+RNN+weight noise+dynamic eval,Layer Normalization: Handwriting sequence generation,1,Directed
+Qwen2.5-32B,K2 Think,1,Directed
+Llama 2-70B,WizardLM 70B,1,Directed
+Wan 2.2 14B T2V,Wan 2.2 14B S2V,1,Directed
+Qwen3-8B,Ovis2.5 9B,1,Directed
+Big Transfer (BiT-M),Derm Foundational Model,1,Directed
+Ling-1T,Ring-1T,1,Directed
+LLaMA-13B,LLaMA-13B (LoRA finetuned),1,Directed
+LLaMA-65B,LLaMA-65B (LoRA finetuned),1,Directed
+LLaMA-7B,LLaMA-7B (LoRA finetuned),1,Directed
+Qwen2.5-72B,Athene-V2,1,Directed
+Mistral Small 3.2,Magistral Small 1.2,1,Directed
+Flan-PaLM 540B,Med-PaLM,1,Directed
+xTrimoPGLM - 1B,ProteinChat,1,Directed
+Vicuna-13B v0,ProteinChat,1,Directed
+Qwen2-VL-72B,QVQ,1,Directed
+Qwen Image,Qwen Image Edit,1,Directed
+Gemma 2 27B,DataGemma,1,Directed
+GPT-4 (Mar 2023),GPT-4V,1,Directed
+KwaiYii 13B,KwaiYiiMath,1,Directed
+SILC-S* (86M),SILC-S,1,Directed
+Llama 2-7B,OpenChat 3.5-7B,1,Directed
+SD-Turbo,Difix3D+,1,Directed
+DeepSeekMath 7B,DeepSeek-Prover-V1.5,1,Directed
+Llama 2-7B,YuE,1,Directed
+EXAONE 3.5 2.4B,EXAONE 3.5-R 2.4B,1,Directed
+Tranception,TranceptEve,1,Directed
+Qwen2.5-72B,Kimi Dev 72b,1,Directed
+Palmyra X 003,Palmyra Med,1,Directed
+YOLOv8x,OmniParser: Interactable Region Detection Model,1,Directed
+Qwen2-7B,MooER,1,Directed
+Qwen2-72B,Qwen2-Math-72B,1,Directed
+Qwen2.5-32B,OpenReasoning-Nemotron-32B,1,Directed
+Claude 2,Claude 2.1,1,Directed
+Stable Diffusion 2.1,SD-Turbo,1,Directed
+GoogLeNet / InceptionV1,BatchNorm,1,Directed
+Gemma 3 27B,Gemma 3 QAT 27B,1,Directed
+Gemma 3 12B,Gemma 3 QAT 12B,1,Directed
+Gemma 3 1B,Gemma 3 QAT 1B,1,Directed
+InternViT-6B,InternVL2 26B,1,Directed
+InternLM2-20B,InternVL2 26B,1,Directed
+Yi-34B,Nous-Hermes-2-Yi-34B,1,Directed
+ChatGLM3-6B,KeTu (Kolors),1,Directed
+ESM2-650M,ProTrek,1,Directed
+DeepSeek-R1,MAI-DS-R1,1,Directed
+Gemma 3 12B,Typhoon 2.1 Gemma 12B,1,Directed
+Gemma 3 4B,Typhoon 2.1 Gemma 4B,1,Directed
+InternLM2-20B,LUXIA-21.4B-Alignment,1,Directed
+Flux.1 [pro],FLUX.1 Kontext [dev],1,Directed
+Gemma 3 4B,Gemma 3 QAT 4B,1,Directed
+Qwen2.5-VL-7B,SkyReels-V2,1,Directed
+Nemotron-H 56B,Cosmos-Reason1 56B,1,Directed
+Segment Anything Model,VISTA-2D,1,Directed
+Smaug-72B,Le_Triomphant-ECE-TW3,1,Directed
+MultiVerse 70B,Le_Triomphant-ECE-TW3,1,Directed
+MultiVerse 70B,TW3-JRGL-v2,1,Directed
+Mistral Small 3.1,Devstral Small,1,Directed
+AlphaFold 2,BaseFold,1,Directed
+GPT-NeoX-20B,GPT-NeoX-Japanese,1,Directed
+GPT-2 (1.5B),minChatGPT,1,Directed
+Qwen2.5-32B,BAPO 32B,1,Directed
+Falcon3-7B,Falcon-Arabic,1,Directed
+Mixtral 8x22B,WizardLM-2 8x22B,1,Directed
+Mistral 7B,WizardLM-2 7B,1,Directed
+Conformer,Universal-2-TF,1,Directed
+GPT-4 Turbo (Nov 2023),Intelligent Go-Explore (IGE),1,Directed
+GPT-3 175B (davinci),WebGPT,1,Directed
+LLaMA-7B,BELLE-LLaMA-7B-2M-enc,1,Directed
+Qwen3-14B,Xinyuan (心元大模型),1,Directed
+Gemini 1.5 Pro,Med-Gemini-2D,1,Directed
+GPT-Neo-125M,GPT-Neo-125M (finetuned),1,Directed
+Gemini 1.5 Pro,Med-Gemini-3D,1,Directed
+BiRNA-BERT,RNA-DCGen,1,Directed
+LLaMA-7B,InternViT-6B,1,Directed
+Llama 2-70B,Open-Assistant Llama2 70B SFT v10,1,Directed
+GPT-J-6B,ToolFormer,1,Directed
+Hermes 2 Theta Llama-3 70B,InternVL2-Llama3-76B,1,Directed
+InternViT-6B,InternVL2-Llama3-76B,1,Directed
+CogVideoX,SkyReels-A1,1,Directed
+Llama 3-8B,Playground v3,1,Directed
+ESM1b,HJRSS,1,Directed
+ProteinBERT,Vespa,1,Directed
+Segment Anything Model,ScribblePrompt-SAM,1,Directed
+Mistral 7B,SeaLLM-7B-v2,1,Directed
+Qwen2-1.5B,Qwen2-Math-1.5B,1,Directed
+Qwen2-7B,Qwen2-Math-7B,1,Directed
+BLIP-2 (Q-Former),OmniParser: Icon Description Model,1,Directed
+Mistral 7B,NV-Embed-v2,1,Directed
+BLOOM-7.1B,BELLE-7B-0.6M,1,Directed
+AWD-LSTM,2-layer skip-LSTM + dropout tuning (PTB),1,Directed
+Cosmos-Predict2.5 2B,Cosmos-Transfer2.5-2B,1,Directed
+BLOOM-7.1B,BELLE-7B-2M,1,Directed
+BLOOM-7.1B,BELLE-7B-1M,1,Directed
+BLOOM-7.1B,BELLE-7B-0.2M,1,Directed
+LLaMA-13B,BELLE-LLaMA-13B-2M-enc,1,Directed
+Stable Diffusion 3.5 Large,ControlNet (SD 3.5 Large) Canny,1,Directed
+Stable Diffusion 3.5 Large,ControlNet (SD 3.5 Large) Blur,1,Directed
+Palmyra X 003,Palmyra Fin,1,Directed
+Mixtral 8x22B,xLAM-8x22B,1,Directed
+EfficientNet-L2,CXR Foundation,1,Directed
+Llama 2-7B,TAIWAN-LLM 7B,1,Directed
+Llama 2-13B,TAIWAN-LLM 13B,1,Directed
+Gemma 7B,SeaLLM-7B-v2.5,1,Directed
+Denoising Diffusion Probabilistic Models (LSUN Bedroom),Consistency Decoder,1,Directed
+Llama 3.3 70B,Sonar,1,Directed
+GPT-4o,4o Image Generation,1,Directed
+ProteinMPNN,MPNNsol,1,Directed
+AlphaFold 2,MPNNsol,1,Directed
+Computer-Using Agent (CUA),Operator,1,Directed
+GPT-4o,Operator,1,Directed
+Gemma 2 9B,Ovis1.6-Gemma2-9B,1,Directed
+SigLIP 400M,Ovis1.6-Gemma2-9B,1,Directed
+Code Llama-13B,NexusRaven-V2,1,Directed
+Mistral Medium 3,Magistral Medium 1.1,1,Directed
+ESM2-650M,Prot2Token,1,Directed
+ESM2-650M,DrugTar,1,Directed
+Llama 2-70B,airoboros-l2-70b-2.1,1,Directed
+Qwen2.5-72B,MindLink-72B,1,Directed
+Llama 2-70B,Karakuri LM,1,Directed
+T5-11B,Multitask Unified Model (MUM),1,Directed
+SenseChat,SenseChat-Medical V4,1,Directed
+o3,o3 Operator,1,Directed
+Computer-Using Agent (CUA),o3 Operator,1,Directed
+ESM2-650M,Structure-Informed Protein Language Model,1,Directed
+AlphaFold 2,BindCraft,1,Directed
+Llama 2-13B,WizardLM 13B v1.2,1,Directed
+Stable Diffusion 3.5 Large,ControlNet (SD 3.5 Large) Depth,1,Directed
+Gemma 2 27B,Ovis1.6-Gemma2-27B,1,Directed
+SigLIP 400M,Ovis1.6-Gemma2-27B,1,Directed
+LLaMA-7B,BELLE-LLaMA-7B-0.6M-enc,1,Directed
+Llama 2-13B,Llama-2-Chinese 13B,1,Directed
+Gemini 1.5 Pro,Med-Gemini-M 1.5,1,Directed
+GPT-4 (Mar 2023),POKE´LLMON,1,Directed
+Gemini 2.5 Flash,Gemini 2.5 Flash Image (Nano Banana),1,Directed
+GPT-2 (124M),Coconut,1,Directed
+Llama 2-70B,WizardLM-2 70B,1,Directed
+Llama 3-8B,LLaMA-3-Instruct-8B,1,Directed
+Qwen-72B,MultiVerse 70B,1,Directed
+Ministral 8B,Mistral Moderation,1,Directed
+GPT-5,GPT‑5-Codex,1,Directed
+ProtBERT-BFD,SYNTERACT,1,Directed
+Qwen-14B,Belle VL,1,Directed
+Command R+,Takane,1,Directed
+SaProt,PLTNUM,1,Directed
+YOLOv8x,YOLOv8 (reCAPTCHA fine-tuned),1,Directed
+Draw,Layer Normalization: Draw,1,Directed
+o3,codex-1,1,Directed
+DeepSeek LLM 7B,Tianxi-7B,1,Directed
+Uni-Mol Molecular Model,DrugCLIP,1,Directed
+NVAE (CIFAR 10),NCP-VAE (CIFAR 10),1,Directed
+NVAE (Celeba HQ),NCP-VAE (Celeba HQ),1,Directed
+Gemini Robotics-ER,Gemini Robotics,1,Directed
+Gemini 2.0 Flash,Gemini Robotics-ER,1,Directed
+ESM2-35M,Beyond ESM2: Graph-Enhanced Protein Sequence Modeling with Efficient,1,Directed
+ChemBERTa,PrePR-CT,1,Directed
+Llama 3-70B,Llama-3-70B-Synthia-v3.5,1,Directed
+Gemini 1.0 Ultra,LearnLM-Tutor,1,Directed
+Llama 3-8B,Cygnet,1,Directed
+Gemini 2.5 Pro (Mar 2025),Gemini 2.5 Computer Use,1,Directed
+ESM1b,EvoMIL,1,Directed
+Qwen2.5-7B,Eagle 2.5,1,Directed
+Qwen2.5-72B,Tianxi-72B,1,Directed
+Qwen2.5-32B,Tianxi-32B,1,Directed
+o4-mini,codex-mini,1,Directed
+Skip-Thoughts,Layer Normalization: Skip Thoughts,1,Directed
+ProteinMPNN,ProteinMPNN-DDG,1,Directed
+GPT-4o,ChatGPT agent,1,Directed
+GraphBP,Innovative Drug-like Molecule Generation from,1,Directed
+Med-PaLM 2,MedLM,1,Directed
+Qwen3-32B,MindLink-32B,1,Directed
+Llama 2-13B,BELLE-Llama2-13B-chat-0.4M,1,Directed
+LLaMA-13B,YuLan-Chat-2 (13B),1,Directed
+Llama 3.1-8B,DeepThought-8B,1,Directed
+Qwen1.5-14B,KwooLa,1,Directed
+MiniCPM-V 2.6,KwooVa,1,Directed
+The Attentive Reader,Layer Normalization: The Attentive Reader,1,Directed
+Order-Embeddings of Images and Language,Order embeddings with layer norm,1,Directed
+Llama 3-8B,Llama 3-TAIDE-LX-8B-Chat-Alpha1,1,Directed
+GPT-4 (Mar 2023),CriticGPT,1,Directed
+EfficientNet-L2,ELIXR-C,1,Directed
+CXR Foundation,ELIXR-C,1,Directed
+PaLM 2,ELIXR-B,1,Directed
+ELIXR-C,ELIXR-B,1,Directed
+TinyBert,NOMI GPT,1,Directed
+wave2vec 2.0 LARGE,NOMI GPT,1,Directed
+AlphaFold 2,EvoBind2,1,Directed
+CPM-Bee,ZhihaiTu AI (知海图),1,Directed
+Llama 2-7B,TAIDE-LX-7B,1,Directed
+InternLM,Baigong (百工),1,Directed
+Qwen2.5 Instruct (32B),Unichat-32B-c1,1,Directed
+Qwen3-32B,DMind-1,1,Directed
+GPT-3 Medium,InstructGPT 350M,1,Directed

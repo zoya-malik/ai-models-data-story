@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>70 Years of AI: A Data Story | Zoya Malik</title>
+  <meta name="description" content="Tracing the growth, geography, economics, and openness of 3,305 AI models from 1950 to 2025." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600;1,700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+
+    :root {
+      --paper:      #ffffff;
+      --ink:        #0d0d0d;
+      --ink-mid:    #484848;
+      --ink-faint:  #9a9a9a;
+      --rule:       #e8e8e8;
+      --warm-white: #f5f5f5;
+      --serif:      "Cormorant Garamond", Georgia, serif;
+      --body-font:  "Inter", system-ui, -apple-system, sans-serif;
+      --col:        700px;
+    }
+
+    body {
+      font-family: var(--body-font);
+      background: var(--paper);
+      color: var(--ink);
+      line-height: 1.8;
+      font-size: 1rem;
+      font-weight: 300;
+    }
+
+    /* ── Type scale ──────────────────────────────────────────────────── */
+    h1 {
+      font-family: var(--serif);
+      font-weight: 700;
+      font-style: italic;
+      font-size: clamp(3rem, 8vw, 6rem);
+      line-height: 1.05;
+      letter-spacing: -0.01em;
+    }
+    h2 {
+      font-family: var(--serif);
+      font-weight: 700;
+      font-style: italic;
+      font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+      line-height: 1.15;
+      color: var(--ink);
+      margin: 0 0 1.2rem;
+    }
+    h3 {
+      font-family: var(--body-font);
+      font-size: 0.62rem;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      margin: 0 0 0.8rem;
+    }
+    p  { margin-bottom: 1.4rem; }
+    a  { color: var(--ink); text-decoration: underline; text-decoration-color: var(--rule); text-underline-offset: 3px; }
+    a:hover { text-decoration-color: var(--ink); }
+    strong { font-weight: 500; }
+    em { font-style: italic; }
+    code {
+      font-family: "SF Mono", "Fira Code", monospace;
+      font-size: 0.8em;
+      color: var(--ink-mid);
+      background: var(--warm-white);
+      padding: 0.1em 0.35em;
+      border-radius: 3px;
+    }
+
+    /* ── Layout ──────────────────────────────────────────────────────── */
+    .container {
+      max-width: var(--col);
+      margin: 0 auto;
+      padding: 0 2rem;
+    }
+
+    /* ── Hero ────────────────────────────────────────────────────────── */
+    .hero {
+      background: #ffffff;
+      padding: 0 2rem;
+      border-bottom: 1px solid var(--rule);
+    }
+    .hero-inner {
+      max-width: var(--col);
+      margin: 0 auto;
+      padding: 5rem 0 4rem;
+    }
+    .hero-fig {
+      width: 100%;
+      border-top: 1px solid var(--rule);
+      line-height: 0;
+    }
+    .hero-fig img {
+      width: 100%;
+      height: auto;
+      display: block;
+      max-height: 420px;
+      object-fit: cover;
+      object-position: center bottom;
+    }
+    .hero .breadcrumb {
+      font-family: var(--body-font);
+      font-size: 0.62rem;
+      font-weight: 400;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      margin-bottom: 2.4rem;
+    }
+    .hero .breadcrumb a { color: var(--ink-faint); text-decoration: none; }
+    .hero .breadcrumb span { margin: 0 0.5rem; }
+    .hero h1 {
+      font-family: var(--serif);
+      font-weight: 700;
+      font-style: italic;
+      font-size: clamp(3.8rem, 10vw, 8rem);
+      color: var(--ink);
+      margin-bottom: 1.6rem;
+      letter-spacing: -0.01em;
+      line-height: 1.0;
+    }
+    .hero .subtitle {
+      font-family: var(--body-font);
+      font-size: 1rem;
+      font-weight: 300;
+      color: var(--ink-mid);
+      max-width: 560px;
+      line-height: 1.75;
+      margin-bottom: 2.8rem;
+    }
+    .hero .meta {
+      font-family: var(--body-font);
+      font-size: 0.78rem;
+      font-weight: 400;
+      color: var(--ink-faint);
+    }
+    .hero .meta a { color: var(--ink-faint); text-decoration: none; }
+
+    /* ── Stats ───────────────────────────────────────────────────────── */
+    .stats-bar {
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+      display: flex;
+      justify-content: center;
+      background: var(--paper);
+    }
+    .stat {
+      flex: 1;
+      text-align: center;
+      padding: 2rem 1rem;
+      border-right: 1px solid var(--rule);
+      min-width: 100px;
+    }
+    .stat:last-child { border-right: none; }
+    .stat .num {
+      font-family: var(--serif);
+      font-size: 1.9rem;
+      font-weight: 700;
+      font-style: italic;
+      color: var(--ink);
+      display: block;
+      line-height: 1;
+      margin-bottom: 0.5rem;
+    }
+    .stat .desc {
+      font-size: 0.58rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      font-family: var(--body-font);
+      font-weight: 400;
+    }
+
+    /* ── Article ─────────────────────────────────────────────────────── */
+    article { padding: 5rem 0 7rem; }
+
+    /* ── TOC ─────────────────────────────────────────────────────────── */
+    .toc {
+      margin: 0 0 5rem;
+      padding: 2rem 0;
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+    }
+    .toc .toc-label {
+      display: block;
+      font-size: 0.6rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      margin-bottom: 1.2rem;
+    }
+    .toc ol { padding-left: 0; list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 0.25rem 2rem; }
+    .toc li { font-size: 0.88rem; color: var(--ink-mid); counter-increment: toc-counter; display: flex; gap: 0.6rem; align-items: baseline; }
+    .toc li::before { content: counter(toc-counter, decimal-leading-zero); font-size: 0.65rem; color: var(--ink-faint); flex-shrink: 0; }
+    .toc ol { counter-reset: toc-counter; }
+    .toc a { color: var(--ink-mid); text-decoration: none; }
+    .toc a:hover { color: var(--ink); }
+
+    /* ── Sections ────────────────────────────────────────────────────── */
+    section { margin-bottom: 6rem; }
+
+    .section-header {
+      margin-bottom: 2rem;
+    }
+    .section-num {
+      display: block;
+      font-size: 0.6rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      margin-bottom: 0.6rem;
+    }
+    .section-header h2 { border-bottom: 1px solid var(--rule); padding-bottom: 1rem; }
+
+    /* ── Figures ─────────────────────────────────────────────────────── */
+    figure {
+      margin: 3rem -1rem;
+      background: var(--warm-white);
+      border-top: 1px solid var(--rule);
+      border-bottom: 1px solid var(--rule);
+    }
+    figure img { width: 100%; height: auto; display: block; }
+    figcaption {
+      padding: 1rem 2rem 1.2rem;
+      font-size: 0.78rem;
+      font-style: italic;
+      color: var(--ink-faint);
+      line-height: 1.6;
+      border-top: 1px solid var(--rule);
+    }
+    figcaption strong { font-style: normal; font-weight: 500; color: var(--ink-mid); }
+    figcaption a { color: var(--ink-faint); }
+
+    /* ── Callouts — styled as editorial notes, not boxes ─────────────── */
+    .callout {
+      margin: 2.5rem 0;
+      padding: 0 0 0 1.5rem;
+      border-left: 1px solid var(--ink);
+      font-style: italic;
+      color: var(--ink-mid);
+      font-size: 0.98rem;
+      line-height: 1.8;
+    }
+    .callout::before { display: none; }
+    .callout strong { font-style: normal; color: var(--ink); }
+    .callout.amber { border-color: #B5892B; color: #6B5020; }
+    .callout.amber strong { color: #6B5020; }
+    .callout.red   { border-color: #9B3030; color: #6B2020; }
+    .callout.red strong   { color: #6B2020; }
+    .callout.green { border-color: #3A7A50; color: #2A5A3A; }
+    .callout.green strong { color: #2A5A3A; }
+
+    /* ── Pull quote ──────────────────────────────────────────────────── */
+    blockquote {
+      margin: 3rem 0;
+      padding: 0;
+      font-family: var(--serif);
+      font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+      font-style: italic;
+      font-weight: 700;
+      color: var(--ink);
+      line-height: 1.45;
+      text-align: left;
+      position: relative;
+      border-left: 3px solid var(--ink);
+      padding-left: 1.5rem;
+    }
+    blockquote::before, blockquote::after { display: none; }
+
+    /* ── Gephi placeholder ───────────────────────────────────────────── */
+    .gephi-placeholder {
+      background: #111110;
+      border-top: 1px solid #2A2A28;
+      border-bottom: 1px solid #2A2A28;
+      margin: 3rem -1rem;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .gephi-placeholder .big {
+      font-family: var(--serif);
+      font-size: 1.4rem;
+      font-weight: 400;
+      font-style: italic;
+      color: #C8C5BC;
+      margin-bottom: 1.2rem;
+    }
+    .gephi-placeholder p { color: #3A3A38; font-size: 0.85rem; margin: 0; line-height: 1.8; }
+    .gephi-placeholder code { background: #1E1E1C; color: #5A5A52; border: none; }
+
+    /* ── Research question label ─────────────────────────────────────── */
+    .research-q {
+      font-family: var(--body-font);
+      font-size: 0.88rem;
+      font-style: normal;
+      font-weight: 300;
+      color: var(--ink-mid);
+      background: var(--warm-white);
+      border-left: 3px solid var(--ink);
+      padding: 0.8rem 1.2rem;
+      margin-bottom: 2rem;
+      line-height: 1.65;
+    }
+    .research-q strong {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 0.58rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+
+    /* ── Methods ─────────────────────────────────────────────────────── */
+    .methods {
+      padding: 2rem 0;
+      border-top: 1px solid var(--rule);
+      margin-top: 3rem;
+    }
+    .methods h3 { margin-bottom: 0.8rem; }
+    .methods p  { font-size: 0.85rem; color: var(--ink-mid); margin: 0; line-height: 1.8; }
+
+    /* ── Footer ──────────────────────────────────────────────────────── */
+    footer {
+      background: var(--paper);
+      color: var(--ink-faint);
+      text-align: center;
+      padding: 4rem 2rem;
+      font-family: var(--body-font);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      line-height: 2.2;
+      text-transform: uppercase;
+      border-top: 1px solid var(--rule);
+    }
+    footer a { color: var(--ink-faint); text-decoration: none; }
+    footer a:hover { color: var(--ink); }
+
+    /* ── Responsive ──────────────────────────────────────────────────── */
+    @media (max-width: 640px) {
+      .toc ol { grid-template-columns: 1fr; }
+      .stat { padding: 1.5rem 0.5rem; }
+      figure { margin: 2.5rem -1.5rem; }
+      .gephi-placeholder { margin: 2.5rem -1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ─── Hero ──────────────────────────────────────────────────────────── -->
+<header class="hero">
+  <div class="hero-inner">
+    <p class="breadcrumb">
+      Data Visualization <span>·</span> CPSC 573 <span>·</span> University of Calgary <span>·</span> April 2026
+    </p>
+    <h1>70 Years of AI</h1>
+    <p class="subtitle">
+      Who builds it, what it costs, and who gets to use it.
+      A data story tracing 3,305 models from 1950 to 2025.
+    </p>
+    <p class="meta">Zoya Malik &nbsp;·&nbsp; Data: <a href="https://epoch.ai/data/ai-models">Epoch AI</a></p>
+  </div>
+  <div class="hero-fig">
+    <img src="figures/hero_ai_starmap.png"
+         alt="Data art visualization of 3,305 AI models as a starfield — each dot is a model, positioned by publication year and parameter count, colored by domain" />
+  </div>
+</header>
+
+<!-- ─── Stats bar ──────────────────────────────────────────────────────── -->
+<div class="stats-bar">
+  <div class="stat"><span class="num">3,305</span><span class="desc">AI models tracked</span></div>
+  <div class="stat"><span class="num">75 yrs</span><span class="desc">1950 → 2025</span></div>
+  <div class="stat"><span class="num">944</span><span class="desc">models in 2024 alone</span></div>
+  <div class="stat"><span class="num">$388M</span><span class="desc">peak training cost</span></div>
+  <div class="stat"><span class="num">722</span><span class="desc">model lineage links</span></div>
+</div>
+
+<!-- ─── Article ────────────────────────────────────────────────────────── -->
+<div class="container">
+<article>
+
+  <!-- TOC -->
+  <div class="toc">
+    <span class="toc-label">Contents</span>
+    <ol>
+      <li><a href="#intro">Introduction</a></li>
+      <li><a href="#surge">The Exponential Surge</a></li>
+      <li><a href="#scaling">When Scaling Laws Broke Down</a></li>
+      <li><a href="#geography">The Geography of Intelligence</a></li>
+      <li><a href="#open">Open vs. Closed: The Access Divide</a></li>
+      <li><a href="#clusters">Four Tiers of AI</a></li>
+      <li><a href="#convergence">Language vs. Multimodal</a></li>
+      <li><a href="#cost">The Price of Intelligence</a></li>
+      <li><a href="#notability">What Actually Makes a Model Notable?</a></li>
+      <li><a href="#lineage">The Family Tree</a></li>
+      <li><a href="#conclusion">Conclusion</a></li>
+    </ol>
+  </div>
+
+  <!-- ─── Introduction ──────────────────────────────────────────────── -->
+  <section id="intro">
+    <div class="section-header">
+      <span class="section-num">00</span>
+      <h2>Introduction</h2>
+    </div>
+
+    <p>
+      In 2024, researchers published <strong>944 AI models</strong>, roughly three per day.
+      That is more than in the entire period from 1950 to 2018 combined. The pace at which
+      this field moves makes it almost impossible to keep up anecdotally, which is exactly
+      why data matters.
+    </p>
+
+    <p>
+      This analysis is built on the <a href="https://epoch.ai/data/ai-models">Epoch AI Models
+      dataset</a>, a systematically curated record of over 3,300 AI systems spanning seven
+      decades, from ENIAC-era perceptrons to frontier large language models. Every entry
+      includes training compute, parameter counts, publishing organization, country of origin,
+      training cost, and whether the weights were made publicly available.
+    </p>
+
+    <p>
+      Three questions sit at the center of this story. <strong>Who</strong> is building the
+      frontier of AI, and is that power concentrating or spreading? <strong>What does it
+      cost</strong> to train a competitive model, and how has that changed? And <strong>who
+      gets access</strong> to the results? The open vs. closed debate is not just philosophical;
+      it determines who can build on top of these systems and who cannot.
+    </p>
+
+    <p>
+      The dataset required substantial cleaning before analysis: 15 duplicate records were
+      removed, multi-valued fields (Domain, Country, Organization) were split into primary
+      values for grouping, 11 numeric columns were coerced from mixed-type strings, and
+      three supplementary files were merged to add frontier, notable, and large-scale flags.
+      Log-transformed versions of Parameters and Training Compute were derived given the
+      extreme right skew (parameters span 10 to 10¹⁴). The final cleaned dataset contains
+      3,305 rows and 76 columns. Full methodology is documented in the
+      <a href="https://zoya-malik.github.io/ai-models-data-story/CPSC_573_Data_Cleaning_Report.pdf">data cleaning report</a>.
+    </p>
+  </section>
+
+  <!-- ─── The Surge ─────────────────────────────────────────────────── -->
+  <section id="surge">
+    <div class="section-header">
+      <span class="section-num">01</span>
+      <h2>The Exponential Surge</h2>
+    </div>
+
+    <p class="research-q">
+      <strong>Research Question 1</strong>
+      How has the volume and domain composition of AI model publications evolved from 1950 to 2025, and has the relationship between model scale and training compute remained consistent over time?
+    </p>
+
+    <p>
+      The history of AI is not a smooth curve; it is a series of inflection points, each
+      triggered by a methodological breakthrough that unlocked a new order of scale. The
+      dataset makes this visible in a way that narrative accounts often obscure.
+    </p>
+
+    <p>
+      From 1950 to 2016, the field produced a few hundred models in total. Then, in 2017,
+      the Transformer architecture arrived. Model publication counts jumped sharply and have
+      not stopped since. By 2023, the year ChatGPT normalized public interaction with large
+      language models, the annual count reached 521. In 2024, it nearly doubled again to 944.
+    </p>
+
+    <div class="callout">
+      <strong>Key pattern:</strong> The Language domain accounts for 47% of all models in the
+      dataset, the clearest single indicator of where the field's gravitational center has
+      been since 2017. Biology (12%) and Vision (11%) are distant second and third.
+    </div>
+
+    <p>
+      The surge is not uniform across domains. Biology, driven largely by protein structure
+      prediction following AlphaFold, emerged as a serious second tier. Vision models scaled
+      steadily. Multimodal systems, which barely existed as a category before 2020, now
+      represent a meaningful share of new releases. The field has not just grown; it has
+      diversified.
+    </p>
+
+    <figure>
+      <img src="figures/fig_02_models_per_year.png"
+           alt="Stacked bar chart showing number of AI models published per year by domain from 1950 to 2025, with sharp growth after 2017" />
+      <figcaption>
+        <strong>Figure: AI model publications per year by domain, 1950–2025.</strong>
+        Language models account for the largest share throughout the post-2017 surge.
+        Biology, Vision, and Multimodal contribute meaningful volumes from 2020 onward.
+        The 2017 and 2023 inflection points mark the Transformer era and the
+        ChatGPT-driven public AI boom respectively.
+      </figcaption>
+    </figure>
+  </section>
+
+  <!-- ─── Scaling Laws ───────────────────────────────────────────────── -->
+  <section id="scaling">
+    <div class="section-header">
+      <span class="section-num">02</span>
+      <h2>When Scaling Laws Broke Down</h2>
+    </div>
+
+    <p>
+      <em>Supporting analysis for Research Question 1 — the scaling dimension.</em>
+    </p>
+
+    <p>
+      For most of the deep learning era, there was a simple rule: more parameters required
+      proportionally more compute to train. The relationship between model size and training
+      FLOPs followed a predictable power law, and the implication was clear:
+      if you wanted a better model, you needed a bigger model trained on more compute.
+    </p>
+
+    <p>
+      That rule held until around 2020. Then it started to crack.
+    </p>
+
+    <figure>
+      <img src="figures/q1_scaling_law_divergence.png"
+           alt="Scatter plots showing compute vs parameters pre- and post-2020, with regression trend lines" />
+      <figcaption>
+        <strong>Figure 1: Scaling law divergence, pre- and post-2020.</strong>
+        Each dot is a model. The trend line slope quantifies the compute-per-parameter
+        relationship. The post-2020 panel shows a flatter slope and wider spread,
+        indicating that recent models achieve comparable capability with less compute
+        per parameter than their predecessors.
+      </figcaption>
+    </figure>
+
+    <p>
+      The 2022 Chinchilla paper by DeepMind was the clearest articulation of what the data
+      had been showing: GPT-3-scale models were significantly <em>undertrained</em> relative
+      to their parameter counts. The efficient frontier was not a single line; it was a
+      region, and most large models were nowhere near it.
+    </p>
+
+    <p>
+      The post-2020 scatter tells that story. The slope between log(compute) and log(parameters)
+      flattens noticeably, and the spread widens. Academia, constrained by smaller compute
+      budgets, tracks the efficient frontier more tightly. Industry, with room to experiment,
+      produces both the most compute-hungry models and some of the most efficient ones.
+    </p>
+
+    <div class="callout amber">
+      <strong>What this means:</strong> The era of "just add more parameters" is over,
+      at least as the <em>only</em> strategy. Techniques like mixture-of-experts, better
+      data curation, and improved training recipes have made the relationship between
+      scale and capability significantly more complex.
+    </div>
+  </section>
+
+  <!-- ─── Geography ─────────────────────────────────────────────────── -->
+  <section id="geography">
+    <div class="section-header">
+      <span class="section-num">03</span>
+      <h2>The Geography of Intelligence</h2>
+    </div>
+
+    <p class="research-q">
+      <strong>Research Question 2</strong>
+      Which countries are producing AI models, and is geographic concentration at the frontier increasing or spreading over time?
+    </p>
+
+    <p>
+      If you look at model counts alone, the story seems simple: the United States dominates,
+      followed by China, the United Kingdom, South Korea, Canada, and France. But model counts
+      are a blunt instrument. The more interesting question is <em>what kind</em> of models
+      each country produces, and whether geographic concentration is increasing or decreasing
+      over time.
+    </p>
+
+    <p>
+      The US-China gap is real but narrowing. In 2018, US organizations were responsible for
+      roughly 60% of models in the dataset. By 2024, that share had dropped as Chinese labs including
+      Alibaba, ByteDance, DeepSeek, and Baidu, which emerged as serious contributors, particularly in
+      the Language and Vision domains. The UK punches above its weight in Biology (DeepMind's
+      AlphaFold lineage). South Korea's strength is concentrated in Language and Multimodal
+      systems.
+    </p>
+
+    <figure style="border:none; box-shadow:none; background:transparent;">
+      <div class='tableauPlaceholder' style='position:relative; width:100%; padding-bottom:62%;'>
+        <noscript>
+          <a href='https://public.tableau.com/app/profile/zoya.malik/viz/70YearsofAI-GlobalModelDistribution/Sheet1'>
+            <img src='https://public.tableau.com/static/images/70/70YearsofAI-GlobalModelDistribution/Sheet1/1_rss.png' style='border:none;' />
+          </a>
+        </noscript>
+        <object class='tableauViz' style='position:absolute;top:0;left:0;width:100%;height:100%;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='embed_code_version' value='3' />
+          <param name='path' value='views/70YearsofAI-GlobalModelDistribution/Sheet1' />
+          <param name='toolbar' value='yes' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' />
+          <param name='language' value='en-US' />
+        </object>
+      </div>
+      <script type='text/javascript'>
+        var divElement = document.querySelector('.tableauPlaceholder');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+      <figcaption>
+        <strong>Interactive: AI model output by country, 2010–2025.</strong>
+        Hit the play button on the Year slider to animate. Each bubble is sized by model count
+        and colored by primary domain. The US dominates early; China's labs emerge around 2017;
+        Europe and East Asia fill in through 2024.
+        <a href="https://public.tableau.com/app/profile/zoya.malik/viz/70YearsofAI-GlobalModelDistribution/Sheet1" target="_blank">Open full screen ↗</a>
+      </figcaption>
+    </figure>
+
+    <p>
+      The concentration question has a more ambiguous answer than the headlines suggest.
+      Among all models, the US share fell from roughly 60% in 2018 to 38% in 2024 as
+      other countries scaled output. Among frontier-class models specifically, however,
+      the picture is far more concentrated: the United States accounts for two-thirds of all
+      frontier releases, with the UK (7%) and China (4%) trailing significantly. Everything else has
+      democratized. The barrier to entry for publishing a Language model has dropped
+      dramatically; the barrier to training a frontier one has not.
+    </p>
+
+    <p>
+      A chi-squared test of independence on the top-10 country by top-10 domain contingency
+      table (n&nbsp;=&nbsp;2,845) confirms that the relationship between a model's country of
+      origin and its research domain is statistically significant
+      (<strong>&chi;&sup2;(81)&nbsp;=&nbsp;1,297, p&nbsp;&lt;&nbsp;0.001</strong>).
+      The effect size (Cram&eacute;r&rsquo;s V&nbsp;=&nbsp;0.23) is modest but meaningful:
+      country of origin is a real predictor of domain specialization, not just a reflection
+      of overall output volume. China is notably overrepresented in Biology and Vision
+      relative to its share of Language models; the United States dominates Language but
+      produces a more balanced domain portfolio overall.
+    </p>
+  </section>
+
+  <!-- ─── Open vs Closed ────────────────────────────────────────────── -->
+  <section id="open">
+    <div class="section-header">
+      <span class="section-num">04</span>
+      <h2>Open vs. Closed: The Access Divide</h2>
+    </div>
+
+    <p class="research-q">
+      <strong>Research Question 3</strong>
+      What factors most strongly predict whether a model releases its weights publicly, and how has the open vs. closed balance shifted from 2012 to 2025?
+    </p>
+
+    <p>
+      The question of whether AI model weights should be publicly released is one of the most
+      contested in the field. The arguments are familiar: open weights enable research,
+      accelerate innovation, and democratize access; closed weights protect commercial interests,
+      allow for safer deployment, and prevent misuse. What does the data actually show?
+    </p>
+
+    <figure>
+      <img src="figures/q3_open_weights_trend.png"
+           alt="Line chart showing percentage of open-weight models per year from 2012 to 2025" />
+      <figcaption>
+        <strong>Figure 2: Open-weight models as a share of annual releases (2012–2025).</strong>
+        The shaded area shows the percentage of new models each year that released weights
+        publicly. The 2023 surge corresponds to Meta's Llama 2 release and the broader
+        open-source wave it catalyzed.
+      </figcaption>
+    </figure>
+
+    <p>
+      The open-source wave of 2023, driven by Llama 2, Mistral, and a wave of derivatives,
+      was real and statistically significant. It did not sustain beyond 2023: the open
+      proportion declined to 43% in 2024 before partially recovering to 51% in 2025.
+      Total model counts continued to surge throughout this period, meaning the
+      closed-model share, dominated by industry labs, has grown substantially in absolute terms.
+    </p>
+
+    <figure>
+      <img src="figures/q3_open_weights_predictor.png"
+           alt="Horizontal bar chart of logistic regression coefficients predicting open model weights" />
+      <figcaption>
+        <strong>Figure 3: What predicts open model weights: logistic regression.</strong>
+        Coefficients are standardised, so magnitude is directly comparable.
+        Positive values predict open weights; negative values predict closed.
+        Model: 5-fold cross-validated logistic regression (AUC shown in chart).
+      </figcaption>
+    </figure>
+
+    <p>
+      The logistic regression results are instructive. <strong>Being an industry organization
+      is the single strongest predictor of closed weights</strong>, stronger than model size,
+      compute, or domain. Academic organizations are significantly more likely to release openly.
+      Frontier status is a moderate negative predictor: the models most worth having are the
+      ones least likely to be shared.
+    </p>
+
+    <div class="callout red">
+      <strong>The access paradox:</strong> Publication year is a positive predictor of openness:
+      newer models are somewhat more likely to be open. But the models driving this trend
+      are mid-scale systems, not frontier ones. The gap between what's available to researchers
+      and what's actually being used in production at the frontier is arguably wider today
+      than it was in 2020.
+    </div>
+  </section>
+
+  <!-- ─── Clusters ───────────────────────────────────────────────────── -->
+  <section id="clusters">
+    <div class="section-header">
+      <span class="section-num">05</span>
+      <h2>Four Tiers of AI</h2>
+    </div>
+
+    <p class="research-q">
+      <strong>Research Question 4</strong>
+      Do AI models cluster into distinct resource tiers, or do they exist on a smooth spectrum? How does domain composition differ across tiers, and what factors best predict a model's notable impact on the field?
+    </p>
+
+    <p>
+      There is a common assumption that AI models exist on a smooth spectrum from small to
+      large. The data suggests otherwise. When you apply K-means clustering to
+      log-transformed resource profiles (parameters, compute, dataset size, and hardware quantity),
+      four distinct tiers emerge with surprisingly clean boundaries.
+    </p>
+
+    <figure>
+      <img src="figures/q4_resource_clusters.png"
+           alt="PCA scatter of AI model resource clusters showing four distinct resource tiers; domain composition by tier on the right" />
+      <figcaption>
+        <strong>Figure 4: Four natural resource tiers in AI development.</strong>
+        <em>Left:</em> PCA projection of log-scale resource features, colored by cluster.
+        <em>Right:</em> Domain composition within each tier; Language dominates all tiers
+        but is especially concentrated at the frontier.
+      </figcaption>
+    </figure>
+
+    <p>
+      The tiers are intuitive once you see them. Research-scale models, the kind a well-funded
+      academic lab can train, cluster tightly at the low end. Production-scale models, the
+      kind deployed in real products, form a middle band. Frontier-class models occupy their
+      own stratum, and a small cohort of true frontier models sit at an extreme that looks
+      almost disconnected from the rest.
+    </p>
+
+    <p>
+      The domain composition is telling. Biology models are almost entirely in the
+      research-scale and mid-scale tiers. AlphaFold notwithstanding, the field does not
+      require GPT-scale compute budgets. Multimodal models, by contrast, are
+      disproportionately represented at the top two tiers, reflecting the added cost of
+      processing multiple data modalities simultaneously.
+    </p>
+  </section>
+
+  <!-- ─── Language vs Multimodal ────────────────────────────────────── -->
+  <section id="convergence">
+    <div class="section-header">
+      <span class="section-num">06</span>
+      <h2>Language vs. Multimodal: Converging at the Top</h2>
+    </div>
+
+    <p>
+      <em>Supplementary analysis: domain convergence trends over time.</em>
+    </p>
+
+    <p>
+      Multimodal models, systems that process text alongside images, audio, video, or other
+      modalities, have been the defining architectural trend of the 2022–2025 period. GPT-4V,
+      Gemini, Claude 3, and their contemporaries represent a qualitative shift from the
+      language-only era. The question is whether multimodal models are following the same
+      scaling trajectory as language models, or charting a different path.
+    </p>
+
+    <figure>
+      <img src="figures/q6_language_vs_multimodal.png"
+           alt="Side-by-side charts showing parameter growth and publication rate for Language vs Multimodal models" />
+      <figcaption>
+        <strong>Figure 5: Language vs. Multimodal scaling trajectories (2015–2025).</strong>
+        <em>Left:</em> Median parameter count over time (lines) with individual models (dots).
+        The gap between domains narrows significantly post-2022.
+        <em>Right:</em> Annual publication counts; multimodal release rates accelerated
+        sharply in 2023.
+      </figcaption>
+    </figure>
+
+    <p>
+      The convergence story is real but partial. At the median, multimodal models have
+      rapidly closed the parameter gap with language models; by 2024, the distributions
+      overlap substantially. At the top end, however, the largest language models still
+      eclipse the largest multimodal ones in raw parameter count. Adding modalities turns
+      out to require more compute per parameter, not just more parameters.
+    </p>
+
+    <blockquote>
+      Multimodal models are not replacing language models. They are consuming them,
+      using a language backbone and adding modality-specific components on top.
+      The two trajectories are converging because multimodal systems are increasingly
+      built <em>from</em> language models.
+    </blockquote>
+
+    <p>
+      The publication rate chart tells a different story: multimodal releases have accelerated
+      faster than language ones in relative terms. The field's attention has shifted, even if
+      the absolute parameter counts have not yet caught up.
+    </p>
+  </section>
+
+  <!-- ─── Cost ───────────────────────────────────────────────────────── -->
+  <section id="cost">
+    <div class="section-header">
+      <span class="section-num">07</span>
+      <h2>The Price of Intelligence</h2>
+    </div>
+
+    <p>
+      <em>Supplementary analysis: economics of model training.</em>
+    </p>
+
+    <p>
+      Training cost is the least-reported column in the dataset. Only 7% of models
+      include a cost figure, which is itself a data point. Labs are not eager to publish how much they
+      spend. But for the models where cost is known, the numbers tell a clear and sobering
+      story.
+    </p>
+
+    <figure>
+      <img src="figures/q5_cost_regression.png"
+           alt="Two panels: Ridge regression coefficients for cost drivers on the left; cost vs compute scatter on the right" />
+      <figcaption>
+        <strong>Figure 6: What drives training cost?</strong>
+        <em>Left:</em> Ridge regression coefficients on standardised features.
+        Compute is the dominant predictor (CV R² shown in title).
+        <em>Right:</em> Cost vs compute scatter colored by organization type,
+        with overall trend line. The correlation is tight but not perfect;
+        hardware efficiency and cloud pricing introduce meaningful variance.
+      </figcaption>
+    </figure>
+
+    <p>
+      Compute is, by a wide margin, the strongest predictor of training cost. This is expected:
+      more FLOPs means more GPU-hours means higher bills. But the relationship is not
+      deterministic. Hardware quantity and organization type both add independent explanatory
+      power. Industry organizations spend more for a given compute budget than academic ones,
+      consistent with the hypothesis that they are training on proprietary infrastructure
+      with different cost structures than academic compute grants.
+    </p>
+
+    <p>
+      The median training cost for models with known costs is around $27,000, accessible
+      to a serious research group. The 95th percentile exceeds $10 million. The top of the
+      distribution, anchored by GPT-4-scale systems, approaches $400 million. That range
+      spans five orders of magnitude. The practical implication is clear: fewer organizations can credibly train a competitive model today than could a decade ago.
+    </p>
+
+    <div class="callout amber">
+      <strong>The cost trajectory:</strong> Even adjusting for hardware improvements (which
+      have driven down cost-per-FLOP roughly 2× every two years), the raw dollar cost of
+      training frontier models has grown faster than efficiency gains can offset.
+      The frontier is not getting cheaper to reach; it is getting more expensive.
+    </div>
+  </section>
+
+  <!-- ─── Notability ─────────────────────────────────────────────────── -->
+  <section id="notability">
+    <div class="section-header">
+      <span class="section-num">08</span>
+      <h2>What Actually Makes a Model Notable?</h2>
+    </div>
+
+    <p>
+      <em>Supporting analysis for Research Question 4 — predictors of model impact.</em>
+    </p>
+
+    <p>
+      The dataset includes a curated subset of 981 <em>notable</em> models, selected
+      by Epoch AI based on citation impact, historical significance, and research influence.
+      This raises a question: is notability just a proxy for size, or do other factors
+      matter independently?
+    </p>
+
+    <figure>
+      <img src="figures/q7_notability_predictor.png"
+           alt="Horizontal bar chart of random forest feature importances for predicting model notability" />
+      <figcaption>
+        <strong>Figure 7: Predicting notability: random forest feature importances.</strong>
+        A model trained on numeric and categorical features to classify notable vs. non-notable
+        models. Higher bars indicate stronger predictive contribution.
+        Cross-validated AUC is shown in the chart.
+      </figcaption>
+    </figure>
+
+    <p>
+      The random forest results challenge the assumption that bigger is always more notable.
+      Parameter count is a predictor, but it is not the dominant one. <strong>Publication year
+      is the single strongest feature</strong>, which reflects the expansion of the dataset
+      itself more than anything about the models. More interestingly, <strong>open weights
+      and frontier status both contribute independently</strong>, suggesting that models which
+      shaped the field are disproportionately the ones that were released publicly.
+    </p>
+
+    <p>
+      The models that changed AI were not always the largest. BERT (340M parameters, 2018)
+      catalyzed a decade of transfer learning research. AlphaFold 2 (93M parameters) solved
+      protein folding. GPT-2 (1.5B parameters) sparked the open-source debate before GPT-3
+      existed. Notability is about what a model enables, not just what it measures.
+    </p>
+  </section>
+
+  <!-- ─── Lineage ────────────────────────────────────────────────────── -->
+  <section id="lineage">
+    <div class="section-header">
+      <span class="section-num">09</span>
+      <h2>The Family Tree</h2>
+    </div>
+
+    <p>
+      One of the more underappreciated patterns in the dataset is the lineage structure.
+      The <em>Base model</em> column records which existing model a given system was built on,
+      through fine-tuning, instruction-tuning, or architectural extension. This creates a
+      directed network with 3,305 nodes and 722 edges.
+    </p>
+
+    <figure>
+      <img src="figures/gephi_network_viz.png"
+           alt="Force-directed network graph of AI model lineage — 3,305 nodes and 722 edges colored by category (frontier in blue, notable in green, standard in grey), with hub models like Llama 2 and Mistral 7B labeled" />
+      <figcaption>
+        <strong>Figure: AI Model Lineage Network (ForceAtlas2 layout).</strong>
+        3,305 nodes, 722 directed edges. Node color: blue = frontier + notable, green = notable, grey = standard.
+        The Llama 2 family (7B, 13B, 70B) anchors the largest cluster; Mistral 7B,
+        ESM2, and SigLIP anchor biology and vision lineages respectively.
+      </figcaption>
+    </figure>
+
+    <p>
+      The network is highly centralized around a small number of "parent" models. The Llama 2
+      family alone (7B, 13B, 70B) spawned 55 documented derivatives in this dataset. Mistral 7B,
+      released in September 2023, generated 14 within months. This is the open-source flywheel
+      in action: a publicly released model becomes a platform that multiplies research
+      productivity for the entire community.
+    </p>
+
+    <p>
+      Closed models appear in the network as isolated nodes or small clusters. They receive
+      no derivatives, at least none that can be traced. This is the structural consequence
+      of the access divide: open models compound in value; closed ones do not.
+    </p>
+  </section>
+
+  <!-- ─── Conclusion ─────────────────────────────────────────────────── -->
+  <section id="conclusion">
+    <div class="section-header">
+      <span class="section-num">10</span>
+      <h2>Conclusion</h2>
+    </div>
+
+    <p>
+      Seventy-five years of AI development, compressed into a single dataset, tells a
+      story more nuanced than the headlines suggest. The field has
+      not just grown; it has stratified. There are now four resource tiers, a widening gap
+      between open and closed systems, and a geographic concentration at the frontier that
+      coexists with genuine democratization at the mid-scale.
+    </p>
+
+    <p>
+      The efficiency story is real: post-Chinchilla models do more with less compute per
+      parameter than their predecessors. But efficiency gains have not made the frontier
+      cheaper to reach. They have made it possible for the frontier to advance faster,
+      requiring even more compute to stay current.
+    </p>
+
+    <p>
+      The open-source wave of 2023 was meaningful. The model lineage network shows, concretely,
+      how Llama 2 and Mistral generated dozens of derivatives that would otherwise not exist.
+      Whether that wave continues, or whether proprietary models reestablish dominance at
+      the frontier, is probably the most consequential open question in AI policy right now.
+    </p>
+
+    <p>
+      The data cannot answer that question. But it can make the stakes legible.
+    </p>
+
+    <div class="methods">
+      <h3>Dataset &amp; Methods</h3>
+      <p>
+        Data: Epoch AI, "Data on AI Models," 2026.
+        Available at <a href="https://epoch.ai/data/ai-models">epoch.ai/data/ai-models</a>.
+        Licensed under CC-BY 4.0.
+        The cleaned dataset contains 3,305 models and 76 columns after deduplication,
+        type coercion, primary-value extraction, and auxiliary-dataset merging.
+        All statistical analyses use scikit-learn 1.6 and scipy 1.15.
+        Visualizations generated with matplotlib 3.10 and seaborn 0.13.
+        Network analysis via Gephi 0.10.
+      </p>
+    </div>
+  </section>
+
+</article>
+</div>
+
+<!-- ─── Footer ─────────────────────────────────────────────────────────── -->
+<footer>
+  <p>
+    Zoya Malik &nbsp;·&nbsp; CPSC 573 Data Visualization &nbsp;·&nbsp;
+    University of Calgary &nbsp;·&nbsp; Winter 2026
+  </p>
+  <p style="margin-top:0.5rem;">
+    Data: <a href="https://epoch.ai/data/ai-models">Epoch AI</a> (CC-BY 4.0) &nbsp;·&nbsp;
+    Analysis: Python, scikit-learn, Gephi, Tableau
+  </p>
+</footer>
+
+</body>
+</html>
